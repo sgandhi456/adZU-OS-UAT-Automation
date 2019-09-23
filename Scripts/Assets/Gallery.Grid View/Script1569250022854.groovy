@@ -15,3 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/a_Assets'))
+
+WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery'))
+
+WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/div_Gallery_switcher-box sw-grid'))
+

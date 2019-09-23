@@ -41,7 +41,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Assets/Video Asset/Page_Samsung Marketing Cloud/AssetGroup_2ndOption'))
 
-WebUI.setText(findTestObject('Assets/Page_Samsung Marketing Cloud/input_Name_Asset_Name (1)'), 'VideoAsset_AutoTest2')
+WebUI.setText(findTestObject('Assets/Page_Samsung Marketing Cloud/input_Name_Asset_Name (1)'), 'VideoAsset_AutoTest3')
 
 WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/button_Save'))
 

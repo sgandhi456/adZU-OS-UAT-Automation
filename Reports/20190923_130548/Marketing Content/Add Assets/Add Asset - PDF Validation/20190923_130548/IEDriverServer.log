@@ -1,0 +1,1581 @@
+I 2019-09-23 13:05:52:693 server.cc(86) Starting WebDriver server on port: '2287' on host: ''
+T 2019-09-23 13:05:52:694 server.cc(634) Entering Server::PopulateCommandRepository
+T 2019-09-23 13:05:52:694 IEServer.cpp(32) Entering IEServer::IEServer
+I 2019-09-23 13:05:52:694 IEServer.cpp(33) Driver version: 3.6.0.0 (32-bit)
+T 2019-09-23 13:05:52:694 server.cc(121) Entering Server::Start
+D 2019-09-23 13:05:52:694 server.cc(148) Civetweb ACL is -0.0.0.0/0,+127.0.0.1
+T 2019-09-23 13:05:53:106 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:05:53:106 server.cc(183) Process request with: URI: /status HTTP verb: GET
+body: {}
+T 2019-09-23 13:05:53:113 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:05:53:113 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:05:53:113 server.cc(281) Command: GET /status {}
+T 2019-09-23 13:05:53:113 IEServer.cpp(51) Entering IEServer::GetStatus
+T 2019-09-23 13:05:53:114 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-09-23 13:05:53:114 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:05:53:114 response.cc(51) Entering Response::Serialize
+D 2019-09-23 13:05:53:114 server.cc(338) Response: {"value":{"build":{"version":"3.6.0.0 (32-bit)"},"message":"Ready to create session","os":{"arch":"x64","name":"windows","version":"10.0.17134.376 (WinBuild.160101.0800)"},"ready":true}}
+
+T 2019-09-23 13:05:53:114 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:05:53:114 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:05:53:114 server.cc(445) Entering Server::SendHttpOk
+T 2019-09-23 13:05:53:425 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:05:53:425 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:05:53:425 server.cc(183) Process request with: URI: /session HTTP verb: POST
+body: {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "ie.usePerProcessProxy": "true",
+      "ignoreProtectedModeSettings": true
+    },
+    "browserName": "internet explorer",
+    "ie.usePerProcessProxy": "true",
+    "ignoreProtectedModeSettings": true
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "ie.usePerProcessProxy": "true",
+          "ignoreProtectedModeSettings": true
+        }
+      }
+    ]
+  }
+}
+T 2019-09-23 13:05:53:425 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:05:53:425 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:05:53:425 server.cc(281) Command: POST /session {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "ie.usePerProcessProxy": "true",
+      "ignoreProtectedModeSettings": true
+    },
+    "browserName": "internet explorer",
+    "ie.usePerProcessProxy": "true",
+    "ignoreProtectedModeSettings": true
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "ie.usePerProcessProxy": "true",
+          "ignoreProtectedModeSettings": true
+        }
+      }
+    ]
+  }
+}
+T 2019-09-23 13:05:53:425 IEServer.cpp(42) Entering IEServer::InitializeSession
+T 2019-09-23 13:05:53:426 IESession.cpp(38) Entering IESession::Initialize
+D 2019-09-23 13:05:53:426 IESession.cpp(53) Mutex acquired for session initalization
+T 2019-09-23 13:05:53:426 IECommandExecutor.cpp(386) Entering IECommandExecutor::ThreadProc
+T 2019-09-23 13:05:53:432 IECommandExecutor.cpp(47) Entering IECommandExecutor::OnCreate
+T 2019-09-23 13:05:53:433 IECommandExecutor.cpp(753) Entering IECommandExecutor::PopulateElementFinderMethods
+T 2019-09-23 13:05:53:433 InputManager.cpp(40) Entering InputManager::InputManager
+T 2019-09-23 13:05:53:433 InputManager.cpp(75) Entering InputManager::Initialize
+T 2019-09-23 13:05:53:433 BrowserFactory.cpp(998) Entering BrowserFactory::GetExecutableLocation
+T 2019-09-23 13:05:53:433 BrowserFactory.cpp(1039) Entering BrowserFactory::GetIEVersion
+T 2019-09-23 13:05:53:441 CommandHandlerRepository.cpp(108) Entering CommandHandlerRepository::PopulateCommandHandlers
+T 2019-09-23 13:05:53:442 IESession.cpp(99) Created thread for command executor returns HWND: '000F0E82'
+T 2019-09-23 13:05:53:442 IESession.cpp(103) Session id is retrived from command executor window: 'c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4'
+D 2019-09-23 13:05:53:442 IESession.cpp(109) Releasing session initialization mutex
+T 2019-09-23 13:05:53:442 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:05:53:442 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:05:53:442 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:05:53:442 command.cc(36) Raw JSON command: { "name" : "newSession", "locator" : { }, "parameters" : {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "ie.usePerProcessProxy": "true",
+      "ignoreProtectedModeSettings": true
+    },
+    "browserName": "internet explorer",
+    "ie.usePerProcessProxy": "true",
+    "ignoreProtectedModeSettings": true
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "ie.usePerProcessProxy": "true",
+          "ignoreProtectedModeSettings": true
+        }
+      }
+    ]
+  }
+} }
+T 2019-09-23 13:05:53:442 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:05:53:442 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:05:53:442 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+D 2019-09-23 13:05:53:442 CommandHandlers\NewSessionCommandHandler.cpp(46) Found W3C capabilities structure
+D 2019-09-23 13:05:53:442 CommandHandlers\NewSessionCommandHandler.cpp(505) Validating capabilities object
+D 2019-09-23 13:05:53:442 CommandHandlers\NewSessionCommandHandler.cpp(505) Validating capabilities object
+D 2019-09-23 13:05:53:442 CommandHandlers\NewSessionCommandHandler.cpp(535) Found browserNamecapability. Validating value type is string.
+D 2019-09-23 13:05:53:442 CommandHandlers\NewSessionCommandHandler.cpp(794) Found proxycapability. Validating value type is object.
+T 2019-09-23 13:05:53:442 BrowserFactory.cpp(113) Entering BrowserFactory::Initialize
+T 2019-09-23 13:05:53:443 IECommandExecutor.cpp(631) Entering IECommandExecutor::CreateNewBrowser
+T 2019-09-23 13:05:53:443 BrowserFactory.cpp(142) Entering BrowserFactory::LaunchBrowserProcess
+D 2019-09-23 13:05:53:443 BrowserFactory.cpp(146) Ignoring Protected Mode Settings: 1
+D 2019-09-23 13:05:53:443 BrowserFactory.cpp(152) Has Valid Protected Mode Settings: 0
+T 2019-09-23 13:05:53:443 BrowserFactory.cpp(226) Entering BrowserFactory::IsIELaunchURLAvailable
+T 2019-09-23 13:05:53:455 BrowserFactory.cpp(130) Entering BrowserFactory::ClearCache
+T 2019-09-23 13:05:53:455 BrowserFactory.cpp(247) Entering BrowserFactory::LaunchBrowserUsingIELaunchURL
+D 2019-09-23 13:05:53:455 BrowserFactory.cpp(248) Starting IE using the IELaunchURL API
+D 2019-09-23 13:05:53:871 BrowserFactory.cpp(202) IE launched successfully with process ID 104212
+D 2019-09-23 13:05:53:871 BrowserFactory.cpp(208) Process with ID 104212 is executing iexplore.exe
+T 2019-09-23 13:05:53:872 BrowserFactory.cpp(365) Entering BrowserFactory::AttachToBrowser
+D 2019-09-23 13:05:53:872 BrowserFactory.cpp(375) Using Active Accessibility to find IWebBrowser2 interface
+T 2019-09-23 13:05:53:872 BrowserFactory.cpp(414) Entering BrowserFactory::AttachToBrowserUsingActiveAccessibility
+T 2019-09-23 13:05:54:184 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:05:54:184 server.cc(183) Process request with: URI: / HTTP verb: GET
+body: {}
+T 2019-09-23 13:05:54:184 server.cc(445) Entering Server::SendHttpOk
+T 2019-09-23 13:05:54:353 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:05:54:353 server.cc(183) Process request with: URI: /favicon.ico HTTP verb: GET
+body: {}
+T 2019-09-23 13:05:54:353 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:05:54:353 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:05:54:353 server.cc(281) Command: GET /favicon.ico {}
+D 2019-09-23 13:05:54:353 server.cc(338) Response: { "error" : "unknown method", "message" : "Command not found: GET /favicon.ico" }
+T 2019-09-23 13:05:54:353 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:05:54:353 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:05:54:353 server.cc(445) Entering Server::SendHttpOk
+D 2019-09-23 13:05:54:374 BrowserFactory.cpp(434) Found window handle 00081334 for window with class 'Internet Explorer_Server' belonging to process with id 104212
+T 2019-09-23 13:05:54:374 BrowserFactory.cpp(329) Entering BrowserFactory::GetDocumentFromWindowHandle
+D 2019-09-23 13:05:54:433 BrowserFactory.cpp(396) Ignoring zoom setting: 0
+T 2019-09-23 13:05:54:433 BrowserFactory.cpp(574) Entering BrowserFactory::GetBrowserZoomLevel
+T 2019-09-23 13:05:54:450 BrowserFactory.cpp(614) Entering BrowserFactory::GetZoomLevel
+D 2019-09-23 13:05:54:478 BrowserFactory.cpp(694) Browser zoom level is 100%
+I 2019-09-23 13:05:54:480 IECommandExecutor.cpp(654) Persistent hovering set to: 1
+T 2019-09-23 13:05:54:480 ProxyManager.cpp(97) ProxyManager::SetProxySettings
+D 2019-09-23 13:05:54:480 ProxyManager.cpp(113) Using existing system proxy settings.
+T 2019-09-23 13:05:54:480 DocumentHost.cpp(33) Entering DocumentHost::DocumentHost
+T 2019-09-23 13:05:54:480 CookieManager.cpp(49) Entering CookieManager::Initialize
+T 2019-09-23 13:05:54:480 Browser.cpp(33) Entering Browser::Browser
+T 2019-09-23 13:05:54:480 Browser.cpp(293) Entering Browser::AttachEvents
+T 2019-09-23 13:05:54:482 IECommandExecutor.cpp(621) Entering IECommandExecutor::AddManagedBrowser
+T 2019-09-23 13:05:54:482 IECommandExecutor.cpp(625) Setting current browser id to e09902cf-c90f-4af6-96d9-e7dedd0718f2
+T 2019-09-23 13:05:54:483 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-09-23 13:05:54:483 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:05:54:483 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:54:483 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-09-23 13:05:54:483 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:05:54:484 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:05:54:484 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:05:54:484 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+T 2019-09-23 13:05:54:484 response.cc(30) Entering Response::Deserialize
+D 2019-09-23 13:05:54:484 server.cc(338) Response: {"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"internet explorer","browserVersion":"11","pageLoadStrategy":"normal","platformName":"windows","se:ieOptions":{"browserAttachTimeout":0,"elementScrollBehavior":0,"enablePersistentHover":true,"ie.browserCommandLineSwitches":"","ie.ensureCleanSession":false,"ie.fileUploadDialogTimeout":3000,"ie.forceCreateProcessApi":false,"ignoreProtectedModeSettings":true,"ignoreZoomSetting":false,"initialBrowserUrl":"http://localhost:2287/","nativeEvents":true,"requireWindowFocus":false},"setWindowRect":true},"sessionId":"c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4"}}
+
+T 2019-09-23 13:05:54:484 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:05:54:484 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:05:54:485 server.cc(445) Entering Server::SendHttpOk
+T 2019-09-23 13:05:55:534 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:05:55:534 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:05:55:534 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/timeouts HTTP verb: POST
+body: {
+  "implicit": 0
+}
+T 2019-09-23 13:05:55:534 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:05:55:534 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:05:55:534 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/timeouts {
+  "implicit": 0
+}
+T 2019-09-23 13:05:55:534 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:05:55:534 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:05:55:535 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:05:55:535 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:05:55:535 command.cc(36) Raw JSON command: { "name" : "setTimeouts", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "implicit": 0
+} }
+T 2019-09-23 13:05:55:535 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:05:55:535 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:05:55:535 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:05:55:535 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:55:535 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-09-23 13:05:55:535 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-09-23 13:05:55:535 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-09-23 13:05:55:535 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-09-23 13:05:55:535 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-09-23 13:05:55:535 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:55:535 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-09-23 13:05:55:535 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:05:55:545 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:05:55:545 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:05:55:545 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:05:55:545 server.cc(338) Response: {"value":null}
+
+T 2019-09-23 13:05:55:545 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:05:55:545 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:05:55:545 server.cc(445) Entering Server::SendHttpOk
+T 2019-09-23 13:05:56:557 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:05:56:558 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:05:56:558 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/execute/sync HTTP verb: POST
+body: {
+  "script": "return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(\u002f(opera|chrome|safari|firefox|msie|trident)\\\u002f?\\s*(\\.?\\d+(\\.\\d+)*)\u002fi) || []; if (\u002ftrident\u002fi.test(M[1])) {     tem=  \u002f\\brv[ :]+(\\d+)\u002fg.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(\u002f\\b(OPR|Edge)\\\u002f(\\d+)\u002f);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(\u002fversion\\\u002f(\\d+)\u002fi))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();",
+  "args": [
+  ]
+}
+T 2019-09-23 13:05:56:558 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:05:56:558 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:05:56:558 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/execute/sync {
+  "script": "return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(\u002f(opera|chrome|safari|firefox|msie|trident)\\\u002f?\\s*(\\.?\\d+(\\.\\d+)*)\u002fi) || []; if (\u002ftrident\u002fi.test(M[1])) {     tem=  \u002f\\brv[ :]+(\\d+)\u002fg.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(\u002f\\b(OPR|Edge)\\\u002f(\\d+)\u002f);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(\u002fversion\\\u002f(\\d+)\u002fi))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();",
+  "args": [
+  ]
+}
+T 2019-09-23 13:05:56:558 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:05:56:558 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:05:56:558 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:05:56:558 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:05:56:558 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "script": "return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(\u002f(opera|chrome|safari|firefox|msie|trident)\\\u002f?\\s*(\\.?\\d+(\\.\\d+)*)\u002fi) || []; if (\u002ftrident\u002fi.test(M[1])) {     tem=  \u002f\\brv[ :]+(\\d+)\u002fg.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(\u002f\\b(OPR|Edge)\\\u002f(\\d+)\u002f);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(\u002fversion\\\u002f(\\d+)\u002fi))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();",
+  "args": [
+  ]
+} }
+T 2019-09-23 13:05:56:558 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:05:56:558 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:05:56:558 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:05:56:558 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:56:558 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-09-23 13:05:56:558 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-09-23 13:05:56:558 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-09-23 13:05:56:558 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-09-23 13:05:56:559 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-09-23 13:05:56:559 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:56:559 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-09-23 13:05:56:559 Browser.cpp(126) Entering Browser::GetDocument
+I 2019-09-23 13:05:56:559 Browser.cpp(130) No child frame focus. Focus is on top-level frame
+T 2019-09-23 13:05:56:572 Browser.cpp(613) Entering Browser::GetDocumentFromWindow
+T 2019-09-23 13:05:56:577 Script.cpp(49) Entering Script::Initialize
+T 2019-09-23 13:05:56:577 CommandHandlers\ExecuteScriptCommandHandler.cpp(85) Entering ExecuteScriptCommandHandler::PopulateArgumentArray
+T 2019-09-23 13:05:56:577 Script.cpp(169) Entering Script::Execute
+T 2019-09-23 13:05:56:577 Script.cpp(438) Entering Script::CreateAnonymousFunction
+T 2019-09-23 13:05:56:613 Script.cpp(426) Entering Script::ConvertResultToJsonValue
+T 2019-09-23 13:05:56:613 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-09-23 13:05:56:613 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:05:56:614 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:56:614 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-09-23 13:05:56:614 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:05:56:619 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:05:56:619 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:05:56:620 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:05:56:620 server.cc(338) Response: {"value":"IE 11"}
+
+T 2019-09-23 13:05:56:620 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:05:56:620 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:05:56:620 server.cc(445) Entering Server::SendHttpOk
+T 2019-09-23 13:05:57:651 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:05:57:651 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:05:57:651 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/url HTTP verb: POST
+body: {
+  "url": "https:\u002f\u002fsamsung-adzu4-staging.codeworldwide.com\u002f#"
+}
+T 2019-09-23 13:05:57:651 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:05:57:651 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:05:57:651 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/url {
+  "url": "https:\u002f\u002fsamsung-adzu4-staging.codeworldwide.com\u002f#"
+}
+T 2019-09-23 13:05:57:651 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:05:57:651 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:05:57:651 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:05:57:651 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:05:57:652 command.cc(36) Raw JSON command: { "name" : "get", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "url": "https:\u002f\u002fsamsung-adzu4-staging.codeworldwide.com\u002f#"
+} }
+T 2019-09-23 13:05:57:652 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:05:57:652 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:05:57:652 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:05:57:652 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:57:652 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-09-23 13:05:57:652 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-09-23 13:05:57:652 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-09-23 13:05:57:652 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-09-23 13:05:57:652 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-09-23 13:05:57:652 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:57:652 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-09-23 13:05:57:652 Browser.cpp(318) Entring Browser::NavigateToUrl
+T 2019-09-23 13:05:57:678 DocumentHost.cpp(142) Entering DocumentHost::SetFocusedFrameByElement
+T 2019-09-23 13:05:57:678 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-09-23 13:05:57:678 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:05:57:678 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:57:678 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-09-23 13:05:57:678 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:05:57:678 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-09-23 13:05:57:678 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:57:678 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-09-23 13:05:57:678 Browser.cpp(438) Entering Browser::Wait
+D 2019-09-23 13:05:57:678 Browser.cpp(448) Navigate Events Completed.
+T 2019-09-23 13:05:57:678 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-09-23 13:05:57:678 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-09-23 13:05:57:682 Browser.cpp(508) Waiting for document to complete...
+T 2019-09-23 13:05:57:682 Browser.cpp(522) Entering Browser::IsDocumentNavigating
+D 2019-09-23 13:05:57:702 Browser.cpp(513) Not in navigating state
+T 2019-09-23 13:05:57:708 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:05:57:708 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:05:57:709 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:05:57:709 server.cc(338) Response: {"value":null}
+
+T 2019-09-23 13:05:57:709 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:05:57:709 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:05:57:709 server.cc(445) Entering Server::SendHttpOk
+T 2019-09-23 13:05:57:938 Browser.cpp(54) Entering Browser::OnQuit
+T 2019-09-23 13:05:57:938 DocumentHost.cpp(252) Entering DocumentHost::PostQuitMessage
+T 2019-09-23 13:05:57:939 IECommandExecutor.cpp(250) Entering IECommandExecutor::OnBrowserQuit
+T 2019-09-23 13:05:57:939 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-09-23 13:05:57:939 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-09-23 13:05:57:939 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-09-23 13:05:57:939 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-09-23 13:05:57:939 Browser.cpp(300) Entering Browser::DetachEvents
+T 2019-09-23 13:05:58:890 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:05:58:890 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:05:58:890 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements HTTP verb: POST
+body: {
+  "value": "\u002f\u002f*[@name = 'us1' and @id = 'us1' and @type = 'email']",
+  "using": "xpath"
+}
+T 2019-09-23 13:05:58:890 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:05:58:890 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:05:58:890 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements {
+  "value": "\u002f\u002f*[@name = 'us1' and @id = 'us1' and @type = 'email']",
+  "using": "xpath"
+}
+T 2019-09-23 13:05:58:890 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:05:58:890 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:05:58:890 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:05:58:890 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:05:58:890 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "value": "\u002f\u002f*[@name = 'us1' and @id = 'us1' and @type = 'email']",
+  "using": "xpath"
+} }
+T 2019-09-23 13:05:58:890 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:05:58:890 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:05:58:890 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:05:58:890 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:58:890 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:05:58:890 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:05:58:891 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:05:58:891 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-09-23 13:05:58:891 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-09-23 13:05:58:891 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-09-23 13:05:58:891 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:58:891 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:05:58:891 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:05:58:891 ElementFinder.cpp(167) Unable to get browser
+T 2019-09-23 13:05:58:891 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:05:58:891 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:05:58:891 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:58:891 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:05:58:891 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:05:58:891 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:05:58:891 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:05:58:901 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:05:58:901 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:05:58:902 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:05:58:902 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to find elements on closed window","stacktrace":""}}
+
+T 2019-09-23 13:05:58:902 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:05:58:902 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:05:58:902 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:05:59:917 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:05:59:917 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:05:59:917 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:05:59:917 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:05:59:917 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:05:59:917 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:05:59:917 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:05:59:930 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:05:59:930 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:05:59:930 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:05:59:930 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:05:59:930 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:05:59:930 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:05:59:930 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:59:930 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:05:59:930 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:05:59:930 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:05:59:930 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:05:59:930 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:59:930 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:05:59:930 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:05:59:930 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:05:59:930 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:05:59:930 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:05:59:930 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:05:59:930 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:05:59:930 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:05:59:930 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:05:59:930 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:05:59:930 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:05:59:940 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:05:59:941 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:05:59:941 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:05:59:941 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:05:59:941 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:05:59:941 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:05:59:941 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:01:131 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:01:131 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:01:131 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements HTTP verb: POST
+body: {
+  "value": "\u002f\u002f*[@id = 'pa1' and @name = 'pa1' and @type = 'password']",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:01:132 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:01:132 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:01:132 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements {
+  "value": "\u002f\u002f*[@id = 'pa1' and @name = 'pa1' and @type = 'password']",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:01:132 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:01:132 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:01:132 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:01:132 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:01:132 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "value": "\u002f\u002f*[@id = 'pa1' and @name = 'pa1' and @type = 'password']",
+  "using": "xpath"
+} }
+T 2019-09-23 13:06:01:132 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:01:132 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:01:132 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:01:132 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:01:132 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:01:132 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:01:132 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:01:132 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-09-23 13:06:01:132 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-09-23 13:06:01:132 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-09-23 13:06:01:132 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:01:132 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:01:132 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:01:132 ElementFinder.cpp(167) Unable to get browser
+T 2019-09-23 13:06:01:132 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:01:132 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:01:132 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:01:132 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:01:132 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:01:132 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:01:132 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:01:143 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:01:143 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:01:143 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:01:143 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to find elements on closed window","stacktrace":""}}
+
+T 2019-09-23 13:06:01:143 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:01:143 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:01:143 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:02:149 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:02:149 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:02:149 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:02:149 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:02:150 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:02:150 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:02:150 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:02:150 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:02:150 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:02:150 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:02:150 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:02:150 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:02:151 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:02:151 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:02:151 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:02:151 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:02:151 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:02:151 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:02:151 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:02:151 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:02:151 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:02:151 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:02:151 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:02:151 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:02:151 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:02:151 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:02:152 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:02:152 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:02:152 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:02:152 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:02:161 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:02:162 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:02:162 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:02:162 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:02:162 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:02:162 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:02:162 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:03:255 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:03:255 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:03:255 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements HTTP verb: POST
+body: {
+  "value": "\u002f\u002fbutton[@class = 'btn btn-primary login' and @type = 'button']",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:03:255 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:03:255 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:03:255 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements {
+  "value": "\u002f\u002fbutton[@class = 'btn btn-primary login' and @type = 'button']",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:03:255 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:03:255 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:03:256 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:03:256 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:03:256 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "value": "\u002f\u002fbutton[@class = 'btn btn-primary login' and @type = 'button']",
+  "using": "xpath"
+} }
+T 2019-09-23 13:06:03:256 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:03:256 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:03:256 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:03:256 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:03:256 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:03:256 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:03:256 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:03:256 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-09-23 13:06:03:256 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-09-23 13:06:03:256 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-09-23 13:06:03:256 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:03:256 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:03:256 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:03:256 ElementFinder.cpp(167) Unable to get browser
+T 2019-09-23 13:06:03:256 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:03:256 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:03:256 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:03:256 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:03:256 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:03:256 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:03:256 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:03:267 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:03:267 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:03:267 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:03:267 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to find elements on closed window","stacktrace":""}}
+
+T 2019-09-23 13:06:03:267 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:03:267 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:03:267 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:04:270 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:04:270 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:04:270 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:04:270 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:04:270 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:04:270 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:04:270 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:04:270 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:04:271 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:04:271 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:04:271 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:04:271 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:04:271 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:04:271 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:04:271 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:04:271 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:04:271 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:04:271 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:04:271 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:04:271 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:04:271 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:04:271 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:04:271 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:04:271 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:04:271 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:04:271 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:04:271 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:04:271 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:04:271 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:04:271 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:04:281 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:04:281 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:04:282 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:04:282 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:04:282 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:04:282 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:04:282 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:05:308 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:05:308 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:05:308 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/window/maximize HTTP verb: POST
+body: {
+}
+T 2019-09-23 13:06:05:308 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:05:308 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:05:308 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/window/maximize {
+}
+T 2019-09-23 13:06:05:308 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:05:308 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:05:308 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:05:308 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:05:308 command.cc(36) Raw JSON command: { "name" : "maximizeWindow", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+} }
+T 2019-09-23 13:06:05:308 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:05:308 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:05:308 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:05:309 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:05:309 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:05:309 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:05:309 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:05:309 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:05:309 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:05:309 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:05:309 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:05:309 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:05:309 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:05:309 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:05:309 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:05:309 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:05:309 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:05:320 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:05:320 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:05:320 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:05:320 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Error retrieving window","stacktrace":""}}
+
+T 2019-09-23 13:06:05:320 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:05:320 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:05:320 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:06:323 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:06:323 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:06:323 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:06:323 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:06:323 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:06:323 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:06:323 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:06:323 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:06:324 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:06:324 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:06:324 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:06:324 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:06:324 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:06:324 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:06:324 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:06:324 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:06:324 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:06:324 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:06:324 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:06:324 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:06:324 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:06:324 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:06:324 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:06:324 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:06:324 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:06:324 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:06:324 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:06:324 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:06:324 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:06:324 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:06:335 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:06:335 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:06:335 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:06:335 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:06:335 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:06:335 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:06:335 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:09:724 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:09:724 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:09:724 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements HTTP verb: POST
+body: {
+  "value": "\u002f\u002f*[@href = '#page\u002fAssets' and (text() = 'Assets ' or . = 'Assets ')]",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:09:724 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:09:724 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:09:724 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements {
+  "value": "\u002f\u002f*[@href = '#page\u002fAssets' and (text() = 'Assets ' or . = 'Assets ')]",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:09:724 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:09:725 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:09:725 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:09:725 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:09:725 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "value": "\u002f\u002f*[@href = '#page\u002fAssets' and (text() = 'Assets ' or . = 'Assets ')]",
+  "using": "xpath"
+} }
+T 2019-09-23 13:06:09:725 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:09:725 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:09:725 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:09:725 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:09:725 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:09:725 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:09:725 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:09:725 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-09-23 13:06:09:725 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-09-23 13:06:09:725 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-09-23 13:06:09:725 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:09:725 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:09:726 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:09:726 ElementFinder.cpp(167) Unable to get browser
+T 2019-09-23 13:06:09:726 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:09:726 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:09:726 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:09:726 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:09:726 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:09:726 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:09:726 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:09:736 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:09:736 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:09:736 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:09:736 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to find elements on closed window","stacktrace":""}}
+
+T 2019-09-23 13:06:09:736 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:09:736 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:09:736 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:10:741 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:10:741 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:10:741 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:10:741 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:10:741 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:10:741 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:10:741 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:10:741 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:10:741 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:10:741 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:10:741 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:10:741 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:10:741 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:10:741 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:10:741 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:10:741 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:10:741 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:10:741 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:10:741 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:10:741 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:10:742 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:10:742 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:10:742 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:10:742 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:10:742 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:10:742 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:10:742 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:10:742 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:10:742 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:10:742 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:10:752 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:10:752 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:10:752 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:10:752 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:10:752 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:10:752 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:10:752 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:11:849 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:11:849 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:11:849 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/execute/sync HTTP verb: POST
+body: {
+  "script": "return document.readyState",
+  "args": [
+  ]
+}
+T 2019-09-23 13:06:11:849 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:11:849 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:11:849 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/execute/sync {
+  "script": "return document.readyState",
+  "args": [
+  ]
+}
+T 2019-09-23 13:06:11:849 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:11:849 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:11:849 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:11:849 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:11:849 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "script": "return document.readyState",
+  "args": [
+  ]
+} }
+T 2019-09-23 13:06:11:849 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:11:849 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:11:849 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:11:849 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:11:849 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:11:849 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:11:849 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:11:849 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:11:849 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:11:849 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:11:849 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:11:849 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:11:849 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:11:849 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:11:849 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:11:849 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:11:849 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:11:849 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:11:849 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:11:860 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:11:860 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:11:860 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:11:860 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:11:860 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:11:860 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:11:860 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:13:379 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:13:379 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:13:379 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/execute/sync HTTP verb: POST
+body: {
+  "script": "return document.readyState",
+  "args": [
+  ]
+}
+T 2019-09-23 13:06:13:379 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:13:379 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:13:379 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/execute/sync {
+  "script": "return document.readyState",
+  "args": [
+  ]
+}
+T 2019-09-23 13:06:13:379 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:13:380 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:13:380 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:13:380 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:13:380 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "script": "return document.readyState",
+  "args": [
+  ]
+} }
+T 2019-09-23 13:06:13:380 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:13:380 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:13:380 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:13:380 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:13:380 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:13:380 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:13:380 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:13:380 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:13:380 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:13:380 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:13:380 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:13:380 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:13:380 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:13:380 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:13:380 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:13:380 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:13:380 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:13:380 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:13:380 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:13:391 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:13:391 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:13:391 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:13:391 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:13:391 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:13:391 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:13:391 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:14:397 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:14:397 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:14:397 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:14:397 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:14:397 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:14:397 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:14:397 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:14:397 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:14:398 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:14:398 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:14:398 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:14:398 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:14:398 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:14:398 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:14:398 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:14:398 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:14:398 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:14:398 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:14:398 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:14:398 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:14:398 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:14:398 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:14:398 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:14:398 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:14:398 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:14:398 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:14:398 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:14:399 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:14:399 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:14:399 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:14:399 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:14:399 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:14:399 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:14:399 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:14:399 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:14:399 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:14:399 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:15:466 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:15:466 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:15:466 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements HTTP verb: POST
+body: {
+  "value": "\u002f\u002f*[@type = 'button' and (text() = '\n                    \n                        Add Assets\n                    \n                    \n                ' or . = '\n                    \n                        Add Assets\n                    \n                    \n                ')]",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:15:466 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:15:466 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:15:466 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements {
+  "value": "\u002f\u002f*[@type = 'button' and (text() = '\n                    \n                        Add Assets\n                    \n                    \n                ' or . = '\n                    \n                        Add Assets\n                    \n                    \n                ')]",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:15:466 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:15:466 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:15:466 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:15:467 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:15:467 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "value": "\u002f\u002f*[@type = 'button' and (text() = '\n                    \n                        Add Assets\n                    \n                    \n                ' or . = '\n                    \n                        Add Assets\n                    \n                    \n                ')]",
+  "using": "xpath"
+} }
+T 2019-09-23 13:06:15:467 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:15:467 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:15:467 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:15:467 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:15:467 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:15:467 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:15:467 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-09-23 13:06:15:467 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-09-23 13:06:15:467 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-09-23 13:06:15:467 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:15:467 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:15:467 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:15:467 ElementFinder.cpp(167) Unable to get browser
+T 2019-09-23 13:06:15:467 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:15:467 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:15:467 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:15:467 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:15:467 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:15:467 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:15:467 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:15:467 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:15:467 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:15:468 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:15:468 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:15:468 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to find elements on closed window","stacktrace":""}}
+
+T 2019-09-23 13:06:15:468 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:15:468 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:15:468 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:16:472 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:16:472 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:16:472 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:16:472 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:16:472 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:16:472 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:16:472 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:16:472 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:16:472 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:16:472 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:16:472 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:16:472 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:16:472 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:16:472 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:16:472 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:16:472 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:16:472 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:16:472 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:16:472 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:16:472 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:16:472 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:16:472 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:16:472 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:16:472 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:16:472 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:16:472 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:16:473 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:16:473 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:16:473 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:16:473 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:16:485 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:16:485 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:16:485 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:16:485 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:16:485 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:16:485 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:16:485 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:17:560 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:17:560 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:17:560 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements HTTP verb: POST
+body: {
+  "value": "\u002f\u002f*[(text() = '\n                            \n                            \n                                Single\n                            \n                        ' or . = '\n                            \n                            \n                                Single\n                            \n                        ')]",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:17:561 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:17:561 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:17:561 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements {
+  "value": "\u002f\u002f*[(text() = '\n                            \n                            \n                                Single\n                            \n                        ' or . = '\n                            \n                            \n                                Single\n                            \n                        ')]",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:17:561 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:17:561 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:17:561 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:17:561 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:17:561 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "value": "\u002f\u002f*[(text() = '\n                            \n                            \n                                Single\n                            \n                        ' or . = '\n                            \n                            \n                                Single\n                            \n                        ')]",
+  "using": "xpath"
+} }
+T 2019-09-23 13:06:17:561 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:17:561 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:17:561 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:17:561 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:17:561 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:17:561 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:17:561 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:17:561 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-09-23 13:06:17:562 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-09-23 13:06:17:562 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-09-23 13:06:17:562 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:17:562 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:17:562 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:17:562 ElementFinder.cpp(167) Unable to get browser
+T 2019-09-23 13:06:17:562 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:17:562 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:17:562 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:17:562 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:17:562 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:17:562 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:17:562 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:17:572 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:17:572 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:17:572 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:17:572 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to find elements on closed window","stacktrace":""}}
+
+T 2019-09-23 13:06:17:572 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:17:572 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:17:572 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:18:575 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:18:575 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:18:576 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:18:576 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:18:576 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:18:576 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:18:576 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:18:576 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:18:576 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:18:576 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:18:576 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:18:576 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:18:576 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:18:576 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:18:576 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:18:576 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:18:576 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:18:576 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:18:576 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:18:576 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:18:576 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:18:576 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:18:576 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:18:576 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:18:576 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:18:576 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:18:576 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:18:576 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:18:576 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:18:576 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:18:587 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:18:587 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:18:587 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:18:587 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:18:587 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:18:587 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:18:587 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:19:601 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:19:601 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:19:601 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/execute/sync HTTP verb: POST
+body: {
+  "script": "return document.readyState",
+  "args": [
+  ]
+}
+T 2019-09-23 13:06:19:601 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:19:601 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:19:601 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/execute/sync {
+  "script": "return document.readyState",
+  "args": [
+  ]
+}
+T 2019-09-23 13:06:19:601 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:19:601 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:19:601 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:19:601 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:19:601 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "script": "return document.readyState",
+  "args": [
+  ]
+} }
+T 2019-09-23 13:06:19:601 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:19:601 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:19:601 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:19:601 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:19:601 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:19:601 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:19:601 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:19:601 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:19:601 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:19:601 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:19:601 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:19:601 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:19:601 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:19:601 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:19:601 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:19:601 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:19:601 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:19:601 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:19:602 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:19:612 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:19:612 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:19:613 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:19:613 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:19:613 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:19:613 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:19:613 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:20:617 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:20:617 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:20:617 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:20:617 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:20:617 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:20:617 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:20:617 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:20:617 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:20:617 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:20:617 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:20:617 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:20:617 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:20:617 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:20:617 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:20:617 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:20:617 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:20:617 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:20:617 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:20:617 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:20:618 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:20:618 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:20:618 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:20:618 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:20:618 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:20:618 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:20:618 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:20:618 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:20:618 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:20:618 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:20:618 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:20:628 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:20:628 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:20:628 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:20:628 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:20:628 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:20:628 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:20:628 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:21:700 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:21:700 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:21:700 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements HTTP verb: POST
+body: {
+  "value": "id(\"s2id_autogen49\")\u002fa[@class=\"select2-choice\"]\u002fspan[@class=\"select2-arrow\"]\u002fb[1]",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:21:700 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:21:700 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:21:700 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements {
+  "value": "id(\"s2id_autogen49\")\u002fa[@class=\"select2-choice\"]\u002fspan[@class=\"select2-arrow\"]\u002fb[1]",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:21:700 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:21:700 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:21:700 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:21:700 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:21:700 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "value": "id(\"s2id_autogen49\")\u002fa[@class=\"select2-choice\"]\u002fspan[@class=\"select2-arrow\"]\u002fb[1]",
+  "using": "xpath"
+} }
+T 2019-09-23 13:06:21:701 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:21:701 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:21:701 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:21:701 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:21:701 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:21:701 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:21:701 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-09-23 13:06:21:701 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:21:701 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-09-23 13:06:21:701 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-09-23 13:06:21:701 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:21:701 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:21:701 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:21:701 ElementFinder.cpp(167) Unable to get browser
+T 2019-09-23 13:06:21:701 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:21:701 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:21:701 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:21:701 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:21:701 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:21:701 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:21:701 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:21:711 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:21:711 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:21:711 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:21:711 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to find elements on closed window","stacktrace":""}}
+
+T 2019-09-23 13:06:21:711 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:21:711 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:21:711 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:22:715 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:22:715 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:22:715 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:22:715 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:22:715 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:22:715 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:22:715 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:22:715 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:22:715 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:22:715 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:22:716 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:22:716 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:22:716 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:22:716 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:22:716 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:22:716 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:22:716 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:22:716 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:22:716 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:22:716 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:22:716 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:22:716 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:22:716 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:22:716 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:22:716 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:22:716 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:22:716 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:22:716 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:22:716 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:22:716 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:22:727 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:22:727 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:22:727 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:22:727 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:22:727 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:22:727 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:22:727 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:23:790 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:23:790 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:23:790 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements HTTP verb: POST
+body: {
+  "value": "\u002f\u002fdiv[@class = 'select2-result-label' and @role = 'option' and (text() = 'Image' or . = 'Image')]",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:23:790 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:23:790 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:23:790 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements {
+  "value": "\u002f\u002fdiv[@class = 'select2-result-label' and @role = 'option' and (text() = 'Image' or . = 'Image')]",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:23:790 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:23:790 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:23:790 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:23:790 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:23:790 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "value": "\u002f\u002fdiv[@class = 'select2-result-label' and @role = 'option' and (text() = 'Image' or . = 'Image')]",
+  "using": "xpath"
+} }
+T 2019-09-23 13:06:23:790 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:23:790 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:23:790 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:23:790 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:23:790 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:23:790 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:23:790 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:23:790 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-09-23 13:06:23:790 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-09-23 13:06:23:790 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-09-23 13:06:23:790 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:23:790 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:23:790 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:23:790 ElementFinder.cpp(167) Unable to get browser
+T 2019-09-23 13:06:23:790 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:23:790 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:23:791 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:23:791 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:23:791 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:23:791 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:23:791 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:23:801 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:23:801 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:23:801 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:23:801 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to find elements on closed window","stacktrace":""}}
+
+T 2019-09-23 13:06:23:801 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:23:801 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:23:801 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:24:805 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:24:805 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:24:805 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:24:805 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:24:805 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:24:805 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:24:805 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:24:806 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:24:806 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:24:806 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:24:806 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:24:806 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:24:806 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:24:806 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:24:806 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:24:806 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:24:806 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:24:806 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:24:806 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:24:806 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:24:806 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:24:806 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:24:806 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:24:806 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:24:806 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:24:806 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:24:806 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:24:806 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:24:806 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:24:806 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:24:817 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:24:817 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:24:817 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:24:817 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:24:817 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:24:817 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:24:817 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:26:918 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:26:918 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:26:918 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements HTTP verb: POST
+body: {
+  "value": "\u002f\u002finput[@type = 'file' and @class = 'input']",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:26:918 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:26:918 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:26:918 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements {
+  "value": "\u002f\u002finput[@type = 'file' and @class = 'input']",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:26:918 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:26:918 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:26:919 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:26:919 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:26:919 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "value": "\u002f\u002finput[@type = 'file' and @class = 'input']",
+  "using": "xpath"
+} }
+T 2019-09-23 13:06:26:919 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:26:919 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:26:919 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:26:919 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:26:919 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:26:919 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:26:919 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:26:919 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-09-23 13:06:26:919 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-09-23 13:06:26:919 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-09-23 13:06:26:919 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:26:919 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:26:919 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:26:919 ElementFinder.cpp(167) Unable to get browser
+T 2019-09-23 13:06:26:919 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:26:919 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:26:919 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:26:919 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:26:919 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:26:919 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:26:919 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:26:930 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:26:931 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:26:931 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:26:931 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to find elements on closed window","stacktrace":""}}
+
+T 2019-09-23 13:06:26:931 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:26:931 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:26:931 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:27:936 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:27:936 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:27:936 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:27:936 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:27:936 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:27:936 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:27:936 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:27:936 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:27:936 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:27:936 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:27:936 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:27:936 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:27:936 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:27:937 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:27:937 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:27:937 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:27:937 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:27:937 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:27:937 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:27:937 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:27:937 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:27:937 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:27:937 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:27:937 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:27:937 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:27:937 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:27:937 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:27:937 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:27:937 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:27:937 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:27:947 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:27:948 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:27:948 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:27:948 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:27:948 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:27:948 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:27:948 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:29:059 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:29:059 server.cc(238) Entering Server::ReadRequestBody
+T 2019-09-23 13:06:29:059 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements HTTP verb: POST
+body: {
+  "value": "\u002f\u002f*[@id=\"body\"]\u002fdiv[4]\u002fdiv\u002fdiv\u002fdiv[11]\u002fdiv\u002fdiv\u002fdiv[1]\u002fdiv\u002fdiv[2]\u002fform\u002fdiv[1]\u002fdiv[3]\u002fdiv\u002fdiv[1]\u002fdiv[1]\u002fdiv\u002fdiv\u002fdiv\u002fdiv[1]\u002fdiv[3]\u002fdiv\u002fp",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:29:059 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:29:059 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:29:059 server.cc(281) Command: POST /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/elements {
+  "value": "\u002f\u002f*[@id=\"body\"]\u002fdiv[4]\u002fdiv\u002fdiv\u002fdiv[11]\u002fdiv\u002fdiv\u002fdiv[1]\u002fdiv\u002fdiv[2]\u002fform\u002fdiv[1]\u002fdiv[3]\u002fdiv\u002fdiv[1]\u002fdiv[1]\u002fdiv\u002fdiv\u002fdiv\u002fdiv[1]\u002fdiv[3]\u002fdiv\u002fp",
+  "using": "xpath"
+}
+T 2019-09-23 13:06:29:059 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:29:059 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:29:059 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:29:059 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:29:059 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {
+  "value": "\u002f\u002f*[@id=\"body\"]\u002fdiv[4]\u002fdiv\u002fdiv\u002fdiv[11]\u002fdiv\u002fdiv\u002fdiv[1]\u002fdiv\u002fdiv[2]\u002fform\u002fdiv[1]\u002fdiv[3]\u002fdiv\u002fdiv[1]\u002fdiv[1]\u002fdiv\u002fdiv\u002fdiv\u002fdiv[1]\u002fdiv[3]\u002fdiv\u002fp",
+  "using": "xpath"
+} }
+T 2019-09-23 13:06:29:059 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:29:059 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:29:059 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:29:059 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:29:060 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:29:060 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:29:060 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:29:060 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-09-23 13:06:29:060 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-09-23 13:06:29:060 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-09-23 13:06:29:060 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:29:060 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:29:060 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:29:060 ElementFinder.cpp(167) Unable to get browser
+T 2019-09-23 13:06:29:060 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:29:060 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:29:060 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:29:060 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:29:060 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:29:060 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:29:060 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:29:070 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:29:070 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:29:070 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:29:070 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to find elements on closed window","stacktrace":""}}
+
+T 2019-09-23 13:06:29:070 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:29:070 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:29:070 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:30:073 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:30:073 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:30:073 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:30:073 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:30:073 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/screenshot {}
+T 2019-09-23 13:06:30:073 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:30:073 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:30:073 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:30:073 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:30:073 command.cc(36) Raw JSON command: { "name" : "takeScreenshot", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:30:073 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:30:073 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:30:073 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:30:073 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:30:073 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:30:074 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:30:074 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:30:074 CommandHandlers\ScreenshotCommandHandler.cpp(38) Entering ScreenshotCommandHandler::ExecuteInternal
+T 2019-09-23 13:06:30:074 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:30:074 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:30:074 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:30:074 response.cc(91) Entering Response::SetErrorResponse
+W 2019-09-23 13:06:30:074 response.cc(92) Error response has status code 23 and message 'Unable to get browser' message
+T 2019-09-23 13:06:30:074 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:30:074 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:30:074 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:30:074 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:30:074 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:30:074 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:30:074 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:30:084 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:30:084 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:30:084 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:30:084 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:30:084 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:30:084 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:30:084 server.cc(465) Entering Server::SendHttpBadRequest
+T 2019-09-23 13:06:32:658 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:32:658 server.cc(183) Process request with: URI: /status HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:32:658 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:32:658 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:32:658 server.cc(281) Command: GET /status {}
+T 2019-09-23 13:06:32:658 IEServer.cpp(51) Entering IEServer::GetStatus
+T 2019-09-23 13:06:32:658 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-09-23 13:06:32:659 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:32:659 response.cc(51) Entering Response::Serialize
+D 2019-09-23 13:06:32:659 server.cc(338) Response: {"value":{"build":{"version":"3.6.0.0 (32-bit)"},"message":"Maximum number of sessions already created","os":{"arch":"x64","name":"windows","version":"10.0.17134.376 (WinBuild.160101.0800)"},"ready":false}}
+
+T 2019-09-23 13:06:32:659 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:32:659 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:32:659 server.cc(445) Entering Server::SendHttpOk
+T 2019-09-23 13:06:32:662 server.cc(174) Entering Server::ProcessRequest
+T 2019-09-23 13:06:32:662 server.cc(183) Process request with: URI: /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/title HTTP verb: GET
+body: {}
+T 2019-09-23 13:06:32:662 server.cc(272) Entering Server::DispatchCommand
+T 2019-09-23 13:06:32:662 server.cc(583) Entering Server::LookupCommand
+D 2019-09-23 13:06:32:662 server.cc(281) Command: GET /session/c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4/title {}
+T 2019-09-23 13:06:32:662 server.cc(378) Entering Server::LookupSession
+T 2019-09-23 13:06:32:662 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-09-23 13:06:32:662 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-09-23 13:06:32:662 command.cc(31) Entering Command::Deserialize
+D 2019-09-23 13:06:32:663 command.cc(36) Raw JSON command: { "name" : "getTitle", "locator" : { "sessionid" : "c9c33f98-2bb1-4d50-9ebb-be45e73dd9b4" }, "parameters" : {} }
+T 2019-09-23 13:06:32:663 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-09-23 13:06:32:663 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-09-23 13:06:32:663 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-09-23 13:06:32:663 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:32:663 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:32:663 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:32:663 IECommandExecutor.cpp(503) Unable to find current browser
+T 2019-09-23 13:06:32:663 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:32:663 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:32:663 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2019-09-23 13:06:32:663 response.cc(85) Entering Response::SetErrorResponse
+T 2019-09-23 13:06:32:663 response.cc(78) Entering Response::SetResponse
+T 2019-09-23 13:06:32:663 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-09-23 13:06:32:663 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2019-09-23 13:06:32:663 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+W 2019-09-23 13:06:32:663 IECommandExecutor.cpp(520) Unable to get current browser
+T 2019-09-23 13:06:32:663 response.cc(51) Entering Response::Serialize
+T 2019-09-23 13:06:32:674 IESession.cpp(221) Found non-zero response length
+T 2019-09-23 13:06:32:674 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-09-23 13:06:32:674 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-09-23 13:06:32:674 server.cc(338) Response: {"value":{"data":null,"error":"no such window","message":"Unable to get browser","stacktrace":""}}
+
+T 2019-09-23 13:06:32:674 server.cc(391) Entering Server::SendResponseToClient
+T 2019-09-23 13:06:32:674 response.cc(30) Entering Response::Deserialize
+T 2019-09-23 13:06:32:674 server.cc(465) Entering Server::SendHttpBadRequest
