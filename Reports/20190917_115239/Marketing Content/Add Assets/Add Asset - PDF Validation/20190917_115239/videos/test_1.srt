@@ -1,0 +1,24 @@
+1
+00:00:00,625 --> 00:00:00,634
+1. openBrowser("")
+
+2
+00:00:10,491 --> 00:00:10,491
+5. navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#")
+
+3
+00:00:14,296 --> 00:00:14,299
+9. setText(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text"), "satinder.gandhi@codeworldwide.com")
+
+4
+00:00:19,464 --> 00:00:19,469
+13. setEncryptedText(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Password_text"), "yfq/9fVkW5+QvfzWq38qvg==")
+
+5
+00:00:23,782 --> 00:00:23,786
+17. click(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/button_Login"))
+
+6
+00:00:28,691 --> 00:00:28,692
+21. maximizeWindow()
+

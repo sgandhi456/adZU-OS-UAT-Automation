@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add Asset - swf file,IE 11,,,2019-09-17 12:42:39,2019-09-17 12:45:04,2m - 24.403s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-09-17 12:42:40,2019-09-17 12:43:12,32.221s,PASSED
+"openBrowser("""")",IE 11,,,2019-09-17 12:42:41,2019-09-17 12:42:49,8.550s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-17 12:42:49,2019-09-17 12:42:53,4.195s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-09-17 12:42:53,2019-09-17 12:42:59,5.359s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-09-17 12:42:59,2019-09-17 12:43:03,4.194s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-09-17 12:43:03,2019-09-17 12:43:08,5.272s,PASSED
+maximizeWindow(),IE 11,,,2019-09-17 12:43:08,2019-09-17 12:43:10,1.321s,PASSED
+,,,,,,,
+Test Cases/Assets/Add Asset Type -Video (swf file),IE 11,,,2019-09-17 12:43:12,2019-09-17 12:44:48,1m - 36.139s,FAILED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/a_Assets""))",IE 11,,,2019-09-17 12:43:13,2019-09-17 12:43:19,6.375s,PASSED
+waitForPageLoad(1),IE 11,,,2019-09-17 12:43:19,2019-09-17 12:43:22,3.135s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/button_Add Assets""))",IE 11,,,2019-09-17 12:43:22,2019-09-17 12:43:26,3.571s,PASSED
+"check(findTestObject(""Assets/Page_Samsung Marketing Cloud/a_Single""))",IE 11,,,2019-09-17 12:43:26,2019-09-17 12:43:38,12.150s,PASSED
+waitForPageLoad(1),IE 11,,,2019-09-17 12:43:38,2019-09-17 12:43:39,1.094s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/Dropdown arrow""))",IE 11,,,2019-09-17 12:43:39,2019-09-17 12:43:43,3.818s,PASSED
+"click(findTestObject(""Assets/Video Asset/div_Video""))",IE 11,,,2019-09-17 12:43:43,2019-09-17 12:43:47,4.031s,PASSED
+"click(findTestObject(""Assets/Video Asset/radiobutton_File_typeOfVideo""))",IE 11,,,2019-09-17 12:43:47,2019-09-17 12:43:50,3.581s,PASSED
+delay(1),IE 11,,,2019-09-17 12:43:50,2019-09-17 12:43:51,1.052s,PASSED
+"uploadFile(findTestObject(""Assets/Video Asset/Upload_Asset_Video""), ""C:\Adzu\Asset\AssetSWF.swf"")",IE 11,,,2019-09-17 12:43:51,2019-09-17 12:43:56,4.673s,PASSED
+delay(2),IE 11,,,2019-09-17 12:43:56,2019-09-17 12:43:58,2.011s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/AssetGroup_dd""))",IE 11,,,2019-09-17 12:43:58,2019-09-17 12:44:02,4.367s,PASSED
+"setText(findTestObject(""Assets/Page_Samsung Marketing Cloud/input_Document_s2id_autogen51_search""), ""katya"")",IE 11,,,2019-09-17 12:44:02,2019-09-17 12:44:06,3.637s,FAILED
+"click(findTestObject(""Assets/Video Asset/Page_Samsung Marketing Cloud/div_Katyas asset group UAT 491""))",IE 11,,,2019-09-17 12:44:06,2019-09-17 12:44:35,28.834s,PASSED
+"setText(findTestObject(""Assets/Page_Samsung Marketing Cloud/input_Name_Asset_Name (1)""), ""VideoAsset_AutoTest"")",IE 11,,,2019-09-17 12:44:35,2019-09-17 12:44:39,4.401s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/button_Save""))",IE 11,,,2019-09-17 12:44:39,2019-09-17 12:44:46,6.214s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-09-17 12:44:48,2019-09-17 12:45:04,15.512s,FAILED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_Kirithan""))",IE 11,,,2019-09-17 12:44:49,2019-09-17 12:44:53,4.089s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-09-17 12:44:53,2019-09-17 12:44:57,4.183s,FAILED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-09-17 12:44:57,2019-09-17 12:45:01,4.191s,FAILED

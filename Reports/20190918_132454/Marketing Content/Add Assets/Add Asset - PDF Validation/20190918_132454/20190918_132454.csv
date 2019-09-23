@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add Asset - PDF Validation,IE 11,,,2019-09-18 13:24:58,2019-09-18 13:26:05,1m - 7.094s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-09-18 13:24:59,2019-09-18 13:25:22,23.605s,PASSED
+"openBrowser("""")",IE 11,,,2019-09-18 13:25:00,2019-09-18 13:25:06,6.405s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-18 13:25:06,2019-09-18 13:25:08,1.863s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-09-18 13:25:08,2019-09-18 13:25:16,7.198s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-09-18 13:25:16,2019-09-18 13:25:17,1.420s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-09-18 13:25:17,2019-09-18 13:25:20,3.271s,PASSED
+maximizeWindow(),IE 11,,,2019-09-18 13:25:20,2019-09-18 13:25:20,0.088s,PASSED
+,,,,,,,
+Test Cases/Assets/Image Asset - PDF Validation,IE 11,,,2019-09-18 13:25:22,2019-09-18 13:25:56,33.382s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/a_Assets""))",IE 11,,,2019-09-18 13:25:23,2019-09-18 13:25:30,6.944s,PASSED
+waitForPageLoad(2),IE 11,,,2019-09-18 13:25:30,2019-09-18 13:25:31,0.373s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/button_Add Assets""))",IE 11,,,2019-09-18 13:25:31,2019-09-18 13:25:35,4.337s,PASSED
+"check(findTestObject(""Assets/Page_Samsung Marketing Cloud/a_Single""))",IE 11,,,2019-09-18 13:25:35,2019-09-18 13:25:45,9.844s,PASSED
+waitForPageLoad(1),IE 11,,,2019-09-18 13:25:45,2019-09-18 13:25:45,0.129s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/Dropdown arrow""))",IE 11,,,2019-09-18 13:25:45,2019-09-18 13:25:47,2.063s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/div_Image (1)""))",IE 11,,,2019-09-18 13:25:47,2019-09-18 13:25:49,1.632s,PASSED
+delay(1),IE 11,,,2019-09-18 13:25:49,2019-09-18 13:25:50,1.045s,PASSED
+"uploadFile(findTestObject(""Assets/Upload_Asset_Image""), ""C:\Adzu\Asset\AssetPDF.pdf"")",IE 11,,,2019-09-18 13:25:50,2019-09-18 13:25:53,3.104s,PASSED
+"verifyElementText(findTestObject(""Assets/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/PDF_Validation_Error""), ""Please upload PDF as a document asset"")",IE 11,,,2019-09-18 13:25:53,2019-09-18 13:25:54,0.746s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-09-18 13:25:56,2019-09-18 13:26:05,9.533s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-09-18 13:25:56,2019-09-18 13:25:58,1.954s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-09-18 13:25:58,2019-09-18 13:26:00,1.715s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-09-18 13:26:00,2019-09-18 13:26:03,2.599s,PASSED
+closeBrowser(),IE 11,,,2019-09-18 13:26:03,2019-09-18 13:26:03,0.584s,PASSED

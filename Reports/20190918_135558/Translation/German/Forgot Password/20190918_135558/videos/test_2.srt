@@ -1,0 +1,28 @@
+1
+00:00:00,582 --> 00:00:00,583
+1. click(findTestObject("Logout/Page_Samsung Marketing Cloud/span_gandhi"))
+
+2
+00:00:05,593 --> 00:00:05,594
+5. click(findTestObject("Globalization/Page_Samsung Marketing Cloud/a_Globalisation Info"))
+
+3
+00:00:09,443 --> 00:00:09,446
+9. click(findTestObject("Globalization/Page_Samsung Marketing Cloud/Culture _Dropdown"))
+
+4
+00:00:13,248 --> 00:00:13,250
+13. delay(1)
+
+5
+00:00:14,303 --> 00:00:14,313
+17. setText(findTestObject("Globalization/Page_Samsung Marketing Cloud/Culture_ddText"), "German")
+
+6
+00:00:18,436 --> 00:00:18,436
+21. click(findTestObject("Globalization/Page_Samsung Marketing Cloud/div_German (Germany)"))
+
+7
+00:00:22,120 --> 00:00:22,121
+25. click(findTestObject("Globalization/Page_Samsung Marketing Cloud/Page_Base/button_Save"))
+

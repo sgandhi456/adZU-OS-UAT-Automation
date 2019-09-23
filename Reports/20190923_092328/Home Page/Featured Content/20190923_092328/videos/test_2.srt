@@ -1,0 +1,20 @@
+1
+00:00:00,608 --> 00:00:00,610
+1. navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#")
+
+2
+00:00:02,590 --> 00:00:02,592
+5. scrollToElement(findTestObject("Home Page/Page_Samsung Marketing Cloud/h3_Featured Content"), 0)
+
+3
+00:00:05,057 --> 00:00:05,060
+9. click(findTestObject("Home Page/Page_Samsung Marketing Cloud/div_Explore"))
+
+4
+00:00:09,894 --> 00:00:09,894
+13. url = getUrl(STOP_ON_FAILURE)
+
+5
+00:00:11,100 --> 00:00:11,102
+17. verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3205936d-1b5b-4a6c-b4aa-1a79b5c9355d", false)
+

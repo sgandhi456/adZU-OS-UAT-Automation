@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add Asset - swf file,IE 11,,,2019-09-23 09:32:46,2019-09-23 09:35:17,2m - 30.645s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-09-23 09:32:47,2019-09-23 09:33:18,31.212s,PASSED
+"openBrowser("""")",IE 11,,,2019-09-23 09:32:48,2019-09-23 09:32:55,7.426s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:32:55,2019-09-23 09:33:00,4.459s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-09-23 09:33:00,2019-09-23 09:33:06,5.748s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-09-23 09:33:06,2019-09-23 09:33:10,4.077s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-09-23 09:33:10,2019-09-23 09:33:15,4.965s,PASSED
+maximizeWindow(),IE 11,,,2019-09-23 09:33:15,2019-09-23 09:33:16,1.165s,PASSED
+,,,,,,,
+Test Cases/Assets/Add Single Asset -Type -Video (swf file),IE 11,,,2019-09-23 09:33:18,2019-09-23 09:34:31,1m - 13.494s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/a_Assets""))",IE 11,,,2019-09-23 09:33:19,2019-09-23 09:33:24,5.199s,PASSED
+waitForPageLoad(1),IE 11,,,2019-09-23 09:33:24,2019-09-23 09:33:28,3.505s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/button_Add Assets""))",IE 11,,,2019-09-23 09:33:28,2019-09-23 09:33:31,3.458s,PASSED
+"check(findTestObject(""Assets/Page_Samsung Marketing Cloud/a_Single""))",IE 11,,,2019-09-23 09:33:31,2019-09-23 09:33:43,11.786s,PASSED
+waitForPageLoad(1),IE 11,,,2019-09-23 09:33:43,2019-09-23 09:33:44,1.075s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/Dropdown arrow""))",IE 11,,,2019-09-23 09:33:44,2019-09-23 09:33:48,3.665s,PASSED
+"click(findTestObject(""Assets/Video Asset/div_Video""))",IE 11,,,2019-09-23 09:33:48,2019-09-23 09:33:51,3.887s,PASSED
+"click(findTestObject(""Assets/Video Asset/radiobutton_File_typeOfVideo""))",IE 11,,,2019-09-23 09:33:51,2019-09-23 09:33:55,3.607s,PASSED
+delay(1),IE 11,,,2019-09-23 09:33:55,2019-09-23 09:33:56,1.040s,PASSED
+"uploadFile(findTestObject(""Assets/Video Asset/Upload_Asset_Video""), ""C:\Adzu\Asset\AssetSWF.swf"")",IE 11,,,2019-09-23 09:33:56,2019-09-23 09:34:01,4.400s,PASSED
+delay(2),IE 11,,,2019-09-23 09:34:01,2019-09-23 09:34:03,2.009s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/AssetGroup_dd""))",IE 11,,,2019-09-23 09:34:03,2019-09-23 09:34:06,3.668s,PASSED
+delay(1),IE 11,,,2019-09-23 09:34:06,2019-09-23 09:34:07,1.006s,PASSED
+"click(findTestObject(""Assets/Video Asset/Page_Samsung Marketing Cloud/AssetGroup_2ndOption""))",IE 11,,,2019-09-23 09:34:07,2019-09-23 09:34:11,4.136s,PASSED
+"setText(findTestObject(""Assets/Page_Samsung Marketing Cloud/input_Name_Asset_Name (1)""), ""VideoAsset_AutoTest2"")",IE 11,,,2019-09-23 09:34:11,2019-09-23 09:34:18,6.763s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/button_Save""))",IE 11,,,2019-09-23 09:34:18,2019-09-23 09:34:29,11.039s,PASSED
+,,,,,,,
+Test Cases/Assets/Open Assets Page,IE 11,,,2019-09-23 09:34:31,2019-09-23 09:34:38,6.476s,PASSED
+"click(findTestObject(""Assets/Page_Samsung Marketing Cloud/a_Assets""))",IE 11,,,2019-09-23 09:34:32,2019-09-23 09:34:36,3.965s,PASSED
+,,,,,,,
+Test Cases/Assets/Search Asset,IE 11,,,2019-09-23 09:34:38,2019-09-23 09:34:59,20.968s,PASSED
+"click(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon""))",IE 11,,,2019-09-23 09:34:39,2019-09-23 09:34:43,4.665s,PASSED
+"setText(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/Text_SearchText""), search_text)",IE 11,,,2019-09-23 09:34:43,2019-09-23 09:34:48,4.508s,PASSED
+"span_obj = modifyObjectProperty(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/span_asset""), ""text"", ""equals"", search_text, false)",IE 11,,,2019-09-23 09:34:48,2019-09-23 09:34:48,0.120s,PASSED
+click(span_obj),IE 11,,,2019-09-23 09:34:48,2019-09-23 09:34:52,3.702s,PASSED
+"click(findTestObject(""Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/button_Hide""))",IE 11,,,2019-09-23 09:34:52,2019-09-23 09:34:56,4.309s,PASSED
+delay(1),IE 11,,,2019-09-23 09:34:56,2019-09-23 09:34:57,1.007s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-09-23 09:34:59,2019-09-23 09:35:17,17.804s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-09-23 09:35:00,2019-09-23 09:35:03,3.617s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-09-23 09:35:03,2019-09-23 09:35:07,3.467s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-09-23 09:35:07,2019-09-23 09:35:11,3.894s,PASSED
+closeBrowser(),IE 11,,,2019-09-23 09:35:11,2019-09-23 09:35:15,4.051s,PASSED

@@ -1,0 +1,40 @@
+1
+00:00:00,439 --> 00:00:00,440
+1. openBrowser("")
+
+2
+00:00:06,512 --> 00:00:06,514
+5. navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#")
+
+3
+00:00:09,516 --> 00:00:09,518
+9. maximizeWindow()
+
+4
+00:00:11,587 --> 00:00:11,588
+13. click(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Terms and conditions_Link"))
+
+5
+00:00:17,729 --> 00:00:17,731
+17. delay(2)
+
+6
+00:00:19,737 --> 00:00:19,739
+21. switchToFrame(findTestObject("Login/Page_Samsung Marketing Cloud/iframe_By logging into this system you are accepting the_tnc-iframe"), 0)
+
+7
+00:00:22,097 --> 00:00:22,099
+25. click(findTestObject("Login/Page_Samsung Marketing Cloud/TC_button_Close"))
+
+8
+00:00:25,904 --> 00:00:25,905
+29. WindowTitle = getWindowTitle()
+
+9
+00:00:26,944 --> 00:00:26,948
+33. verifyMatch(WindowTitle, "Samsung Marketing Cloud", false)
+
+10
+00:00:26,968 --> 00:00:26,971
+37. closeBrowser()
+

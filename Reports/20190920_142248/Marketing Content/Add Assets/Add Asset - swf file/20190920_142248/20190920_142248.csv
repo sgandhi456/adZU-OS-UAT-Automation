@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add Asset - swf file,IE 11,,,2019-09-20 14:22:52,2019-09-20 14:24:03,1m - 10.896s,INCOMPLETE
+,,,,,,,
+Test Cases/Assets/Search Asset,IE 11,,,2019-09-20 14:22:53,2019-09-20 14:24:03,1m - 10.212s,FAILED
+"callTestCase(findTestCase(""Login and Logout - Notifications/Login""), [:], CONTINUE_ON_FAILURE)",IE 11,,,2019-09-20 14:22:54,2019-09-20 14:23:25,30.819s,PASSED
+"callTestCase(findTestCase(""Assets/Open Assets Page""), [:], CONTINUE_ON_FAILURE)",IE 11,,,2019-09-20 14:23:25,2019-09-20 14:23:34,8.692s,PASSED
+"click(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon""))",IE 11,,,2019-09-20 14:23:34,2019-09-20 14:23:43,9.317s,PASSED
+"setText(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/Text_SearchText""), search_text)",IE 11,,,2019-09-20 14:23:43,2019-09-20 14:23:47,4.531s,PASSED
+"span_obj = modifyObjectProperty(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/span_asset""), ""text"", ""equals"", search_text, false)",IE 11,,,2019-09-20 14:23:47,2019-09-20 14:23:48,0.152s,PASSED
+click(span_obj),IE 11,,,2019-09-20 14:23:48,2019-09-20 14:23:52,4.079s,PASSED
+"click(findTestObject(""Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/button_Hide""))",IE 11,,,2019-09-20 14:23:52,2019-09-20 14:23:56,4.360s,PASSED
+delay(1),IE 11,,,2019-09-20 14:23:56,2019-09-20 14:23:57,1.018s,PASSED
+acceptAlert(),IE 11,,,2019-09-20 14:23:57,2019-09-20 14:24:01,3.651s,FAILED

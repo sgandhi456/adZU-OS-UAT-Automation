@@ -1,0 +1,52 @@
+1
+00:00:00,691 --> 00:00:00,693
+1. click(findTestObject("Assets/Page_Samsung Marketing Cloud/a_Assets"))
+
+2
+00:00:06,665 --> 00:00:06,666
+5. waitForPageLoad(1)
+
+3
+00:00:08,118 --> 00:00:08,119
+9. click(findTestObject("Assets/Page_Samsung Marketing Cloud/button_Add Assets"))
+
+4
+00:00:14,003 --> 00:00:14,004
+13. check(findTestObject("Assets/Page_Samsung Marketing Cloud/a_Single"))
+
+5
+00:00:27,504 --> 00:00:27,506
+17. waitForPageLoad(1)
+
+6
+00:00:28,616 --> 00:00:28,618
+21. click(findTestObject("Assets/Page_Samsung Marketing Cloud/Dropdown arrow"))
+
+7
+00:00:32,533 --> 00:00:32,534
+25. click(findTestObject("Assets/Video Asset/div_Video"))
+
+8
+00:00:36,796 --> 00:00:36,796
+29. click(findTestObject("Assets/Video Asset/radiobutton_File_typeOfVideo"))
+
+9
+00:00:40,442 --> 00:00:40,443
+33. delay(1)
+
+10
+00:00:41,520 --> 00:00:41,524
+37. uploadFile(findTestObject("Assets/Video Asset/Upload_Asset_Video"), "C:\Adzu\Asset\AssetSWF.swf")
+
+11
+00:00:46,627 --> 00:00:46,629
+41. delay(2)
+
+12
+00:00:48,636 --> 00:00:48,639
+45. click(findTestObject("Assets/Page_Samsung Marketing Cloud/AssetGroup_dd"))
+
+13
+00:00:52,799 --> 00:00:52,800
+49. setText(findTestObject("Assets/Page_Samsung Marketing Cloud/input_Document_s2id_autogen51_search"), "katya")
+

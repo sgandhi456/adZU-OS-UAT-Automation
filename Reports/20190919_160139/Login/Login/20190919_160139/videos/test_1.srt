@@ -1,0 +1,28 @@
+1
+00:00:00,682 --> 00:00:00,692
+1. openBrowser("")
+
+2
+00:00:09,083 --> 00:00:09,086
+5. navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#")
+
+3
+00:00:13,828 --> 00:00:13,831
+9. setText(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text"), "k.kirithan@hotmail.com")
+
+4
+00:00:19,321 --> 00:00:19,323
+13. setEncryptedText(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Password_text"), "hsPFm2cfhkw=")
+
+5
+00:00:23,545 --> 00:00:23,547
+17. click(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/button_Login"))
+
+6
+00:00:27,643 --> 00:00:27,644
+21. delay(1)
+
+7
+00:00:28,692 --> 00:00:28,697
+25. verifyElementText(findTestObject("Login/Page_Samsung Marketing Cloud/div_Error                        Invalid username or password"), "Error: Invalid username or password")
+

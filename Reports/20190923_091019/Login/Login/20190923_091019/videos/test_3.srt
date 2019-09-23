@@ -1,0 +1,28 @@
+1
+00:00:00,478 --> 00:00:00,480
+1. openBrowser("")
+
+2
+00:00:04,933 --> 00:00:04,933
+5. navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#")
+
+3
+00:00:07,010 --> 00:00:07,012
+9. click(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Forgot password"))
+
+4
+00:00:14,057 --> 00:00:14,058
+13. setText(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/input_Enter your email address to receive a link to reset your password_email"), "k.kirithan@hotmail.com")
+
+5
+00:00:52,616 --> 00:00:52,617
+17. click(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/button_Reset"))
+
+6
+00:01:31,034 --> 00:01:31,048
+21. click(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/button_Ok"))
+
+7
+00:02:09,351 --> 00:02:09,353
+25. closeBrowser()
+

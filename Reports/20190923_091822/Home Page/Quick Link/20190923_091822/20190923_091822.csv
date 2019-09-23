@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Quick Link,IE 11,,,2019-09-23 09:18:27,2019-09-23 09:20:10,1m - 43.420s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-09-23 09:18:28,2019-09-23 09:19:02,34.310s,PASSED
+"openBrowser("""")",IE 11,,,2019-09-23 09:18:29,2019-09-23 09:18:38,9.025s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:18:38,2019-09-23 09:18:41,2.625s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-09-23 09:18:41,2019-09-23 09:18:49,8.115s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-09-23 09:18:49,2019-09-23 09:18:53,4.219s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-09-23 09:18:53,2019-09-23 09:18:58,5.149s,PASSED
+maximizeWindow(),IE 11,,,2019-09-23 09:18:58,2019-09-23 09:19:00,1.535s,PASSED
+,,,,,,,
+Test Cases/Home Page/Brand,IE 11,,,2019-09-23 09:19:02,2019-09-23 09:19:22,20.112s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:19:03,2019-09-23 09:19:06,2.857s,PASSED
+"scrollToElement(findTestObject(""Home Page/Page_Samsung Marketing Cloud/div_Quick Links""), 0)",IE 11,,,2019-09-23 09:19:06,2019-09-23 09:19:11,5.026s,PASSED
+"click(findTestObject(""Home Page/Page_Samsung Marketing Cloud/div_Brand""))",IE 11,,,2019-09-23 09:19:11,2019-09-23 09:19:16,5.461s,PASSED
+url = getUrl(),IE 11,,,2019-09-23 09:19:16,2019-09-23 09:19:20,3.563s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=c3478931-e7bb-4f43-84a7-561e1f41688e"", false)",IE 11,,,2019-09-23 09:19:20,2019-09-23 09:19:20,0.060s,PASSED
+,,,,,,,
+Test Cases/Home Page/Learning,IE 11,,,2019-09-23 09:19:22,2019-09-23 09:19:39,17.155s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:19:23,2019-09-23 09:19:27,4.439s,PASSED
+"scrollToElement(findTestObject(""Home Page/Page_Samsung Marketing Cloud/div_Quick Links""), 0)",IE 11,,,2019-09-23 09:19:27,2019-09-23 09:19:30,2.604s,PASSED
+"click(findTestObject(""Home Page/Page_Samsung Marketing Cloud/div_Learning""))",IE 11,,,2019-09-23 09:19:30,2019-09-23 09:19:34,4.526s,PASSED
+url = getUrl(),IE 11,,,2019-09-23 09:19:34,2019-09-23 09:19:37,2.885s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=1a290171-39cc-4418-a06c-24d802e4c8df"", false)",IE 11,,,2019-09-23 09:19:37,2019-09-23 09:19:37,0.010s,PASSED
+,,,,,,,
+Test Cases/Home Page/Help and Support,IE 11,,,2019-09-23 09:19:39,2019-09-23 09:19:55,15.515s,ERROR
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:19:40,2019-09-23 09:19:44,4.380s,PASSED
+"scrollToElement(findTestObject(""Home Page/Page_Samsung Marketing Cloud/div_Quick Links""), 0)",IE 11,,,2019-09-23 09:19:44,2019-09-23 09:19:47,2.624s,PASSED
+"click(findTestObject(""Home Page/Page_Samsung Marketing Cloud/div_Help and Support""))",IE 11,,,2019-09-23 09:19:47,2019-09-23 09:19:51,4.465s,PASSED
+url = getUrl(),IE 11,,,2019-09-23 09:19:51,2019-09-23 09:19:53,1.336s,PASSED
+"verifyMatch(a, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Help-and-Support"", false)",IE 11,,,2019-09-23 09:19:53,2019-09-23 09:19:53,0.004s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-09-23 09:19:55,2019-09-23 09:20:10,15.687s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-09-23 09:19:55,2019-09-23 09:19:59,3.674s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-09-23 09:19:59,2019-09-23 09:20:02,3.447s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-09-23 09:20:02,2019-09-23 09:20:06,4.006s,PASSED
+closeBrowser(),IE 11,,,2019-09-23 09:20:06,2019-09-23 09:20:08,1.777s,PASSED

@@ -1,0 +1,48 @@
+1
+00:00:00,715 --> 00:00:00,717
+1. click(findTestObject("Assets/Page_Samsung Marketing Cloud/a_Assets"))
+
+2
+00:00:07,047 --> 00:00:07,048
+5. waitForPageLoad(1)
+
+3
+00:00:10,361 --> 00:00:10,362
+9. click(findTestObject("Assets/Page_Samsung Marketing Cloud/button_Add Assets"))
+
+4
+00:00:13,896 --> 00:00:13,898
+13. check(findTestObject("Assets/Page_Samsung Marketing Cloud/a_Single"))
+
+5
+00:00:26,127 --> 00:00:26,129
+17. waitForPageLoad(1)
+
+6
+00:00:27,241 --> 00:00:27,242
+21. click(findTestObject("Assets/Page_Samsung Marketing Cloud/Dropdown arrow"))
+
+7
+00:00:31,087 --> 00:00:31,089
+25. click(findTestObject("Assets/Page_Samsung Marketing Cloud/div_Image (1)"))
+
+8
+00:00:34,737 --> 00:00:34,738
+29. delay(1)
+
+9
+00:00:35,777 --> 00:00:35,785
+33. uploadFile(findTestObject("Assets/Upload_Asset_Image"), "C:\Adzu\Asset\AssetPDF.pdf")
+
+10
+00:00:44,324 --> 00:00:44,324
+37. verifyElementText(findTestObject("Assets/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/PDF_Validation_Error"), "Please upload PDF as a document asset")
+
+11
+00:00:46,877 --> 00:00:46,880
+41. click(findTestObject("Assets/Cancel/button_Cancel"))
+
+12
+00:00:50,945 --> 00:00:50,946
+45. click(findTestObject("Assets/Cancel/button_Yes"))
+

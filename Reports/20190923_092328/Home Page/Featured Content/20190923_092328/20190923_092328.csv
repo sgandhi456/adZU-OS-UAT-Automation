@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Featured Content,IE 11,,,2019-09-23 09:23:33,2019-09-23 09:25:17,1m - 43.338s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-09-23 09:23:34,2019-09-23 09:24:06,32.198s,PASSED
+"openBrowser("""")",IE 11,,,2019-09-23 09:23:35,2019-09-23 09:23:44,9.302s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:23:44,2019-09-23 09:23:48,4.218s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-09-23 09:23:48,2019-09-23 09:23:54,5.211s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-09-23 09:23:54,2019-09-23 09:23:58,4.025s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-09-23 09:23:58,2019-09-23 09:24:03,4.882s,PASSED
+maximizeWindow(),IE 11,,,2019-09-23 09:24:03,2019-09-23 09:24:04,1.213s,PASSED
+,,,,,,,
+Test Cases/Home Page/Explore,IE 11,,,2019-09-23 09:24:06,2019-09-23 09:24:19,13.508s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:24:07,2019-09-23 09:24:09,1.981s,PASSED
+"scrollToElement(findTestObject(""Home Page/Page_Samsung Marketing Cloud/h3_Featured Content""), 0)",IE 11,,,2019-09-23 09:24:09,2019-09-23 09:24:11,2.466s,PASSED
+"click(findTestObject(""Home Page/Page_Samsung Marketing Cloud/div_Explore""))",IE 11,,,2019-09-23 09:24:11,2019-09-23 09:24:16,4.835s,PASSED
+url = getUrl(STOP_ON_FAILURE),IE 11,,,2019-09-23 09:24:16,2019-09-23 09:24:17,1.207s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3205936d-1b5b-4a6c-b4aa-1a79b5c9355d"", false)",IE 11,,,2019-09-23 09:24:17,2019-09-23 09:24:17,0.050s,PASSED
+,,,,,,,
+Test Cases/Home Page/Apps and Services,IE 11,,,2019-09-23 09:24:19,2019-09-23 09:24:32,12.431s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:24:20,2019-09-23 09:24:21,1.265s,PASSED
+"scrollToElement(findTestObject(""Home Page/Page_Samsung Marketing Cloud/h3_Featured Content""), 0)",IE 11,,,2019-09-23 09:24:21,2019-09-23 09:24:24,3.346s,PASSED
+"click(findTestObject(""Home Page/Page_Samsung Marketing Cloud/div_Apps and services""))",IE 11,,,2019-09-23 09:24:24,2019-09-23 09:24:29,4.302s,PASSED
+url = getUrl(),IE 11,,,2019-09-23 09:24:29,2019-09-23 09:24:30,1.057s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5075ceaf-edd9-4a3a-9f3f-da02a2811a8b&TagsID=42b30424-09d5-4c8e-b4a0-3c8ea22522da"", false)",IE 11,,,2019-09-23 09:24:30,2019-09-23 09:24:30,0.006s,PASSED
+,,,,,,,
+Test Cases/Home Page/Customer Support,IE 11,,,2019-09-23 09:24:32,2019-09-23 09:24:46,13.684s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:24:32,2019-09-23 09:24:34,1.269s,PASSED
+"scrollToElement(findTestObject(""Home Page/Page_Samsung Marketing Cloud/h3_Featured Content""), 0)",IE 11,,,2019-09-23 09:24:34,2019-09-23 09:24:37,3.336s,PASSED
+"click(findTestObject(""Home Page/Page_Samsung Marketing Cloud/div_Customer support""))",IE 11,,,2019-09-23 09:24:37,2019-09-23 09:24:41,4.282s,PASSED
+url = getUrl(),IE 11,,,2019-09-23 09:24:41,2019-09-23 09:24:43,2.268s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/ECSO"", false)",IE 11,,,2019-09-23 09:24:43,2019-09-23 09:24:44,0.009s,PASSED
+,,,,,,,
+Test Cases/Home Page/In Situ,IE 11,,,2019-09-23 09:24:46,2019-09-23 09:25:01,15.721s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:24:46,2019-09-23 09:24:50,3.940s,PASSED
+"scrollToElement(findTestObject(""Home Page/Page_Samsung Marketing Cloud/h3_Featured Content""), 0)",IE 11,,,2019-09-23 09:24:50,2019-09-23 09:24:53,2.536s,PASSED
+"click(findTestObject(""Home Page/Page_Samsung Marketing Cloud/div_In Situ""))",IE 11,,,2019-09-23 09:24:53,2019-09-23 09:24:57,4.294s,PASSED
+url = getUrl(STOP_ON_FAILURE),IE 11,,,2019-09-23 09:24:57,2019-09-23 09:24:59,2.344s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3e2987b7-0ebc-4c12-a09c-ba5960d14ecf"", false)",IE 11,,,2019-09-23 09:24:59,2019-09-23 09:24:59,0.005s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-09-23 09:25:01,2019-09-23 09:25:17,15.229s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-09-23 09:25:02,2019-09-23 09:25:05,3.449s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-09-23 09:25:05,2019-09-23 09:25:09,3.491s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-09-23 09:25:09,2019-09-23 09:25:13,3.798s,PASSED
+closeBrowser(),IE 11,,,2019-09-23 09:25:13,2019-09-23 09:25:14,1.910s,PASSED

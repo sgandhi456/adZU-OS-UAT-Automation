@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Featured Content" time="103" tests="6" failures="0" errors="0">
+    <testsuite name="Featured Content" tests="6" failures="0" errors="0" time="103" timestamp="2019-09-23 09:23:33" hostname="gansat - NOTEEG-12802.nexus.local" id="Test Suites/Home Page/Featured Content">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Adzu UAT\\Adzu\\Adzu\\Reports\\20190923_092328\\Home Page\\Featured Content\\20190923_092328"/>
+            <property name="logFiles" value="C:\\Adzu UAT\\Adzu\\Adzu\\Reports\\20190923_092328\\Home Page\\Featured Content\\20190923_092328\\execution0.log, C:\\Adzu UAT\\Adzu\\Adzu\\Reports\\20190923_092328\\Home Page\\Featured Content\\20190923_092328\\IEDriverServer.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="gansat - NOTEEG-12802.nexus.local"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="IE 11"/>
+            <property name="hostAddress" value="10.142.156.106"/>
+            <property name="sessionId" value="76761f66-d919-4790-a8ba-c1ae73ffed35"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Login and Logout - Notifications/Login" classname="Test Cases/Login and Logout - Notifications/Login" status="PASSED">
+            <system-out>2019-09-23 09:23:34 - [TEST_CASE][PASSED] - Test Cases/Login and Logout - Notifications/Login: Test Cases/Login and Logout - Notifications/Login&#xD;
+&#xD;
+2019-09-23 09:23:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-09-23 09:23:36 - [MESSAGE][INFO] - Starting 'IE' driver&#xD;
+&#xD;
+2019-09-23 09:23:36 - [MESSAGE][INFO] - User set preference: ['ignoreProtectedModeSettings', 'true']&#xD;
+&#xD;
+2019-09-23 09:23:36 - [MESSAGE][INFO] - Action delay is set to 1 seconds&#xD;
+&#xD;
+2019-09-23 09:23:44 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-09-23 09:23:44 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-09-23 09:23:48 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-09-23 09:23:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text"), "satinder.gandhi@codeworldwide.com"): Text 'satinder.gandhi@codeworldwide.com' is set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text'&#xD;
+&#xD;
+2019-09-23 09:23:54 - [MESSAGE][PASSED] - Text 'satinder.gandhi@codeworldwide.com' is set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text'&#xD;
+&#xD;
+2019-09-23 09:23:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Password_text"), "yfq/9fVkW5+QvfzWq38qvg=="): Text ****** has been set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Password_text'&#xD;
+&#xD;
+2019-09-23 09:23:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Password_text'&#xD;
+&#xD;
+2019-09-23 09:23:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/button_Login")): Object: 'Object Repository/Login/Page_Samsung Marketing Cloud/button_Login' is clicked on&#xD;
+&#xD;
+2019-09-23 09:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Samsung Marketing Cloud/button_Login' is clicked on&#xD;
+&#xD;
+2019-09-23 09:24:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-09-23 09:24:04 - [MESSAGE][PASSED] - Current window maximized</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Explore" classname="Test Cases/Home Page/Explore" status="PASSED">
+            <system-out>2019-09-23 09:24:06 - [TEST_CASE][PASSED] - Test Cases/Home Page/Explore: Test Cases/Home Page/Explore&#xD;
+&#xD;
+2019-09-23 09:24:07 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-09-23 09:24:09 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-09-23 09:24:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Page_Samsung Marketing Cloud/h3_Featured Content"), 0): Scroll to object 'Object Repository/Home Page/Page_Samsung Marketing Cloud/h3_Featured Content' successfully&#xD;
+&#xD;
+2019-09-23 09:24:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-23 09:24:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Page_Samsung Marketing Cloud/h3_Featured Content' successfully&#xD;
+&#xD;
+2019-09-23 09:24:11 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Page_Samsung Marketing Cloud/div_Explore")): Object: 'Object Repository/Home Page/Page_Samsung Marketing Cloud/div_Explore' is clicked on&#xD;
+&#xD;
+2019-09-23 09:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Page_Samsung Marketing Cloud/div_Explore' is clicked on&#xD;
+&#xD;
+2019-09-23 09:24:16 - [TEST_STEP][PASSED] - url = getUrl(STOP_ON_FAILURE): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3205936d-1b5b-4a6c-b4aa-1a79b5c9355d'&#xD;
+&#xD;
+2019-09-23 09:24:17 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3205936d-1b5b-4a6c-b4aa-1a79b5c9355d'&#xD;
+&#xD;
+2019-09-23 09:24:17 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3205936d-1b5b-4a6c-b4aa-1a79b5c9355d", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3205936d-1b5b-4a6c-b4aa-1a79b5c9355d' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3205936d-1b5b-4a6c-b4aa-1a79b5c9355d' are matched &#xD;
+&#xD;
+2019-09-23 09:24:17 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3205936d-1b5b-4a6c-b4aa-1a79b5c9355d' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3205936d-1b5b-4a6c-b4aa-1a79b5c9355d' are matched</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Apps and Services" classname="Test Cases/Home Page/Apps and Services" status="PASSED">
+            <system-out>2019-09-23 09:24:19 - [TEST_CASE][PASSED] - Test Cases/Home Page/Apps and Services: Test Cases/Home Page/Apps and Services&#xD;
+&#xD;
+2019-09-23 09:24:20 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-09-23 09:24:21 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-09-23 09:24:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Page_Samsung Marketing Cloud/h3_Featured Content"), 0): Scroll to object 'Object Repository/Home Page/Page_Samsung Marketing Cloud/h3_Featured Content' successfully&#xD;
+&#xD;
+2019-09-23 09:24:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-23 09:24:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Page_Samsung Marketing Cloud/h3_Featured Content' successfully&#xD;
+&#xD;
+2019-09-23 09:24:24 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Page_Samsung Marketing Cloud/div_Apps and services")): Object: 'Object Repository/Home Page/Page_Samsung Marketing Cloud/div_Apps and services' is clicked on&#xD;
+&#xD;
+2019-09-23 09:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Page_Samsung Marketing Cloud/div_Apps and services' is clicked on&#xD;
+&#xD;
+2019-09-23 09:24:29 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5075ceaf-edd9-4a3a-9f3f-da02a2811a8b&amp;TagsID=42b30424-09d5-4c8e-b4a0-3c8ea22522da'&#xD;
+&#xD;
+2019-09-23 09:24:30 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5075ceaf-edd9-4a3a-9f3f-da02a2811a8b&amp;TagsID=42b30424-09d5-4c8e-b4a0-3c8ea22522da'&#xD;
+&#xD;
+2019-09-23 09:24:30 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5075ceaf-edd9-4a3a-9f3f-da02a2811a8b&amp;TagsID=42b30424-09d5-4c8e-b4a0-3c8ea22522da", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5075ceaf-edd9-4a3a-9f3f-da02a2811a8b&amp;TagsID=42b30424-09d5-4c8e-b4a0-3c8ea22522da' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5075ceaf-edd9-4a3a-9f3f-da02a2811a8b&amp;TagsID=42b30424-09d5-4c8e-b4a0-3c8ea22522da' are matched &#xD;
+&#xD;
+2019-09-23 09:24:30 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5075ceaf-edd9-4a3a-9f3f-da02a2811a8b&amp;TagsID=42b30424-09d5-4c8e-b4a0-3c8ea22522da' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5075ceaf-edd9-4a3a-9f3f-da02a2811a8b&amp;TagsID=42b30424-09d5-4c8e-b4a0-3c8ea22522da' are matched</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Customer Support" classname="Test Cases/Home Page/Customer Support" status="PASSED">
+            <system-out>2019-09-23 09:24:32 - [TEST_CASE][PASSED] - Test Cases/Home Page/Customer Support: Test Cases/Home Page/Customer Support&#xD;
+&#xD;
+2019-09-23 09:24:32 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-09-23 09:24:34 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-09-23 09:24:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Page_Samsung Marketing Cloud/h3_Featured Content"), 0): Scroll to object 'Object Repository/Home Page/Page_Samsung Marketing Cloud/h3_Featured Content' successfully&#xD;
+&#xD;
+2019-09-23 09:24:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-23 09:24:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Page_Samsung Marketing Cloud/h3_Featured Content' successfully&#xD;
+&#xD;
+2019-09-23 09:24:37 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Page_Samsung Marketing Cloud/div_Customer support")): Object: 'Object Repository/Home Page/Page_Samsung Marketing Cloud/div_Customer support' is clicked on&#xD;
+&#xD;
+2019-09-23 09:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Page_Samsung Marketing Cloud/div_Customer support' is clicked on&#xD;
+&#xD;
+2019-09-23 09:24:41 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/ECSO'&#xD;
+&#xD;
+2019-09-23 09:24:43 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/ECSO'&#xD;
+&#xD;
+2019-09-23 09:24:43 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/ECSO", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/ECSO' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/ECSO' are matched &#xD;
+&#xD;
+2019-09-23 09:24:44 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/ECSO' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/ECSO' are matched</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/In Situ" classname="Test Cases/Home Page/In Situ" status="PASSED">
+            <system-out>2019-09-23 09:24:46 - [TEST_CASE][PASSED] - Test Cases/Home Page/In Situ: Test Cases/Home Page/In Situ&#xD;
+&#xD;
+2019-09-23 09:24:46 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-09-23 09:24:50 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-09-23 09:24:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Page_Samsung Marketing Cloud/h3_Featured Content"), 0): Scroll to object 'Object Repository/Home Page/Page_Samsung Marketing Cloud/h3_Featured Content' successfully&#xD;
+&#xD;
+2019-09-23 09:24:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-23 09:24:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Page_Samsung Marketing Cloud/h3_Featured Content' successfully&#xD;
+&#xD;
+2019-09-23 09:24:53 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Page_Samsung Marketing Cloud/div_In Situ")): Object: 'Object Repository/Home Page/Page_Samsung Marketing Cloud/div_In Situ' is clicked on&#xD;
+&#xD;
+2019-09-23 09:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Page_Samsung Marketing Cloud/div_In Situ' is clicked on&#xD;
+&#xD;
+2019-09-23 09:24:57 - [TEST_STEP][PASSED] - url = getUrl(STOP_ON_FAILURE): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3e2987b7-0ebc-4c12-a09c-ba5960d14ecf'&#xD;
+&#xD;
+2019-09-23 09:24:59 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3e2987b7-0ebc-4c12-a09c-ba5960d14ecf'&#xD;
+&#xD;
+2019-09-23 09:24:59 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3e2987b7-0ebc-4c12-a09c-ba5960d14ecf", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3e2987b7-0ebc-4c12-a09c-ba5960d14ecf' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3e2987b7-0ebc-4c12-a09c-ba5960d14ecf' are matched &#xD;
+&#xD;
+2019-09-23 09:24:59 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3e2987b7-0ebc-4c12-a09c-ba5960d14ecf' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=3e2987b7-0ebc-4c12-a09c-ba5960d14ecf' are matched</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Login and Logout - Notifications/Logout - Yes Button" classname="Test Cases/Login and Logout - Notifications/Logout - Yes Button" status="PASSED">
+            <system-out>2019-09-23 09:25:01 - [TEST_CASE][PASSED] - Test Cases/Login and Logout - Notifications/Logout - Yes Button: Test Cases/Login and Logout - Notifications/Logout - Yes Button&#xD;
+&#xD;
+2019-09-23 09:25:02 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Samsung Marketing Cloud/span_gandhi")): Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/span_gandhi' is clicked on&#xD;
+&#xD;
+2019-09-23 09:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/span_gandhi' is clicked on&#xD;
+&#xD;
+2019-09-23 09:25:05 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Samsung Marketing Cloud/Logout")): Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/Logout' is clicked on&#xD;
+&#xD;
+2019-09-23 09:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/Logout' is clicked on&#xD;
+&#xD;
+2019-09-23 09:25:09 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Samsung Marketing Cloud/button_Yes")): Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/button_Yes' is clicked on&#xD;
+&#xD;
+2019-09-23 09:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/button_Yes' is clicked on&#xD;
+&#xD;
+2019-09-23 09:25:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-09-23 09:25:14 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-23 09:23:33 - [TEST_SUITE][INCOMPLETE] - Featured Content: null</system-out>
+        <system-err>2019-09-23 09:23:33 - [TEST_SUITE][INCOMPLETE] - Featured Content: null</system-err>
+    </testsuite>
+</testsuites>

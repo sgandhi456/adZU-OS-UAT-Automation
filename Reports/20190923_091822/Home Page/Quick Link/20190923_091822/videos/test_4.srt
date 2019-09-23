@@ -1,0 +1,20 @@
+1
+00:00:00,539 --> 00:00:00,542
+1. navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#")
+
+2
+00:00:04,920 --> 00:00:04,922
+5. scrollToElement(findTestObject("Home Page/Page_Samsung Marketing Cloud/div_Quick Links"), 0)
+
+3
+00:00:07,543 --> 00:00:07,546
+9. click(findTestObject("Home Page/Page_Samsung Marketing Cloud/div_Help and Support"))
+
+4
+00:00:12,010 --> 00:00:12,011
+13. url = getUrl()
+
+5
+00:00:13,347 --> 00:00:13,348
+17. verifyMatch(a, "https://samsung-adzu4-staging.codeworldwide.com/#page/Help-and-Support", false)
+

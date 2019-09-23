@@ -1,0 +1,28 @@
+1
+00:00:00,663 --> 00:00:00,674
+1. click(findTestObject("Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon"))
+
+2
+00:00:05,615 --> 00:00:05,618
+5. setText(findTestObject("Assets/Search Assets/Page_Samsung Marketing Cloud/Text_SearchText"), "asset1")
+
+3
+00:00:10,053 --> 00:00:10,055
+9. span_obj = modifyObjectProperty(findTestObject("Assets/Search Assets/Page_Samsung Marketing Cloud/span_asset"), "Text", "equals", "asset1", false)
+
+4
+00:00:10,188 --> 00:00:10,191
+13. click(span_obj)
+
+5
+00:00:51,473 --> 00:00:51,477
+17. click(findTestObject("Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/button_Hide"))
+
+6
+00:00:55,421 --> 00:00:55,423
+21. delay(1)
+
+7
+00:00:56,485 --> 00:00:56,487
+25. acceptAlert()
+

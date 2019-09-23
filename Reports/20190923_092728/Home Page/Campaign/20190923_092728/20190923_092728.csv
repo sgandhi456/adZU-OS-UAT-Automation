@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Campaign,IE 11,,,2019-09-23 09:27:31,2019-09-23 09:28:28,56.927s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-09-23 09:27:32,2019-09-23 09:28:03,31.039s,PASSED
+"openBrowser("""")",IE 11,,,2019-09-23 09:27:33,2019-09-23 09:27:41,8.090s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:27:41,2019-09-23 09:27:45,3.906s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-09-23 09:27:45,2019-09-23 09:27:50,5.125s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-09-23 09:27:50,2019-09-23 09:27:54,4.191s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-09-23 09:27:54,2019-09-23 09:27:59,5.280s,PASSED
+maximizeWindow(),IE 11,,,2019-09-23 09:27:59,2019-09-23 09:28:01,1.242s,PASSED
+,,,,,,,
+Test Cases/Home Page/Campaigns,IE 11,,,2019-09-23 09:28:03,2019-09-23 09:28:13,10.262s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-09-23 09:28:04,2019-09-23 09:28:06,2.084s,PASSED
+waitForPageLoad(1),IE 11,,,2019-09-23 09:28:06,2019-09-23 09:28:07,1.291s,PASSED
+"click(findTestObject(""Home Page/Page_Samsung Marketing Cloud/a_S10""))",IE 11,,,2019-09-23 09:28:07,2019-09-23 09:28:11,3.984s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-09-23 09:28:13,2019-09-23 09:28:28,15.060s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-09-23 09:28:14,2019-09-23 09:28:17,3.440s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-09-23 09:28:17,2019-09-23 09:28:21,3.446s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-09-23 09:28:21,2019-09-23 09:28:24,3.813s,PASSED
+closeBrowser(),IE 11,,,2019-09-23 09:28:24,2019-09-23 09:28:26,1.681s,PASSED
