@@ -13,24 +13,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/a_Assets'))
+WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/a_Assets'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/button_Add Assets'))
+WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/button_Add Assets'))
 
-WebUI.check(findTestObject('Assets/Page_Samsung Marketing Cloud/a_Single'))
+WebUI.check(findTestObject('Assets/Page-Samsung Marketing Cloud/a_Single'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/Dropdown arrow'))
+WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Dropdown arrow'))
 
-WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/div_Image (1)'))
+WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/div_Image (1)'))
 
 WebUI.delay(1)
 
 WebUI.uploadFile(findTestObject('Assets/Upload_Asset_Image'), 'C:\\Adzu\\Asset\\Ascii©.PNG')
 
-WebUI.verifyElementText(findTestObject('Assets/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/PDF_Validation_Error'), 
+WebUI.verifyElementText(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/PDF_Validation_Error'), 
     'Only ASCII characters are allowed')
 
