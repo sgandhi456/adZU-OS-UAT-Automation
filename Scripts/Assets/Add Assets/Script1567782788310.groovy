@@ -15,15 +15,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/a_Assets'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/a_Assets'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/button_Add Assets'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/button_Add Assets'))
 
-WebUI.check(findTestObject('Assets/Page-Samsung Marketing Cloud/a_Single'))
+WebUI.check(findTestObject('Assets/Samsung Marketing Cloud/a_Single'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/div_Image'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/div_Image'))
 
 WebUI.uploadFile(findTestObject('Assets/Upload_Asset_Image'), 'C:\\Adzu\\Asset\\AssetPDF.pdf')
 

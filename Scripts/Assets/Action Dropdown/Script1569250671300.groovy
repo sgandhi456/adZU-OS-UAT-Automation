@@ -17,29 +17,29 @@ WebUI.deleteAllCookies()
 
 WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/a_Assets'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/a_Assets'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_ActionDropdown'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_ActionDropdown'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/a_Preview'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/a_Preview'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/i_Back'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/i_Back'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_ActionDropdown'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_ActionDropdown'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/a_Download'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/a_Download'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_ActionDropdown'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_ActionDropdown'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/a_Share'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/a_Share'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/ul_selectuseremail'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/ul_selectuseremail'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_SearchingEmail'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_SearchingEmail'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Kirithan Kandasamy  (kkirithanhotmailcom)'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Kirithan Kandasamy  (kkirithanhotmailcom)'))
 
-WebUI.click(findTestObject('Assets/Page-Samsung Marketing Cloud/Page-Samsung Marketing Cloud/a_Share'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/a_Share'))
 
