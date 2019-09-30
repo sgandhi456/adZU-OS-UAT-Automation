@@ -25,8 +25,6 @@ WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/Page_Samsung Mar
 
 WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/a_Preview'))
 
-WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/button_Play Video'))
-
 WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/i_Back'))
 
 WebUI.click(findTestObject('Assets/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/div_ActionDropdown'))
