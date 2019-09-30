@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_navigation</name>
+   <name>div_Asset page navigation</name>
    <tag></tag>
    <elementGuidId>fbdbfff6-58f6-421f-9e32-584daa296f87</elementGuidId>
    <selectorCollection>
