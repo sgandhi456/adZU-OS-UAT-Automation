@@ -17,5 +17,6 @@ WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], 
 
 WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/a_Assets'))
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page_Samsung Marketing Cloud/div_navigation'))
+WebUI.verifyElementPresent(findTestObject('Assets/Samsung Marketing Cloud/Page_Samsung Marketing Cloud/div_navigation'), 
+    0)
 

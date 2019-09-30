@@ -4,6 +4,12 @@
    <name>div_navigation</name>
    <tag></tag>
    <elementGuidId>fbdbfff6-58f6-421f-9e32-584daa296f87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;body&quot;)/header[@class=&quot;menu inject-widget-container&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;plugin plugin-menu&quot;]/div[@class=&quot;widget inject-widget-container&quot;]/div[@class=&quot;widget&quot;]/nav[@class=&quot;adzu-plugins-linkPlus-menu navbar navbar-default navbar-fixed-top&quot;]/div[@class=&quot;navbar-collapse collapse navbar-responsive-collapse&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>if: isVisible</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -120,7 +126,7 @@
     </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
