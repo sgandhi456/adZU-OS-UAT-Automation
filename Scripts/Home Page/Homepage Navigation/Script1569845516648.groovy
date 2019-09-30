@@ -15,11 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page_Samsung Marketing Cloud/a_Home'))
+WebUI.click(findTestObject('Home Page/HomePageNavigation/Page_Samsung Marketing Cloud/a_Home'))
 
-WebUI.verifyElementPresent(findTestObject('Assets/Samsung Marketing Cloud/Page_Samsung Marketing Cloud/div_Homepage Navigation'), 
+WebUI.verifyElementPresent(findTestObject('Home Page/HomePageNavigation/Page_Samsung Marketing Cloud/div_Homepage Navigation'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Assets/Samsung Marketing Cloud/Page_Samsung Marketing Cloud/div_Home Page Banner'), 
+WebUI.verifyElementPresent(findTestObject('Home Page/HomePageNavigation/Page_Samsung Marketing Cloud/div_Home Page Banner'), 
     0)
 
