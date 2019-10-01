@@ -1,0 +1,24 @@
+1
+00:00:00,761 --> 00:00:00,795
+1. openBrowser("")
+
+2
+00:00:07,319 --> 00:00:07,321
+5. navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#")
+
+3
+00:00:09,272 --> 00:00:09,273
+9. click(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Forgot password"))
+
+4
+00:00:15,451 --> 00:00:15,453
+13. kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot("c:\Adzu\Screenshot\ForgotPassword_actual.png", CONTINUE_ON_FAILURE)
+
+5
+00:00:16,865 --> 00:00:16,871
+17. kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched("C:\Adzu\Screenshot\ForgotPassword_expected.png", "C:\Adzu\Screenshot\ForgotPassword_actual.png", CONTINUE_ON_FAILURE)
+
+6
+00:00:17,182 --> 00:00:17,192
+21. closeBrowser()
+

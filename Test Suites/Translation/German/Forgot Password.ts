@@ -13,19 +13,19 @@
    <testCaseLink>
       <guid>d7b08804-f09c-42d2-b567-3bd9c47479d7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login and Logout - Notifications/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5c816cbf-c0df-4fe1-9d45-48a38613e1e4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Translation/Select Langauge - German</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>09f9bbf9-4495-495a-9e2d-ca10e4c66aff</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login and Logout - Notifications/Logout - Yes Button</testCaseId>
    </testCaseLink>
    <testCaseLink>
