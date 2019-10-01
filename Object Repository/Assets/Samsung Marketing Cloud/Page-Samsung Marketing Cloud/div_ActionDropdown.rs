@@ -4,6 +4,12 @@
    <name>div_ActionDropdown</name>
    <tag></tag>
    <elementGuidId>fa11f82b-a077-43e1-a0df-a321327030bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;asset-view-table&quot;)/tbody[1]/tr[1]/td[@class=&quot;dropdown menu-icon&quot;]/div[@class=&quot;dropdown-toggle icon-item&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

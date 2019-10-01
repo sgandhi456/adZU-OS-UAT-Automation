@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Forgot Password,IE 11,,,2019-10-01 11:58:23,2019-10-01 11:58:48,24.871s,INCOMPLETE
+,,,,,,,
+Test Cases/Translation/Forgot Password - German,IE 11,,,2019-10-01 11:58:23,2019-10-01 11:58:48,24.283s,FAILED
+"openBrowser("""")",IE 11,,,2019-10-01 11:58:25,2019-10-01 11:58:31,6.681s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-01 11:58:31,2019-10-01 11:58:33,1.461s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Forgot password""))",IE 11,,,2019-10-01 11:58:33,2019-10-01 11:58:40,7.574s,PASSED
+"kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot(""c:\Adzu\Screenshot\ForgotPassword_actual.png"", CONTINUE_ON_FAILURE)",IE 11,,,2019-10-01 11:58:40,2019-10-01 11:58:42,1.197s,PASSED
+"kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched(""C:\Adzu\Screenshot\ForgotPassword_expected.png"", ""C:\Adzu\Screenshot\ForgotPassword_actual.png"", CONTINUE_ON_FAILURE)",IE 11,,,2019-10-01 11:58:42,2019-10-01 11:58:45,3.064s,FAILED
+closeBrowser(),IE 11,,,2019-10-01 11:58:45,2019-10-01 11:58:46,0.770s,PASSED
