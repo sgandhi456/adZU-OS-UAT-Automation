@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Download</name>
+   <name>Action_Menu</name>
    <tag></tag>
-   <elementGuidId>f972d5e3-fda3-40c2-9f22-e6f7dd4f9e91</elementGuidId>
+   <elementGuidId>596d3d9d-4dce-4432-bdc4-6ab1c40fc715</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;asset-view-table&quot;)/tbody[1]/tr[1]/td[@class=&quot;dropdown menu-icon&quot;]/div[@class=&quot;dropdown-toggle icon-item&quot;]/span[@class=&quot;fa fa-ellipsis-h&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,64 +17,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-bind</name>
+      <name>class</name>
       <type>Main</type>
-      <value>click: $root.download.bind($data), visible: !UnderEmbargo</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-qa-id</name>
-      <type>Main</type>
-      <value>Context_Download</value>
+      <value>fa fa-ellipsis-h</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-                                     Download
-                                </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;asset-view-table&quot;)/tbody[1]/tr[1]/td[@class=&quot;dropdown menu-icon open&quot;]/ul[@class=&quot;dropdown-menu inline-menu&quot;]/li[2]/a[1]</value>
+      <value>id(&quot;asset-view-table&quot;)/tbody[1]/tr[1]/td[@class=&quot;dropdown menu-icon&quot;]/div[@class=&quot;dropdown-toggle icon-item&quot;]/span[@class=&quot;fa fa-ellipsis-h&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='asset-view-table']/tbody/tr/td[4]/ul/li[2]/a</value>
+      <value>//table[@id='asset-view-table']/tbody/tr/td[8]/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BS video upload test - single mp4'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirithan Kandasamy'])[2]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Types for Testing'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirithan Kandasamy'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[4]/ul/li[2]/a</value>
+      <value>//td[8]/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

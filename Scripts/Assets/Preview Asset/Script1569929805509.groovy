@@ -21,7 +21,9 @@ WebUI.callTestCase(findTestCase('Assets/Search Asset'), [('spn_obj') : '', ('sea
 
 WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery'))
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_ActionDropdown'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/a_Preview'))
+WebUI.click(findTestObject('Assets/Action_Menu/Action_Menu'))
+
+WebUI.click(findTestObject('Assets/Preview Asset/Page_Samsung Marketing Cloud/a_Preview'))
 
