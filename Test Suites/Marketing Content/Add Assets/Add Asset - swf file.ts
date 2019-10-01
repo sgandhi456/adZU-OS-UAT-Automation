@@ -29,19 +29,10 @@
       <testCaseId>Test Cases/Assets/Open Assets Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>19d0d0e4-218c-4005-8d61-2beb09490625</guid>
+      <guid>6a029c26-5212-42a6-a5b4-41a5e0bbd14b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Assets/Search Asset</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>103f1ec7-8942-4aa5-b688-e7edeadf00c6</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Asset</testDataId>
-      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +42,7 @@
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>SCRIPT_VARIABLE</type>
-         <value>&quot;asset1&quot;</value>
+         <value>&quot;&quot;VideoAsset_AutoTest3&quot;&quot;</value>
          <variableId>e21b2118-3a04-4aa3-9526-8129dbc6c6e1</variableId>
       </variableLink>
    </testCaseLink>

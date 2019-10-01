@@ -17,7 +17,9 @@ WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], 
 
 WebUI.callTestCase(findTestCase('Assets/Open Assets Page'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Assets/Search Asset'), [('spn_obj') : '', ('search_text') : 'Test Kiri'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Assets/Search Asset'), [('spn_obj') : '', ('search_text') : 'Test kiri'], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Assets/Action_Menu/Action_Menu'))
 
