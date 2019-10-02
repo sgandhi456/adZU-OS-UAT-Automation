@@ -28,6 +28,8 @@ WebUI.delay(1)
 CustomKeywords.'kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot'('C:\\Adzu\\Screenshot\\Preview Asset\\Asset_actual.png', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(1)
+
 CustomKeywords.'kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched'('C:\\Adzu\\Screenshot\\Preview Asset\\Asset_expected.png', 
     'C:\\Adzu\\Screenshot\\Preview Asset\\Asset_actual.png', FailureHandling.CONTINUE_ON_FAILURE)
 
