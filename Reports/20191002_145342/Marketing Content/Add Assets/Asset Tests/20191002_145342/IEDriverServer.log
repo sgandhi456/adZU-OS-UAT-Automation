@@ -1,0 +1,1238 @@
+I 2019-10-02 14:53:50:979 server.cc(86) Starting WebDriver server on port: '5567' on host: ''
+T 2019-10-02 14:53:50:979 server.cc(634) Entering Server::PopulateCommandRepository
+T 2019-10-02 14:53:50:980 IEServer.cpp(32) Entering IEServer::IEServer
+I 2019-10-02 14:53:50:980 IEServer.cpp(33) Driver version: 3.6.0.0 (32-bit)
+T 2019-10-02 14:53:50:980 server.cc(121) Entering Server::Start
+D 2019-10-02 14:53:50:980 server.cc(148) Civetweb ACL is -0.0.0.0/0,+127.0.0.1
+T 2019-10-02 14:53:51:317 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:53:51:317 server.cc(183) Process request with: URI: /status HTTP verb: GET
+body: {}
+T 2019-10-02 14:53:51:317 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:53:51:318 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:53:51:318 server.cc(281) Command: GET /status {}
+T 2019-10-02 14:53:51:318 IEServer.cpp(51) Entering IEServer::GetStatus
+T 2019-10-02 14:53:51:319 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-10-02 14:53:51:319 response.cc(78) Entering Response::SetResponse
+T 2019-10-02 14:53:51:319 response.cc(51) Entering Response::Serialize
+D 2019-10-02 14:53:51:319 server.cc(338) Response: {"value":{"build":{"version":"3.6.0.0 (32-bit)"},"message":"Ready to create session","os":{"arch":"x64","name":"windows","version":"10.0.17134.376 (WinBuild.160101.0800)"},"ready":true}}
+
+T 2019-10-02 14:53:51:319 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:53:51:319 response.cc(30) Entering Response::Deserialize
+T 2019-10-02 14:53:51:319 server.cc(445) Entering Server::SendHttpOk
+T 2019-10-02 14:53:52:045 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:53:52:045 server.cc(238) Entering Server::ReadRequestBody
+T 2019-10-02 14:53:52:045 server.cc(183) Process request with: URI: /session HTTP verb: POST
+body: {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "ie.usePerProcessProxy": "true",
+      "ignoreProtectedModeSettings": true
+    },
+    "browserName": "internet explorer",
+    "ie.usePerProcessProxy": "true",
+    "ignoreProtectedModeSettings": true
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "ie.usePerProcessProxy": "true",
+          "ignoreProtectedModeSettings": true
+        }
+      }
+    ]
+  }
+}
+T 2019-10-02 14:53:52:045 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:53:52:045 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:53:52:045 server.cc(281) Command: POST /session {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "ie.usePerProcessProxy": "true",
+      "ignoreProtectedModeSettings": true
+    },
+    "browserName": "internet explorer",
+    "ie.usePerProcessProxy": "true",
+    "ignoreProtectedModeSettings": true
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "ie.usePerProcessProxy": "true",
+          "ignoreProtectedModeSettings": true
+        }
+      }
+    ]
+  }
+}
+T 2019-10-02 14:53:52:045 IEServer.cpp(42) Entering IEServer::InitializeSession
+T 2019-10-02 14:53:52:045 IESession.cpp(38) Entering IESession::Initialize
+D 2019-10-02 14:53:52:045 IESession.cpp(53) Mutex acquired for session initalization
+T 2019-10-02 14:53:52:046 IECommandExecutor.cpp(386) Entering IECommandExecutor::ThreadProc
+T 2019-10-02 14:53:52:051 IECommandExecutor.cpp(47) Entering IECommandExecutor::OnCreate
+T 2019-10-02 14:53:52:052 IECommandExecutor.cpp(753) Entering IECommandExecutor::PopulateElementFinderMethods
+T 2019-10-02 14:53:52:053 InputManager.cpp(40) Entering InputManager::InputManager
+T 2019-10-02 14:53:52:053 InputManager.cpp(75) Entering InputManager::Initialize
+T 2019-10-02 14:53:52:053 BrowserFactory.cpp(998) Entering BrowserFactory::GetExecutableLocation
+T 2019-10-02 14:53:52:053 BrowserFactory.cpp(1039) Entering BrowserFactory::GetIEVersion
+T 2019-10-02 14:53:52:055 CommandHandlerRepository.cpp(108) Entering CommandHandlerRepository::PopulateCommandHandlers
+T 2019-10-02 14:53:52:056 IESession.cpp(99) Created thread for command executor returns HWND: '00181464'
+T 2019-10-02 14:53:52:056 IESession.cpp(103) Session id is retrived from command executor window: 'fc7c915c-40b3-498f-8ec0-0777fd88a342'
+D 2019-10-02 14:53:52:057 IESession.cpp(109) Releasing session initialization mutex
+T 2019-10-02 14:53:52:057 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-10-02 14:53:52:057 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-10-02 14:53:52:057 command.cc(31) Entering Command::Deserialize
+D 2019-10-02 14:53:52:057 command.cc(36) Raw JSON command: { "name" : "newSession", "locator" : { }, "parameters" : {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "ie.usePerProcessProxy": "true",
+      "ignoreProtectedModeSettings": true
+    },
+    "browserName": "internet explorer",
+    "ie.usePerProcessProxy": "true",
+    "ignoreProtectedModeSettings": true
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "ie.usePerProcessProxy": "true",
+          "ignoreProtectedModeSettings": true
+        }
+      }
+    ]
+  }
+} }
+T 2019-10-02 14:53:52:057 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-10-02 14:53:52:057 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-10-02 14:53:52:057 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+D 2019-10-02 14:53:52:057 CommandHandlers\NewSessionCommandHandler.cpp(46) Found W3C capabilities structure
+D 2019-10-02 14:53:52:058 CommandHandlers\NewSessionCommandHandler.cpp(505) Validating capabilities object
+D 2019-10-02 14:53:52:058 CommandHandlers\NewSessionCommandHandler.cpp(505) Validating capabilities object
+D 2019-10-02 14:53:52:058 CommandHandlers\NewSessionCommandHandler.cpp(535) Found browserNamecapability. Validating value type is string.
+D 2019-10-02 14:53:52:058 CommandHandlers\NewSessionCommandHandler.cpp(794) Found proxycapability. Validating value type is object.
+T 2019-10-02 14:53:52:058 BrowserFactory.cpp(113) Entering BrowserFactory::Initialize
+T 2019-10-02 14:53:52:058 IECommandExecutor.cpp(631) Entering IECommandExecutor::CreateNewBrowser
+T 2019-10-02 14:53:52:058 BrowserFactory.cpp(142) Entering BrowserFactory::LaunchBrowserProcess
+D 2019-10-02 14:53:52:058 BrowserFactory.cpp(146) Ignoring Protected Mode Settings: 1
+D 2019-10-02 14:53:52:058 BrowserFactory.cpp(152) Has Valid Protected Mode Settings: 0
+T 2019-10-02 14:53:52:058 BrowserFactory.cpp(226) Entering BrowserFactory::IsIELaunchURLAvailable
+T 2019-10-02 14:53:52:075 BrowserFactory.cpp(130) Entering BrowserFactory::ClearCache
+T 2019-10-02 14:53:52:075 BrowserFactory.cpp(247) Entering BrowserFactory::LaunchBrowserUsingIELaunchURL
+D 2019-10-02 14:53:52:075 BrowserFactory.cpp(248) Starting IE using the IELaunchURL API
+D 2019-10-02 14:53:53:533 BrowserFactory.cpp(202) IE launched successfully with process ID 30160
+D 2019-10-02 14:53:53:533 BrowserFactory.cpp(208) Process with ID 30160 is executing iexplore.exe
+T 2019-10-02 14:53:53:533 BrowserFactory.cpp(365) Entering BrowserFactory::AttachToBrowser
+D 2019-10-02 14:53:53:533 BrowserFactory.cpp(375) Using Active Accessibility to find IWebBrowser2 interface
+T 2019-10-02 14:53:53:533 BrowserFactory.cpp(414) Entering BrowserFactory::AttachToBrowserUsingActiveAccessibility
+T 2019-10-02 14:53:54:430 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:53:54:430 server.cc(183) Process request with: URI: / HTTP verb: GET
+body: {}
+T 2019-10-02 14:53:54:430 server.cc(445) Entering Server::SendHttpOk
+T 2019-10-02 14:53:55:266 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:53:55:266 server.cc(183) Process request with: URI: /favicon.ico HTTP verb: GET
+body: {}
+T 2019-10-02 14:53:55:266 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:53:55:266 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:53:55:266 server.cc(281) Command: GET /favicon.ico {}
+D 2019-10-02 14:53:55:266 server.cc(338) Response: { "error" : "unknown method", "message" : "Command not found: GET /favicon.ico" }
+T 2019-10-02 14:53:55:266 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:53:55:266 response.cc(30) Entering Response::Deserialize
+T 2019-10-02 14:53:55:266 server.cc(445) Entering Server::SendHttpOk
+D 2019-10-02 14:53:55:330 BrowserFactory.cpp(434) Found window handle 00150C46 for window with class 'Internet Explorer_Server' belonging to process with id 30160
+T 2019-10-02 14:53:55:331 BrowserFactory.cpp(329) Entering BrowserFactory::GetDocumentFromWindowHandle
+D 2019-10-02 14:53:55:418 BrowserFactory.cpp(396) Ignoring zoom setting: 0
+T 2019-10-02 14:53:55:418 BrowserFactory.cpp(574) Entering BrowserFactory::GetBrowserZoomLevel
+T 2019-10-02 14:53:55:430 BrowserFactory.cpp(614) Entering BrowserFactory::GetZoomLevel
+D 2019-10-02 14:53:55:468 BrowserFactory.cpp(694) Browser zoom level is 100%
+I 2019-10-02 14:53:55:469 IECommandExecutor.cpp(654) Persistent hovering set to: 1
+T 2019-10-02 14:53:55:469 ProxyManager.cpp(97) ProxyManager::SetProxySettings
+D 2019-10-02 14:53:55:469 ProxyManager.cpp(113) Using existing system proxy settings.
+T 2019-10-02 14:53:55:470 DocumentHost.cpp(33) Entering DocumentHost::DocumentHost
+T 2019-10-02 14:53:55:470 CookieManager.cpp(49) Entering CookieManager::Initialize
+T 2019-10-02 14:53:55:470 Browser.cpp(33) Entering Browser::Browser
+T 2019-10-02 14:53:55:470 Browser.cpp(293) Entering Browser::AttachEvents
+T 2019-10-02 14:53:55:473 IECommandExecutor.cpp(621) Entering IECommandExecutor::AddManagedBrowser
+T 2019-10-02 14:53:55:473 IECommandExecutor.cpp(625) Setting current browser id to 48df514f-e2c3-42e9-9d00-f040fa2a3264
+T 2019-10-02 14:53:55:474 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-10-02 14:53:55:474 response.cc(78) Entering Response::SetResponse
+T 2019-10-02 14:53:55:474 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:55:474 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:55:474 response.cc(51) Entering Response::Serialize
+T 2019-10-02 14:53:55:482 IESession.cpp(221) Found non-zero response length
+T 2019-10-02 14:53:55:482 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-10-02 14:53:55:482 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+T 2019-10-02 14:53:55:482 response.cc(30) Entering Response::Deserialize
+D 2019-10-02 14:53:55:482 server.cc(338) Response: {"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"internet explorer","browserVersion":"11","pageLoadStrategy":"normal","platformName":"windows","se:ieOptions":{"browserAttachTimeout":0,"elementScrollBehavior":0,"enablePersistentHover":true,"ie.browserCommandLineSwitches":"","ie.ensureCleanSession":false,"ie.fileUploadDialogTimeout":3000,"ie.forceCreateProcessApi":false,"ignoreProtectedModeSettings":true,"ignoreZoomSetting":false,"initialBrowserUrl":"http://localhost:5567/","nativeEvents":true,"requireWindowFocus":false},"setWindowRect":true},"sessionId":"fc7c915c-40b3-498f-8ec0-0777fd88a342"}}
+
+T 2019-10-02 14:53:55:482 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:53:55:483 response.cc(30) Entering Response::Deserialize
+T 2019-10-02 14:53:55:483 server.cc(445) Entering Server::SendHttpOk
+T 2019-10-02 14:53:56:614 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:53:56:614 server.cc(238) Entering Server::ReadRequestBody
+T 2019-10-02 14:53:56:614 server.cc(183) Process request with: URI: /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/timeouts HTTP verb: POST
+body: {
+  "implicit": 0
+}
+T 2019-10-02 14:53:56:614 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:53:56:614 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:53:56:614 server.cc(281) Command: POST /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/timeouts {
+  "implicit": 0
+}
+T 2019-10-02 14:53:56:614 server.cc(378) Entering Server::LookupSession
+T 2019-10-02 14:53:56:614 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-10-02 14:53:56:614 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-10-02 14:53:56:614 command.cc(31) Entering Command::Deserialize
+D 2019-10-02 14:53:56:615 command.cc(36) Raw JSON command: { "name" : "setTimeouts", "locator" : { "sessionid" : "fc7c915c-40b3-498f-8ec0-0777fd88a342" }, "parameters" : {
+  "implicit": 0
+} }
+T 2019-10-02 14:53:56:615 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-10-02 14:53:56:615 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-10-02 14:53:56:615 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:56:615 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:56:615 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-10-02 14:53:56:615 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:53:56:615 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:53:56:616 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-10-02 14:53:56:616 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:56:616 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:56:616 response.cc(51) Entering Response::Serialize
+T 2019-10-02 14:53:56:616 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-10-02 14:53:56:616 IESession.cpp(221) Found non-zero response length
+T 2019-10-02 14:53:56:616 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-10-02 14:53:56:616 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-10-02 14:53:56:616 server.cc(338) Response: {"value":null}
+
+T 2019-10-02 14:53:56:616 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:53:56:616 response.cc(30) Entering Response::Deserialize
+T 2019-10-02 14:53:56:616 server.cc(445) Entering Server::SendHttpOk
+T 2019-10-02 14:53:57:635 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:53:57:635 server.cc(238) Entering Server::ReadRequestBody
+T 2019-10-02 14:53:57:635 server.cc(183) Process request with: URI: /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/execute/sync HTTP verb: POST
+body: {
+  "script": "return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(\u002f(opera|chrome|safari|firefox|msie|trident)\\\u002f?\\s*(\\.?\\d+(\\.\\d+)*)\u002fi) || []; if (\u002ftrident\u002fi.test(M[1])) {     tem=  \u002f\\brv[ :]+(\\d+)\u002fg.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(\u002f\\b(OPR|Edge)\\\u002f(\\d+)\u002f);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(\u002fversion\\\u002f(\\d+)\u002fi))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();",
+  "args": [
+  ]
+}
+T 2019-10-02 14:53:57:635 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:53:57:635 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:53:57:635 server.cc(281) Command: POST /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/execute/sync {
+  "script": "return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(\u002f(opera|chrome|safari|firefox|msie|trident)\\\u002f?\\s*(\\.?\\d+(\\.\\d+)*)\u002fi) || []; if (\u002ftrident\u002fi.test(M[1])) {     tem=  \u002f\\brv[ :]+(\\d+)\u002fg.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(\u002f\\b(OPR|Edge)\\\u002f(\\d+)\u002f);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(\u002fversion\\\u002f(\\d+)\u002fi))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();",
+  "args": [
+  ]
+}
+T 2019-10-02 14:53:57:635 server.cc(378) Entering Server::LookupSession
+T 2019-10-02 14:53:57:635 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-10-02 14:53:57:635 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-10-02 14:53:57:635 command.cc(31) Entering Command::Deserialize
+D 2019-10-02 14:53:57:635 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "fc7c915c-40b3-498f-8ec0-0777fd88a342" }, "parameters" : {
+  "script": "return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(\u002f(opera|chrome|safari|firefox|msie|trident)\\\u002f?\\s*(\\.?\\d+(\\.\\d+)*)\u002fi) || []; if (\u002ftrident\u002fi.test(M[1])) {     tem=  \u002f\\brv[ :]+(\\d+)\u002fg.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(\u002f\\b(OPR|Edge)\\\u002f(\\d+)\u002f);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(\u002fversion\\\u002f(\\d+)\u002fi))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();",
+  "args": [
+  ]
+} }
+T 2019-10-02 14:53:57:635 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-10-02 14:53:57:635 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-10-02 14:53:57:635 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-10-02 14:53:57:636 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:57:636 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:57:636 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-10-02 14:53:57:636 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:53:57:636 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:53:57:636 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-10-02 14:53:57:636 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:57:636 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:57:636 Browser.cpp(126) Entering Browser::GetDocument
+I 2019-10-02 14:53:57:636 Browser.cpp(130) No child frame focus. Focus is on top-level frame
+T 2019-10-02 14:53:57:664 Browser.cpp(613) Entering Browser::GetDocumentFromWindow
+T 2019-10-02 14:53:57:676 Script.cpp(49) Entering Script::Initialize
+T 2019-10-02 14:53:57:676 CommandHandlers\ExecuteScriptCommandHandler.cpp(85) Entering ExecuteScriptCommandHandler::PopulateArgumentArray
+T 2019-10-02 14:53:57:676 Script.cpp(169) Entering Script::Execute
+T 2019-10-02 14:53:57:676 Script.cpp(438) Entering Script::CreateAnonymousFunction
+T 2019-10-02 14:53:57:711 Script.cpp(426) Entering Script::ConvertResultToJsonValue
+T 2019-10-02 14:53:57:711 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-10-02 14:53:57:711 response.cc(78) Entering Response::SetResponse
+T 2019-10-02 14:53:57:711 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:57:711 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:57:711 response.cc(51) Entering Response::Serialize
+T 2019-10-02 14:53:57:716 IESession.cpp(221) Found non-zero response length
+T 2019-10-02 14:53:57:716 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-10-02 14:53:57:716 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-10-02 14:53:57:716 server.cc(338) Response: {"value":"IE 11"}
+
+T 2019-10-02 14:53:57:716 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:53:57:716 response.cc(30) Entering Response::Deserialize
+T 2019-10-02 14:53:57:716 server.cc(445) Entering Server::SendHttpOk
+T 2019-10-02 14:53:58:767 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:53:58:767 server.cc(238) Entering Server::ReadRequestBody
+T 2019-10-02 14:53:58:767 server.cc(183) Process request with: URI: /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/url HTTP verb: POST
+body: {
+  "url": "https:\u002f\u002fsamsung-adzu4-staging.codeworldwide.com\u002f#"
+}
+T 2019-10-02 14:53:58:767 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:53:58:767 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:53:58:767 server.cc(281) Command: POST /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/url {
+  "url": "https:\u002f\u002fsamsung-adzu4-staging.codeworldwide.com\u002f#"
+}
+T 2019-10-02 14:53:58:767 server.cc(378) Entering Server::LookupSession
+T 2019-10-02 14:53:58:767 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-10-02 14:53:58:768 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-10-02 14:53:58:768 command.cc(31) Entering Command::Deserialize
+D 2019-10-02 14:53:58:768 command.cc(36) Raw JSON command: { "name" : "get", "locator" : { "sessionid" : "fc7c915c-40b3-498f-8ec0-0777fd88a342" }, "parameters" : {
+  "url": "https:\u002f\u002fsamsung-adzu4-staging.codeworldwide.com\u002f#"
+} }
+T 2019-10-02 14:53:58:768 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-10-02 14:53:58:768 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-10-02 14:53:58:768 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-10-02 14:53:58:768 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:58:768 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:58:768 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-10-02 14:53:58:768 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:53:58:768 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:53:58:768 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-10-02 14:53:58:769 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:58:769 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:58:769 Browser.cpp(318) Entring Browser::NavigateToUrl
+T 2019-10-02 14:53:58:772 DocumentHost.cpp(142) Entering DocumentHost::SetFocusedFrameByElement
+T 2019-10-02 14:53:58:772 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-10-02 14:53:58:772 response.cc(78) Entering Response::SetResponse
+T 2019-10-02 14:53:58:772 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:58:772 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:58:772 response.cc(51) Entering Response::Serialize
+T 2019-10-02 14:53:58:772 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:53:58:772 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:58:772 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:58:772 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:53:58:772 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:53:58:772 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:53:58:772 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:53:58:773 Browser.cpp(484) Browser ReadyState is not at least '4'; it was 1
+T 2019-10-02 14:53:58:774 Browser.cpp(50) Entering Browser::BeforeNavigate2
+T 2019-10-02 14:53:58:774 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2019-10-02 14:53:58:974 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:53:58:974 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:58:974 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:58:974 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:53:58:974 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:53:58:974 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:53:58:974 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:53:58:975 Browser.cpp(464) Browser busy property is true.
+T 2019-10-02 14:53:58:975 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2019-10-02 14:53:59:176 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:53:59:176 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:59:176 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:59:176 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:53:59:176 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:53:59:176 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:53:59:176 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:53:59:184 Browser.cpp(464) Browser busy property is true.
+T 2019-10-02 14:53:59:184 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2019-10-02 14:53:59:386 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:53:59:386 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:59:386 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:59:386 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:53:59:386 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:53:59:386 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:53:59:386 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:53:59:394 Browser.cpp(464) Browser busy property is true.
+T 2019-10-02 14:53:59:396 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2019-10-02 14:53:59:597 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:53:59:597 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:53:59:597 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:53:59:597 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:53:59:597 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:53:59:597 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:53:59:597 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:53:59:823 Browser.cpp(464) Browser busy property is true.
+T 2019-10-02 14:53:59:824 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2019-10-02 14:53:59:852 Browser.cpp(96) Entering Browser::DocumentComplete
+D 2019-10-02 14:53:59:853 ElementRepository.cpp(113) Refreshing managed element cache. Found 0 to remove from cache.
+T 2019-10-02 14:54:00:037 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:54:00:037 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:00:037 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:00:037 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:54:00:037 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:54:00:037 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:00:037 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:00:038 Browser.cpp(464) Browser busy property is true.
+T 2019-10-02 14:54:00:044 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2019-10-02 14:54:00:245 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:54:00:245 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:00:245 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:00:245 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:54:00:245 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:54:00:245 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:00:246 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:00:341 Browser.cpp(464) Browser busy property is true.
+T 2019-10-02 14:54:00:341 Browser.cpp(50) Entering Browser::BeforeNavigate2
+T 2019-10-02 14:54:00:342 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2019-10-02 14:54:00:358 Browser.cpp(96) Entering Browser::DocumentComplete
+D 2019-10-02 14:54:00:358 ElementRepository.cpp(113) Refreshing managed element cache. Found 0 to remove from cache.
+T 2019-10-02 14:54:00:542 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:54:00:542 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:00:542 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:00:542 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:54:00:542 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:54:00:542 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:00:542 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:00:543 Browser.cpp(464) Browser busy property is true.
+T 2019-10-02 14:54:00:544 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2019-10-02 14:54:00:745 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:54:00:745 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:00:745 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:00:745 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:54:00:745 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:54:00:745 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:00:745 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:00:746 Browser.cpp(464) Browser busy property is true.
+T 2019-10-02 14:54:00:746 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2019-10-02 14:54:00:947 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:54:00:947 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:00:947 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:00:947 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:54:00:947 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:54:00:947 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:00:947 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:01:115 Browser.cpp(464) Browser busy property is true.
+T 2019-10-02 14:54:01:116 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2019-10-02 14:54:01:317 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:54:01:317 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:01:317 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:01:317 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:54:01:317 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:54:01:317 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:01:317 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:01:320 Browser.cpp(464) Browser busy property is true.
+T 2019-10-02 14:54:01:322 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2019-10-02 14:54:01:522 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2019-10-02 14:54:01:522 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:01:523 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:01:523 Browser.cpp(438) Entering Browser::Wait
+D 2019-10-02 14:54:01:523 Browser.cpp(448) Navigate Events Completed.
+T 2019-10-02 14:54:01:523 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:01:523 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:02:376 Browser.cpp(508) Waiting for document to complete...
+T 2019-10-02 14:54:02:376 Browser.cpp(522) Entering Browser::IsDocumentNavigating
+D 2019-10-02 14:54:02:452 Browser.cpp(513) Not in navigating state
+T 2019-10-02 14:54:02:456 IESession.cpp(221) Found non-zero response length
+T 2019-10-02 14:54:02:456 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-10-02 14:54:02:456 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-10-02 14:54:02:456 server.cc(338) Response: {"value":null}
+
+T 2019-10-02 14:54:02:456 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:54:02:456 response.cc(30) Entering Response::Deserialize
+T 2019-10-02 14:54:02:456 server.cc(445) Entering Server::SendHttpOk
+T 2019-10-02 14:54:03:855 Browser.cpp(50) Entering Browser::BeforeNavigate2
+T 2019-10-02 14:54:03:861 Browser.cpp(50) Entering Browser::BeforeNavigate2
+T 2019-10-02 14:54:03:867 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:54:03:867 server.cc(238) Entering Server::ReadRequestBody
+T 2019-10-02 14:54:03:867 server.cc(183) Process request with: URI: /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/elements HTTP verb: POST
+body: {
+  "value": "\u002f\u002f*[@name = 'us1' and @id = 'us1' and @type = 'email']",
+  "using": "xpath"
+}
+T 2019-10-02 14:54:03:867 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:54:03:867 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:54:03:867 server.cc(281) Command: POST /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/elements {
+  "value": "\u002f\u002f*[@name = 'us1' and @id = 'us1' and @type = 'email']",
+  "using": "xpath"
+}
+T 2019-10-02 14:54:03:867 server.cc(378) Entering Server::LookupSession
+T 2019-10-02 14:54:03:867 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-10-02 14:54:03:867 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-10-02 14:54:03:868 command.cc(31) Entering Command::Deserialize
+D 2019-10-02 14:54:03:868 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "fc7c915c-40b3-498f-8ec0-0777fd88a342" }, "parameters" : {
+  "value": "\u002f\u002f*[@name = 'us1' and @id = 'us1' and @type = 'email']",
+  "using": "xpath"
+} }
+T 2019-10-02 14:54:03:868 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-10-02 14:54:03:868 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-10-02 14:54:03:868 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:03:868 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:03:868 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-10-02 14:54:03:868 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:03:868 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:03:869 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-10-02 14:54:03:869 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-10-02 14:54:03:869 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-10-02 14:54:03:869 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-10-02 14:54:03:869 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:03:869 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+D 2019-10-02 14:54:03:869 ElementFinder.cpp(128) Using FindElements atom to locate element having xpath = //*[@name = 'us1' and @id = 'us1' and @type = 'email']
+T 2019-10-02 14:54:03:869 Browser.cpp(126) Entering Browser::GetDocument
+I 2019-10-02 14:54:03:869 Browser.cpp(130) No child frame focus. Focus is on top-level frame
+T 2019-10-02 14:54:03:869 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-10-02 14:54:03:890 Browser.cpp(613) Entering Browser::GetDocumentFromWindow
+T 2019-10-02 14:54:03:904 Script.cpp(49) Entering Script::Initialize
+T 2019-10-02 14:54:03:904 Script.cpp(70) Entering Script::AddArgument(std::wstring)
+T 2019-10-02 14:54:03:904 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:03:905 Script.cpp(70) Entering Script::AddArgument(std::wstring)
+T 2019-10-02 14:54:03:905 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:03:905 Script.cpp(169) Entering Script::Execute
+T 2019-10-02 14:54:03:905 Script.cpp(438) Entering Script::CreateAnonymousFunction
+T 2019-10-02 14:54:03:964 Script.cpp(426) Entering Script::ConvertResultToJsonValue
+D 2019-10-02 14:54:03:973 VariantUtilities.cpp(100) Result type is JScriptTypeInfo
+T 2019-10-02 14:54:03:978 VariantUtilities.cpp(307) Entering Script::GetPropertyNameList
+D 2019-10-02 14:54:03:995 VariantUtilities.cpp(100) Result type is JScriptTypeInfo
+T 2019-10-02 14:54:03:995 VariantUtilities.cpp(324) Entering Script::GetArrayLength
+T 2019-10-02 14:54:04:247 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-10-02 14:54:04:247 response.cc(78) Entering Response::SetResponse
+T 2019-10-02 14:54:04:247 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:04:247 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:04:247 response.cc(51) Entering Response::Serialize
+T 2019-10-02 14:54:04:247 IESession.cpp(221) Found non-zero response length
+T 2019-10-02 14:54:04:247 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-10-02 14:54:04:247 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-10-02 14:54:04:247 server.cc(338) Response: {"value":[]}
+
+T 2019-10-02 14:54:04:247 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:54:04:247 response.cc(30) Entering Response::Deserialize
+T 2019-10-02 14:54:04:247 server.cc(445) Entering Server::SendHttpOk
+T 2019-10-02 14:54:04:301 Browser.cpp(96) Entering Browser::DocumentComplete
+T 2019-10-02 14:54:04:570 Browser.cpp(50) Entering Browser::BeforeNavigate2
+T 2019-10-02 14:54:04:620 Browser.cpp(50) Entering Browser::BeforeNavigate2
+T 2019-10-02 14:54:04:629 Browser.cpp(50) Entering Browser::BeforeNavigate2
+T 2019-10-02 14:54:04:731 Browser.cpp(50) Entering Browser::BeforeNavigate2
+T 2019-10-02 14:54:04:739 Browser.cpp(50) Entering Browser::BeforeNavigate2
+T 2019-10-02 14:54:04:825 Browser.cpp(96) Entering Browser::DocumentComplete
+T 2019-10-02 14:54:04:899 Browser.cpp(96) Entering Browser::DocumentComplete
+T 2019-10-02 14:54:04:920 Browser.cpp(96) Entering Browser::DocumentComplete
+T 2019-10-02 14:54:05:795 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:54:05:795 server.cc(238) Entering Server::ReadRequestBody
+T 2019-10-02 14:54:05:795 server.cc(183) Process request with: URI: /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/elements HTTP verb: POST
+body: {
+  "value": "\u002f\u002f*[@name = 'us1' and @id = 'us1' and @type = 'email']",
+  "using": "xpath"
+}
+T 2019-10-02 14:54:05:796 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:54:05:796 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:54:05:796 server.cc(281) Command: POST /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/elements {
+  "value": "\u002f\u002f*[@name = 'us1' and @id = 'us1' and @type = 'email']",
+  "using": "xpath"
+}
+T 2019-10-02 14:54:05:796 server.cc(378) Entering Server::LookupSession
+T 2019-10-02 14:54:05:796 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-10-02 14:54:05:796 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-10-02 14:54:05:796 command.cc(31) Entering Command::Deserialize
+D 2019-10-02 14:54:05:796 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "fc7c915c-40b3-498f-8ec0-0777fd88a342" }, "parameters" : {
+  "value": "\u002f\u002f*[@name = 'us1' and @id = 'us1' and @type = 'email']",
+  "using": "xpath"
+} }
+T 2019-10-02 14:54:05:796 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-10-02 14:54:05:796 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-10-02 14:54:05:796 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:05:796 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:05:796 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-10-02 14:54:05:796 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:05:796 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:05:797 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-10-02 14:54:05:797 IECommandExecutor.cpp(734) Entering IECommandExecutor::LocateElements
+T 2019-10-02 14:54:05:797 IECommandExecutor.cpp(695) Entering IECommandExecutor::GetElementFindMethod
+T 2019-10-02 14:54:05:797 ElementFinder.cpp(111) Entering ElementFinder::FindElements
+T 2019-10-02 14:54:05:797 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:05:797 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+D 2019-10-02 14:54:05:797 ElementFinder.cpp(128) Using FindElements atom to locate element having xpath = //*[@name = 'us1' and @id = 'us1' and @type = 'email']
+T 2019-10-02 14:54:05:797 Browser.cpp(126) Entering Browser::GetDocument
+I 2019-10-02 14:54:05:797 Browser.cpp(130) No child frame focus. Focus is on top-level frame
+T 2019-10-02 14:54:05:797 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-10-02 14:54:05:850 Browser.cpp(613) Entering Browser::GetDocumentFromWindow
+T 2019-10-02 14:54:05:866 Script.cpp(49) Entering Script::Initialize
+T 2019-10-02 14:54:05:866 Script.cpp(70) Entering Script::AddArgument(std::wstring)
+T 2019-10-02 14:54:05:866 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:05:866 Script.cpp(70) Entering Script::AddArgument(std::wstring)
+T 2019-10-02 14:54:05:866 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:05:866 Script.cpp(169) Entering Script::Execute
+T 2019-10-02 14:54:05:866 Script.cpp(438) Entering Script::CreateAnonymousFunction
+T 2019-10-02 14:54:06:011 Script.cpp(426) Entering Script::ConvertResultToJsonValue
+D 2019-10-02 14:54:06:020 VariantUtilities.cpp(100) Result type is JScriptTypeInfo
+T 2019-10-02 14:54:06:028 VariantUtilities.cpp(307) Entering Script::GetPropertyNameList
+D 2019-10-02 14:54:06:046 VariantUtilities.cpp(100) Result type is JScriptTypeInfo
+T 2019-10-02 14:54:06:046 VariantUtilities.cpp(324) Entering Script::GetArrayLength
+T 2019-10-02 14:54:06:047 VariantUtilities.cpp(342) Entering Script::GetArrayItem
+I 2019-10-02 14:54:06:049 VariantUtilities.cpp(233) Unknown type of dispatch is found in result, assuming IHTMLElement
+T 2019-10-02 14:54:06:056 IECommandExecutor.cpp(677) Entering IECommandExecutor::AddManagedElement
+T 2019-10-02 14:54:06:056 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:06:056 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:06:056 ElementRepository.cpp(49) Entering ElementRepository::AddManagedElement
+D 2019-10-02 14:54:06:056 ElementRepository.cpp(69) Element is not yet managed
+T 2019-10-02 14:54:06:057 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:06:057 Element.cpp(45) Entering Element::Element
+T 2019-10-02 14:54:06:057 Element.cpp(79) Entering Element::ConvertToJson
+T 2019-10-02 14:54:06:057 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-10-02 14:54:06:058 response.cc(78) Entering Response::SetResponse
+T 2019-10-02 14:54:06:058 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:06:058 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:06:058 response.cc(51) Entering Response::Serialize
+T 2019-10-02 14:54:06:059 IESession.cpp(221) Found non-zero response length
+T 2019-10-02 14:54:06:059 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-10-02 14:54:06:059 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-10-02 14:54:06:059 server.cc(338) Response: {"value":[{"element-6066-11e4-a52e-4f735466cecf":"821a7283-f26f-4669-b6fc-95ecaefb64db"}]}
+
+T 2019-10-02 14:54:06:059 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:54:06:059 response.cc(30) Entering Response::Deserialize
+T 2019-10-02 14:54:06:059 server.cc(445) Entering Server::SendHttpOk
+T 2019-10-02 14:54:07:068 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:54:07:068 server.cc(238) Entering Server::ReadRequestBody
+T 2019-10-02 14:54:07:068 server.cc(183) Process request with: URI: /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/element/821a7283-f26f-4669-b6fc-95ecaefb64db/clear HTTP verb: POST
+body: {
+  "id": "821a7283-f26f-4669-b6fc-95ecaefb64db"
+}
+T 2019-10-02 14:54:07:068 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:54:07:068 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:54:07:068 server.cc(281) Command: POST /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/element/821a7283-f26f-4669-b6fc-95ecaefb64db/clear {
+  "id": "821a7283-f26f-4669-b6fc-95ecaefb64db"
+}
+T 2019-10-02 14:54:07:068 server.cc(378) Entering Server::LookupSession
+T 2019-10-02 14:54:07:069 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-10-02 14:54:07:069 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-10-02 14:54:07:069 command.cc(31) Entering Command::Deserialize
+D 2019-10-02 14:54:07:069 command.cc(36) Raw JSON command: { "name" : "clear", "locator" : { "sessionid" : "fc7c915c-40b3-498f-8ec0-0777fd88a342", "id" : "821a7283-f26f-4669-b6fc-95ecaefb64db" }, "parameters" : {
+  "id": "821a7283-f26f-4669-b6fc-95ecaefb64db"
+} }
+T 2019-10-02 14:54:07:069 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-10-02 14:54:07:069 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-10-02 14:54:07:069 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:07:069 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:07:069 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-10-02 14:54:07:069 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:07:069 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:07:070 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-10-02 14:54:07:070 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:07:070 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:07:070 IECommandHandler.cpp(45) Entering IECommandHandler::GetElement
+T 2019-10-02 14:54:07:070 IECommandExecutor.cpp(671) Entering IECommandExecutor::GetManagedElement
+T 2019-10-02 14:54:07:070 ElementRepository.cpp(34) Entering ElementRepository::GetManagedElement
+T 2019-10-02 14:54:07:070 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-10-02 14:54:07:104 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:07:104 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:07:104 Browser.cpp(126) Entering Browser::GetDocument
+I 2019-10-02 14:54:07:104 Browser.cpp(130) No child frame focus. Focus is on top-level frame
+T 2019-10-02 14:54:07:118 Browser.cpp(613) Entering Browser::GetDocumentFromWindow
+T 2019-10-02 14:54:07:134 Element.cpp(161) Entering Element::IsInteractable
+T 2019-10-02 14:54:07:134 Element.cpp(956) Entering Element::GetContainingDocument
+T 2019-10-02 14:54:07:138 Script.cpp(49) Entering Script::Initialize
+T 2019-10-02 14:54:07:138 Script.cpp(99) Entering Script::AddArgument(IHTMLElement*)
+T 2019-10-02 14:54:07:138 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:07:138 Script.cpp(169) Entering Script::Execute
+T 2019-10-02 14:54:07:138 Script.cpp(438) Entering Script::CreateAnonymousFunction
+T 2019-10-02 14:54:07:186 Element.cpp(188) Entering Element::IsEditable
+T 2019-10-02 14:54:07:187 Element.cpp(956) Entering Element::GetContainingDocument
+T 2019-10-02 14:54:07:192 Script.cpp(49) Entering Script::Initialize
+T 2019-10-02 14:54:07:192 Script.cpp(99) Entering Script::AddArgument(IHTMLElement*)
+T 2019-10-02 14:54:07:192 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:07:192 Script.cpp(169) Entering Script::Execute
+T 2019-10-02 14:54:07:192 Script.cpp(438) Entering Script::CreateAnonymousFunction
+T 2019-10-02 14:54:07:232 Browser.cpp(126) Entering Browser::GetDocument
+I 2019-10-02 14:54:07:232 Browser.cpp(130) No child frame focus. Focus is on top-level frame
+T 2019-10-02 14:54:07:249 Browser.cpp(613) Entering Browser::GetDocumentFromWindow
+T 2019-10-02 14:54:07:270 Script.cpp(49) Entering Script::Initialize
+T 2019-10-02 14:54:07:270 Script.cpp(94) Entering Script::AddArgument(ElementHandle)
+T 2019-10-02 14:54:07:270 Script.cpp(99) Entering Script::AddArgument(IHTMLElement*)
+T 2019-10-02 14:54:07:270 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:07:270 Script.cpp(264) Entering Script::ExecuteAsync
+D 2019-10-02 14:54:07:270 Script.cpp(297) Creating synchronization event for new thread
+D 2019-10-02 14:54:07:270 Script.cpp(317) Starting new thread
+D 2019-10-02 14:54:07:270 Script.cpp(326) Waiting for new thread to be ready for messages
+T 2019-10-02 14:54:07:271 AsyncScriptExecutor.cpp(170) Entering AsyncScriptExecutor::ThreadProc
+T 2019-10-02 14:54:07:271 AsyncScriptExecutor.cpp(40) Entering AsyncScriptExecutor::OnCreate
+D 2019-10-02 14:54:07:272 Script.cpp(346) Marshaling document to stream to send to new thread
+T 2019-10-02 14:54:07:272 AsyncScriptExecutor.cpp(82) Entering AsyncScriptExecutor::OnSetDocument
+T 2019-10-02 14:54:07:276 AsyncScriptExecutor.cpp(95) Entering AsyncScriptExecutor::OnSetArgument
+T 2019-10-02 14:54:07:276 Script.cpp(396) Waiting for async script execution to be complete
+T 2019-10-02 14:54:07:276 AsyncScriptExecutor.cpp(125) Entering AsyncScriptExecutor::OnExecuteScript
+T 2019-10-02 14:54:07:276 Script.cpp(49) Entering Script::Initialize
+T 2019-10-02 14:54:07:276 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:07:276 Script.cpp(169) Entering Script::Execute
+T 2019-10-02 14:54:07:276 Script.cpp(438) Entering Script::CreateAnonymousFunction
+T 2019-10-02 14:54:07:356 Script.cpp(414) Async script execution completed, getting result
+T 2019-10-02 14:54:07:356 AsyncScriptExecutor.cpp(160) Entering AsyncScriptExecutor::OnGetResult
+T 2019-10-02 14:54:07:356 AsyncScriptExecutor.cpp(63) Entering AsyncScriptExecutor::OnClose
+T 2019-10-02 14:54:07:356 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-10-02 14:54:07:356 response.cc(78) Entering Response::SetResponse
+T 2019-10-02 14:54:07:356 AsyncScriptExecutor.cpp(72) Entering AsyncAtomExecutor::OnDestroy
+T 2019-10-02 14:54:07:356 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:07:356 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:07:356 response.cc(51) Entering Response::Serialize
+T 2019-10-02 14:54:07:367 IESession.cpp(221) Found non-zero response length
+T 2019-10-02 14:54:07:367 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-10-02 14:54:07:367 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-10-02 14:54:07:367 server.cc(338) Response: {"value":null}
+
+T 2019-10-02 14:54:07:367 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:54:07:367 response.cc(30) Entering Response::Deserialize
+T 2019-10-02 14:54:07:367 server.cc(445) Entering Server::SendHttpOk
+T 2019-10-02 14:54:08:387 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:54:08:387 server.cc(238) Entering Server::ReadRequestBody
+T 2019-10-02 14:54:08:387 server.cc(183) Process request with: URI: /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/element/821a7283-f26f-4669-b6fc-95ecaefb64db/value HTTP verb: POST
+body: {
+  "id": "821a7283-f26f-4669-b6fc-95ecaefb64db",
+  "text": "satinder.gandhi@codeworldwide.com",
+  "value": [
+    "s",
+    "a",
+    "t",
+    "i",
+    "n",
+    "d",
+    "e",
+    "r",
+    ".",
+    "g",
+    "a",
+    "n",
+    "d",
+    "h",
+    "i",
+    "@",
+    "c",
+    "o",
+    "d",
+    "e",
+    "w",
+    "o",
+    "r",
+    "l",
+    "d",
+    "w",
+    "i",
+    "d",
+    "e",
+    ".",
+    "c",
+    "o",
+    "m"
+  ]
+}
+T 2019-10-02 14:54:08:387 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:54:08:387 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:54:08:387 server.cc(281) Command: POST /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/element/821a7283-f26f-4669-b6fc-95ecaefb64db/value {
+  "id": "821a7283-f26f-4669-b6fc-95ecaefb64db",
+  "text": "satinder.gandhi@codeworldwide.com",
+  "value": [
+    "s",
+    "a",
+    "t",
+    "i",
+    "n",
+    "d",
+    "e",
+    "r",
+    ".",
+    "g",
+    "a",
+    "n",
+    "d",
+    "h",
+    "i",
+    "@",
+    "c",
+    "o",
+    "d",
+    "e",
+    "w",
+    "o",
+    "r",
+    "l",
+    "d",
+    "w",
+    "i",
+    "d",
+    "e",
+    ".",
+    "c",
+    "o",
+    "m"
+  ]
+}
+T 2019-10-02 14:54:08:387 server.cc(378) Entering Server::LookupSession
+T 2019-10-02 14:54:08:387 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2019-10-02 14:54:08:387 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-10-02 14:54:08:387 command.cc(31) Entering Command::Deserialize
+D 2019-10-02 14:54:08:387 command.cc(36) Raw JSON command: { "name" : "sendKeys", "locator" : { "sessionid" : "fc7c915c-40b3-498f-8ec0-0777fd88a342", "id" : "821a7283-f26f-4669-b6fc-95ecaefb64db" }, "parameters" : {
+  "id": "821a7283-f26f-4669-b6fc-95ecaefb64db",
+  "text": "satinder.gandhi@codeworldwide.com",
+  "value": [
+    "s",
+    "a",
+    "t",
+    "i",
+    "n",
+    "d",
+    "e",
+    "r",
+    ".",
+    "g",
+    "a",
+    "n",
+    "d",
+    "h",
+    "i",
+    "@",
+    "c",
+    "o",
+    "d",
+    "e",
+    "w",
+    "o",
+    "r",
+    "l",
+    "d",
+    "w",
+    "i",
+    "d",
+    "e",
+    ".",
+    "c",
+    "o",
+    "m"
+  ]
+} }
+T 2019-10-02 14:54:08:388 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-10-02 14:54:08:388 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-10-02 14:54:08:388 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-10-02 14:54:08:388 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:08:388 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:08:388 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-10-02 14:54:08:388 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:08:388 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:08:388 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-10-02 14:54:08:389 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:08:389 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:08:389 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:08:389 Browser.cpp(416) Entering Browser::GetTopLevelWindowHandle
+T 2019-10-02 14:54:08:389 IECommandHandler.cpp(45) Entering IECommandHandler::GetElement
+T 2019-10-02 14:54:08:389 IECommandExecutor.cpp(671) Entering IECommandExecutor::GetManagedElement
+T 2019-10-02 14:54:08:389 ElementRepository.cpp(34) Entering ElementRepository::GetManagedElement
+T 2019-10-02 14:54:08:405 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:08:405 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:08:405 Browser.cpp(126) Entering Browser::GetDocument
+I 2019-10-02 14:54:08:405 Browser.cpp(130) No child frame focus. Focus is on top-level frame
+T 2019-10-02 14:54:08:422 Browser.cpp(613) Entering Browser::GetDocumentFromWindow
+T 2019-10-02 14:54:08:431 Element.cpp(362) Entering Element::GetLocationOnceScrolledIntoView
+T 2019-10-02 14:54:08:431 Element.cpp(493) Entering Element::GetLocation
+T 2019-10-02 14:54:08:437 Element.cpp(629) Entering Element::IsInline
+D 2019-10-02 14:54:08:437 Element.cpp(539) Element is a block element, using IHTMLElement2::getBoundingClientRect
+T 2019-10-02 14:54:08:466 Element.cpp(650) Entering Element::RectHasNonZeroDimensions
+T 2019-10-02 14:54:08:474 Element.cpp(666) Entering Element::GetFrameDetails
+T 2019-10-02 14:54:08:474 Element.cpp(956) Entering Element::GetContainingDocument
+D 2019-10-02 14:54:08:495 Element.cpp(616) Element is not in a frame
+T 2019-10-02 14:54:08:495 Element.cpp(905) Entering Element::CalculateClickPoint
+T 2019-10-02 14:54:08:495 Element.cpp(844) Entering Element::GetClickableViewPortLocation
+T 2019-10-02 14:54:08:495 Element.cpp(956) Entering Element::GetContainingDocument
+T 2019-10-02 14:54:08:498 DocumentHost.cpp(281) Entering DocumentHost::GetDocumentMode
+T 2019-10-02 14:54:08:523 Element.cpp(931) Entering Element::IsLocationInViewPort
+T 2019-10-02 14:54:08:523 Element.cpp(844) Entering Element::GetClickableViewPortLocation
+T 2019-10-02 14:54:08:523 Element.cpp(956) Entering Element::GetContainingDocument
+T 2019-10-02 14:54:08:527 DocumentHost.cpp(281) Entering DocumentHost::GetDocumentMode
+T 2019-10-02 14:54:08:550 Element.cpp(429) Entering Element::IsHiddenByOverflow
+T 2019-10-02 14:54:08:550 Element.cpp(956) Entering Element::GetContainingDocument
+T 2019-10-02 14:54:08:553 Script.cpp(49) Entering Script::Initialize
+T 2019-10-02 14:54:08:553 Script.cpp(99) Entering Script::AddArgument(IHTMLElement*)
+T 2019-10-02 14:54:08:553 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:08:553 Script.cpp(169) Entering Script::Execute
+T 2019-10-02 14:54:08:553 Script.cpp(438) Entering Script::CreateAnonymousFunction
+T 2019-10-02 14:54:08:592 Script.cpp(433) Entering Script::ConvertResultToString
+D 2019-10-02 14:54:08:592 VariantUtilities.cpp(135) Result type is string
+D 2019-10-02 14:54:08:593 Element.cpp(408) (x, y, w, h): 480, 235, 390, 32
+T 2019-10-02 14:54:08:607 Element.cpp(90) Entering Element::IsDisplayed
+T 2019-10-02 14:54:08:607 Element.cpp(956) Entering Element::GetContainingDocument
+T 2019-10-02 14:54:08:610 Script.cpp(49) Entering Script::Initialize
+T 2019-10-02 14:54:08:611 Script.cpp(99) Entering Script::AddArgument(IHTMLElement*)
+T 2019-10-02 14:54:08:611 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:08:611 Script.cpp(88) Entering Script::AddArgument(bool)
+T 2019-10-02 14:54:08:611 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:08:611 Script.cpp(169) Entering Script::Execute
+T 2019-10-02 14:54:08:611 Script.cpp(438) Entering Script::CreateAnonymousFunction
+T 2019-10-02 14:54:08:654 Element.cpp(134) Entering Element::IsEnabled
+T 2019-10-02 14:54:08:655 Element.cpp(956) Entering Element::GetContainingDocument
+T 2019-10-02 14:54:08:657 Script.cpp(49) Entering Script::Initialize
+T 2019-10-02 14:54:08:657 Script.cpp(99) Entering Script::AddArgument(IHTMLElement*)
+T 2019-10-02 14:54:08:657 Script.cpp(105) Entering Script::AddArgument(VARIANT)
+T 2019-10-02 14:54:08:657 Script.cpp(169) Entering Script::Execute
+T 2019-10-02 14:54:08:657 Script.cpp(438) Entering Script::CreateAnonymousFunction
+T 2019-10-02 14:54:08:704 InputManager.cpp(81) Entering InputManager::PerformInputSequence
+T 2019-10-02 14:54:28:774 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:54:28:774 server.cc(183) Process request with: URI: /status HTTP verb: GET
+body: {}
+T 2019-10-02 14:54:28:774 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:54:28:774 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:54:28:774 server.cc(281) Command: GET /status {}
+T 2019-10-02 14:54:28:774 IEServer.cpp(51) Entering IEServer::GetStatus
+T 2019-10-02 14:54:28:774 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-10-02 14:54:28:774 response.cc(78) Entering Response::SetResponse
+T 2019-10-02 14:54:28:774 response.cc(51) Entering Response::Serialize
+D 2019-10-02 14:54:28:774 server.cc(338) Response: {"value":{"build":{"version":"3.6.0.0 (32-bit)"},"message":"Maximum number of sessions already created","os":{"arch":"x64","name":"windows","version":"10.0.17134.376 (WinBuild.160101.0800)"},"ready":false}}
+
+T 2019-10-02 14:54:28:775 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:54:28:775 response.cc(30) Entering Response::Deserialize
+T 2019-10-02 14:54:28:775 server.cc(445) Entering Server::SendHttpOk
+T 2019-10-02 14:54:28:777 server.cc(174) Entering Server::ProcessRequest
+T 2019-10-02 14:54:28:777 server.cc(183) Process request with: URI: /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/title HTTP verb: GET
+body: {}
+T 2019-10-02 14:54:28:777 server.cc(272) Entering Server::DispatchCommand
+T 2019-10-02 14:54:28:777 server.cc(583) Entering Server::LookupCommand
+D 2019-10-02 14:54:28:777 server.cc(281) Command: GET /session/fc7c915c-40b3-498f-8ec0-0777fd88a342/title {}
+T 2019-10-02 14:54:28:777 server.cc(378) Entering Server::LookupSession
+T 2019-10-02 14:54:28:777 IESession.cpp(191) Entering IESession::ExecuteCommand
+W 2019-10-02 14:54:38:703 InputManager.cpp(99) Could not acquire mutex within the timeout. Multiple instances may have incorrect synchronization for interactions
+T 2019-10-02 14:54:38:704 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:704 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:704 InputManager.cpp(906) Queueing SendInput structure for key down (key: s)
+T 2019-10-02 14:54:38:704 InputManager.cpp(996) Adding key: s
+T 2019-10-02 14:54:38:704 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:704 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:704 InputManager.cpp(906) Queueing SendInput structure for key up (key: s)
+T 2019-10-02 14:54:38:704 InputManager.cpp(999) Removing key: s
+T 2019-10-02 14:54:38:704 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:704 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:704 InputManager.cpp(906) Queueing SendInput structure for key down (key: a)
+T 2019-10-02 14:54:38:704 InputManager.cpp(996) Adding key: a
+T 2019-10-02 14:54:38:704 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:704 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:704 InputManager.cpp(906) Queueing SendInput structure for key up (key: a)
+T 2019-10-02 14:54:38:704 InputManager.cpp(999) Removing key: a
+T 2019-10-02 14:54:38:704 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:704 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:704 InputManager.cpp(906) Queueing SendInput structure for key down (key: t)
+T 2019-10-02 14:54:38:704 InputManager.cpp(996) Adding key: t
+T 2019-10-02 14:54:38:704 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:704 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:704 InputManager.cpp(906) Queueing SendInput structure for key up (key: t)
+T 2019-10-02 14:54:38:704 InputManager.cpp(999) Removing key: t
+T 2019-10-02 14:54:38:704 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:704 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:704 InputManager.cpp(906) Queueing SendInput structure for key down (key: i)
+T 2019-10-02 14:54:38:704 InputManager.cpp(996) Adding key: i
+T 2019-10-02 14:54:38:704 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:705 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:705 InputManager.cpp(906) Queueing SendInput structure for key up (key: i)
+T 2019-10-02 14:54:38:705 InputManager.cpp(999) Removing key: i
+T 2019-10-02 14:54:38:705 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:705 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:705 InputManager.cpp(906) Queueing SendInput structure for key down (key: n)
+T 2019-10-02 14:54:38:705 InputManager.cpp(996) Adding key: n
+T 2019-10-02 14:54:38:705 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:705 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:705 InputManager.cpp(906) Queueing SendInput structure for key up (key: n)
+T 2019-10-02 14:54:38:705 InputManager.cpp(999) Removing key: n
+T 2019-10-02 14:54:38:705 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:705 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:705 InputManager.cpp(906) Queueing SendInput structure for key down (key: d)
+T 2019-10-02 14:54:38:705 InputManager.cpp(996) Adding key: d
+T 2019-10-02 14:54:38:705 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:705 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:705 InputManager.cpp(906) Queueing SendInput structure for key up (key: d)
+T 2019-10-02 14:54:38:705 InputManager.cpp(999) Removing key: d
+T 2019-10-02 14:54:38:705 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:705 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:705 InputManager.cpp(906) Queueing SendInput structure for key down (key: e)
+T 2019-10-02 14:54:38:705 InputManager.cpp(996) Adding key: e
+T 2019-10-02 14:54:38:705 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:705 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:705 InputManager.cpp(906) Queueing SendInput structure for key up (key: e)
+T 2019-10-02 14:54:38:705 InputManager.cpp(999) Removing key: e
+T 2019-10-02 14:54:38:705 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:706 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:706 InputManager.cpp(906) Queueing SendInput structure for key down (key: r)
+T 2019-10-02 14:54:38:706 InputManager.cpp(996) Adding key: r
+T 2019-10-02 14:54:38:706 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:706 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:706 InputManager.cpp(906) Queueing SendInput structure for key up (key: r)
+T 2019-10-02 14:54:38:706 InputManager.cpp(999) Removing key: r
+T 2019-10-02 14:54:38:706 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:706 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:706 InputManager.cpp(906) Queueing SendInput structure for key down (key: .)
+T 2019-10-02 14:54:38:706 InputManager.cpp(996) Adding key: .
+T 2019-10-02 14:54:38:706 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:706 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:706 InputManager.cpp(906) Queueing SendInput structure for key up (key: .)
+T 2019-10-02 14:54:38:706 InputManager.cpp(999) Removing key: .
+T 2019-10-02 14:54:38:706 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:706 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:706 InputManager.cpp(906) Queueing SendInput structure for key down (key: g)
+T 2019-10-02 14:54:38:706 InputManager.cpp(996) Adding key: g
+T 2019-10-02 14:54:38:706 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:706 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:706 InputManager.cpp(906) Queueing SendInput structure for key up (key: g)
+T 2019-10-02 14:54:38:706 InputManager.cpp(999) Removing key: g
+T 2019-10-02 14:54:38:706 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:706 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:706 InputManager.cpp(906) Queueing SendInput structure for key down (key: a)
+T 2019-10-02 14:54:38:706 InputManager.cpp(996) Adding key: a
+T 2019-10-02 14:54:38:706 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:706 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:706 InputManager.cpp(906) Queueing SendInput structure for key up (key: a)
+T 2019-10-02 14:54:38:706 InputManager.cpp(999) Removing key: a
+T 2019-10-02 14:54:38:706 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:707 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:707 InputManager.cpp(906) Queueing SendInput structure for key down (key: n)
+T 2019-10-02 14:54:38:707 InputManager.cpp(996) Adding key: n
+T 2019-10-02 14:54:38:707 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:707 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:707 InputManager.cpp(906) Queueing SendInput structure for key up (key: n)
+T 2019-10-02 14:54:38:707 InputManager.cpp(999) Removing key: n
+T 2019-10-02 14:54:38:707 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:707 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:707 InputManager.cpp(906) Queueing SendInput structure for key down (key: d)
+T 2019-10-02 14:54:38:707 InputManager.cpp(996) Adding key: d
+T 2019-10-02 14:54:38:707 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:707 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:707 InputManager.cpp(906) Queueing SendInput structure for key up (key: d)
+T 2019-10-02 14:54:38:707 InputManager.cpp(999) Removing key: d
+T 2019-10-02 14:54:38:707 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:707 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:707 InputManager.cpp(906) Queueing SendInput structure for key down (key: h)
+T 2019-10-02 14:54:38:707 InputManager.cpp(996) Adding key: h
+T 2019-10-02 14:54:38:707 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:707 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:707 InputManager.cpp(906) Queueing SendInput structure for key up (key: h)
+T 2019-10-02 14:54:38:707 InputManager.cpp(999) Removing key: h
+T 2019-10-02 14:54:38:707 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:707 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:707 InputManager.cpp(906) Queueing SendInput structure for key down (key: i)
+T 2019-10-02 14:54:38:707 InputManager.cpp(996) Adding key: i
+T 2019-10-02 14:54:38:707 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:707 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:707 InputManager.cpp(906) Queueing SendInput structure for key up (key: i)
+T 2019-10-02 14:54:38:707 InputManager.cpp(999) Removing key: i
+T 2019-10-02 14:54:38:707 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:707 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:708 InputManager.cpp(906) Queueing SendInput structure for key down (key: @)
+T 2019-10-02 14:54:38:708 InputManager.cpp(996) Adding key: @
+T 2019-10-02 14:54:38:708 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:708 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:708 InputManager.cpp(906) Queueing SendInput structure for key up (key: @)
+T 2019-10-02 14:54:38:708 InputManager.cpp(999) Removing key: @
+T 2019-10-02 14:54:38:708 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:708 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:708 InputManager.cpp(906) Queueing SendInput structure for key down (key: c)
+T 2019-10-02 14:54:38:708 InputManager.cpp(996) Adding key: c
+T 2019-10-02 14:54:38:708 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:708 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:708 InputManager.cpp(906) Queueing SendInput structure for key up (key: c)
+T 2019-10-02 14:54:38:708 InputManager.cpp(999) Removing key: c
+T 2019-10-02 14:54:38:708 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:708 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:708 InputManager.cpp(906) Queueing SendInput structure for key down (key: o)
+T 2019-10-02 14:54:38:708 InputManager.cpp(996) Adding key: o
+T 2019-10-02 14:54:38:708 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:708 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:708 InputManager.cpp(906) Queueing SendInput structure for key up (key: o)
+T 2019-10-02 14:54:38:708 InputManager.cpp(999) Removing key: o
+T 2019-10-02 14:54:38:708 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:708 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:708 InputManager.cpp(906) Queueing SendInput structure for key down (key: d)
+T 2019-10-02 14:54:38:708 InputManager.cpp(996) Adding key: d
+T 2019-10-02 14:54:38:708 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:708 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:708 InputManager.cpp(906) Queueing SendInput structure for key up (key: d)
+T 2019-10-02 14:54:38:708 InputManager.cpp(999) Removing key: d
+T 2019-10-02 14:54:38:708 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:708 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:708 InputManager.cpp(906) Queueing SendInput structure for key down (key: e)
+T 2019-10-02 14:54:38:708 InputManager.cpp(996) Adding key: e
+T 2019-10-02 14:54:38:709 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:709 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:709 InputManager.cpp(906) Queueing SendInput structure for key up (key: e)
+T 2019-10-02 14:54:38:709 InputManager.cpp(999) Removing key: e
+T 2019-10-02 14:54:38:709 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:709 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:709 InputManager.cpp(906) Queueing SendInput structure for key down (key: w)
+T 2019-10-02 14:54:38:709 InputManager.cpp(996) Adding key: w
+T 2019-10-02 14:54:38:709 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:709 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:709 InputManager.cpp(906) Queueing SendInput structure for key up (key: w)
+T 2019-10-02 14:54:38:709 InputManager.cpp(999) Removing key: w
+T 2019-10-02 14:54:38:709 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:709 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:709 InputManager.cpp(906) Queueing SendInput structure for key down (key: o)
+T 2019-10-02 14:54:38:709 InputManager.cpp(996) Adding key: o
+T 2019-10-02 14:54:38:709 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:709 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:709 InputManager.cpp(906) Queueing SendInput structure for key up (key: o)
+T 2019-10-02 14:54:38:709 InputManager.cpp(999) Removing key: o
+T 2019-10-02 14:54:38:709 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:709 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:709 InputManager.cpp(906) Queueing SendInput structure for key down (key: r)
+T 2019-10-02 14:54:38:709 InputManager.cpp(996) Adding key: r
+T 2019-10-02 14:54:38:709 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:709 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:709 InputManager.cpp(906) Queueing SendInput structure for key up (key: r)
+T 2019-10-02 14:54:38:709 InputManager.cpp(999) Removing key: r
+T 2019-10-02 14:54:38:709 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:709 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:709 InputManager.cpp(906) Queueing SendInput structure for key down (key: l)
+T 2019-10-02 14:54:38:709 InputManager.cpp(996) Adding key: l
+T 2019-10-02 14:54:38:709 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:710 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:710 InputManager.cpp(906) Queueing SendInput structure for key up (key: l)
+T 2019-10-02 14:54:38:710 InputManager.cpp(999) Removing key: l
+T 2019-10-02 14:54:38:710 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:710 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:710 InputManager.cpp(906) Queueing SendInput structure for key down (key: d)
+T 2019-10-02 14:54:38:710 InputManager.cpp(996) Adding key: d
+T 2019-10-02 14:54:38:710 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:710 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:710 InputManager.cpp(906) Queueing SendInput structure for key up (key: d)
+T 2019-10-02 14:54:38:710 InputManager.cpp(999) Removing key: d
+T 2019-10-02 14:54:38:710 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:710 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:710 InputManager.cpp(906) Queueing SendInput structure for key down (key: w)
+T 2019-10-02 14:54:38:710 InputManager.cpp(996) Adding key: w
+T 2019-10-02 14:54:38:710 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:710 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:710 InputManager.cpp(906) Queueing SendInput structure for key up (key: w)
+T 2019-10-02 14:54:38:710 InputManager.cpp(999) Removing key: w
+T 2019-10-02 14:54:38:710 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:710 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:710 InputManager.cpp(906) Queueing SendInput structure for key down (key: i)
+T 2019-10-02 14:54:38:710 InputManager.cpp(996) Adding key: i
+T 2019-10-02 14:54:38:710 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:710 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:710 InputManager.cpp(906) Queueing SendInput structure for key up (key: i)
+T 2019-10-02 14:54:38:710 InputManager.cpp(999) Removing key: i
+T 2019-10-02 14:54:38:710 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:710 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:710 InputManager.cpp(906) Queueing SendInput structure for key down (key: d)
+T 2019-10-02 14:54:38:710 InputManager.cpp(996) Adding key: d
+T 2019-10-02 14:54:38:710 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:710 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:710 InputManager.cpp(906) Queueing SendInput structure for key up (key: d)
+T 2019-10-02 14:54:38:711 InputManager.cpp(999) Removing key: d
+T 2019-10-02 14:54:38:711 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:711 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:711 InputManager.cpp(906) Queueing SendInput structure for key down (key: e)
+T 2019-10-02 14:54:38:711 InputManager.cpp(996) Adding key: e
+T 2019-10-02 14:54:38:711 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:711 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:711 InputManager.cpp(906) Queueing SendInput structure for key up (key: e)
+T 2019-10-02 14:54:38:711 InputManager.cpp(999) Removing key: e
+T 2019-10-02 14:54:38:711 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:711 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:711 InputManager.cpp(906) Queueing SendInput structure for key down (key: .)
+T 2019-10-02 14:54:38:711 InputManager.cpp(996) Adding key: .
+T 2019-10-02 14:54:38:711 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:711 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:711 InputManager.cpp(906) Queueing SendInput structure for key up (key: .)
+T 2019-10-02 14:54:38:711 InputManager.cpp(999) Removing key: .
+T 2019-10-02 14:54:38:711 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:711 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:711 InputManager.cpp(906) Queueing SendInput structure for key down (key: c)
+T 2019-10-02 14:54:38:711 InputManager.cpp(996) Adding key: c
+T 2019-10-02 14:54:38:711 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:711 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:711 InputManager.cpp(906) Queueing SendInput structure for key up (key: c)
+T 2019-10-02 14:54:38:711 InputManager.cpp(999) Removing key: c
+T 2019-10-02 14:54:38:711 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:711 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:711 InputManager.cpp(906) Queueing SendInput structure for key down (key: o)
+T 2019-10-02 14:54:38:712 InputManager.cpp(996) Adding key: o
+T 2019-10-02 14:54:38:712 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:712 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:712 InputManager.cpp(906) Queueing SendInput structure for key up (key: o)
+T 2019-10-02 14:54:38:712 InputManager.cpp(999) Removing key: o
+T 2019-10-02 14:54:38:712 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:712 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:712 InputManager.cpp(906) Queueing SendInput structure for key down (key: m)
+T 2019-10-02 14:54:38:712 InputManager.cpp(996) Adding key: m
+T 2019-10-02 14:54:38:712 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:712 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:712 InputManager.cpp(906) Queueing SendInput structure for key up (key: m)
+T 2019-10-02 14:54:38:712 InputManager.cpp(999) Removing key: m
+T 2019-10-02 14:54:38:712 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:712 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:712 InputManager.cpp(906) Queueing SendInput structure for key down (key: Unidentified)
+T 2019-10-02 14:54:38:712 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:712 InputManager.cpp(899) Entering InputManager::AddKeyboardInput
+D 2019-10-02 14:54:38:712 InputManager.cpp(906) Queueing SendInput structure for key up (key: Unidentified)
+D 2019-10-02 14:54:38:712 InputManager.cpp(185) Processing a total of 68 input events
+T 2019-10-02 14:54:38:712 InputManager.cpp(279) Entering InputManager::PerformInputWithSendMessage
+T 2019-10-02 14:54:38:712 HookProcessor.cpp(94) Entering HookProcessor::Initialize
+T 2019-10-02 14:54:38:713 HookProcessor.cpp(104) Entering HookProcessor::Initialize
+T 2019-10-02 14:54:38:713 HookProcessor.cpp(167) Entering HookProcessor::InstallWindowsHook
+T 2019-10-02 14:54:38:713 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+T 2019-10-02 14:54:38:713 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2019-10-02 14:54:38:713 command.cc(31) Entering Command::Deserialize
+D 2019-10-02 14:54:38:713 command.cc(36) Raw JSON command: { "name" : "getTitle", "locator" : { "sessionid" : "fc7c915c-40b3-498f-8ec0-0777fd88a342" }, "parameters" : {} }
+T 2019-10-02 14:54:38:714 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2019-10-02 14:54:38:714 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2019-10-02 14:54:38:714 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2019-10-02 14:54:38:714 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:38:714 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:38:714 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-10-02 14:54:38:714 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:38:714 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:38:714 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-10-02 14:54:38:715 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:38:715 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:38:715 Browser.cpp(162) Entering Browser::GetTitle
+T 2019-10-02 14:54:38:809 response.cc(72) Entering Response::SetSuccessResponse
+T 2019-10-02 14:54:38:809 response.cc(78) Entering Response::SetResponse
+T 2019-10-02 14:54:38:809 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2019-10-02 14:54:38:809 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2019-10-02 14:54:38:809 response.cc(51) Entering Response::Serialize
+T 2019-10-02 14:54:38:814 IESession.cpp(221) Found non-zero response length
+T 2019-10-02 14:54:38:820 IESession.cpp(221) Found non-zero response length
+T 2019-10-02 14:54:38:820 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-10-02 14:54:38:820 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2019-10-02 14:54:38:821 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-10-02 14:54:38:823 server.cc(338) Response: {"value":"Samsung Marketing Cloud"}
+
+T 2019-10-02 14:54:38:823 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:54:38:823 response.cc(30) Entering Response::Deserialize
+T 2019-10-02 14:54:38:823 server.cc(445) Entering Server::SendHttpOk
+T 2019-10-02 14:54:38:823 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2019-10-02 14:54:38:824 server.cc(338) Response: 
+T 2019-10-02 14:54:38:824 server.cc(391) Entering Server::SendResponseToClient
+T 2019-10-02 14:54:38:858 Browser.cpp(54) Entering Browser::OnQuit
+T 2019-10-02 14:54:38:858 DocumentHost.cpp(252) Entering DocumentHost::PostQuitMessage
+T 2019-10-02 14:54:38:860 IECommandExecutor.cpp(250) Entering IECommandExecutor::OnBrowserQuit
+T 2019-10-02 14:54:38:860 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-10-02 14:54:38:860 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-02 14:54:38:860 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-02 14:54:38:862 IECommandExecutor.cpp(543) No alert handle is found
+W 2019-10-02 14:54:44:262 InteractionsManager.cpp(265) Timeout awaiting keypress: 73
+W 2019-10-02 14:54:44:263 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:54:44:263 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:54:49:266 InteractionsManager.cpp(265) Timeout awaiting keypress: 78
+W 2019-10-02 14:54:49:267 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:54:49:267 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:54:54:288 InteractionsManager.cpp(265) Timeout awaiting keypress: 68
+W 2019-10-02 14:54:54:289 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:54:54:303 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:54:59:303 InteractionsManager.cpp(265) Timeout awaiting keypress: 69
+W 2019-10-02 14:54:59:304 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:54:59:304 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:55:04:305 InteractionsManager.cpp(265) Timeout awaiting keypress: 82
+W 2019-10-02 14:55:04:306 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:55:04:306 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:55:09:309 InteractionsManager.cpp(265) Timeout awaiting keypress: 190
+W 2019-10-02 14:55:09:310 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:55:09:310 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:55:14:312 InteractionsManager.cpp(265) Timeout awaiting keypress: 71
+W 2019-10-02 14:55:14:313 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:55:14:313 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:55:19:313 InteractionsManager.cpp(265) Timeout awaiting keypress: 65
+W 2019-10-02 14:55:19:314 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:55:19:314 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:55:24:314 InteractionsManager.cpp(265) Timeout awaiting keypress: 78
+W 2019-10-02 14:55:24:315 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:55:24:315 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:55:29:318 InteractionsManager.cpp(265) Timeout awaiting keypress: 68
+W 2019-10-02 14:55:29:319 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:55:29:319 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:55:34:321 InteractionsManager.cpp(265) Timeout awaiting keypress: 72
+W 2019-10-02 14:55:34:322 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:55:34:322 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:55:39:321 InteractionsManager.cpp(265) Timeout awaiting keypress: 73
+W 2019-10-02 14:55:39:322 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:55:39:322 InteractionsManager.cpp(217) Modifier keydown failed: 1400
+W 2019-10-02 14:55:39:322 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:55:41:184 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:55:41:185 InteractionsManager.cpp(281) Modifier keyup failed: 1400
+W 2019-10-02 14:55:41:186 InteractionsManager.cpp(250) Key down failed: 1400
+W 2019-10-02 14:55:41:186 InteractionsManager.cpp(304) Key up failed: 1400
+W 2019-10-02 14:55:41:186 InteractionsManager.cpp(250) Key down failed: 1400

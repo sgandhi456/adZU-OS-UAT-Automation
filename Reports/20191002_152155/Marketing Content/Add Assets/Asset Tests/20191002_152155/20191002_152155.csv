@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Asset Tests,Chrome 77.0.3865.90,,,2019-10-02 15:21:57,2019-10-02 15:23:01,1m - 3.978s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,Chrome 77.0.3865.90,,,2019-10-02 15:21:57,2019-10-02 15:22:19,21.902s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-02 15:21:57,2019-10-02 15:22:03,5.581s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-02 15:22:03,2019-10-02 15:22:05,2.185s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",Chrome 77.0.3865.90,,,2019-10-02 15:22:05,2019-10-02 15:22:08,3.370s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 77.0.3865.90,,,2019-10-02 15:22:08,2019-10-02 15:22:12,3.231s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",Chrome 77.0.3865.90,,,2019-10-02 15:22:12,2019-10-02 15:22:14,2.558s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-02 15:22:14,2019-10-02 15:22:17,2.495s,PASSED
+,,,,,,,
+Test Cases/Assets/Open Assets Page,Chrome 77.0.3865.90,,,2019-10-02 15:22:19,2019-10-02 15:22:23,4.315s,PASSED
+"click(findTestObject(""Assets/Samsung Marketing Cloud/a_Assets""))",Chrome 77.0.3865.90,,,2019-10-02 15:22:19,2019-10-02 15:22:21,2.130s,PASSED
+,,,,,,,
+Test Cases/Assets/Search Asset,Chrome 77.0.3865.90,,,2019-10-02 15:22:23,2019-10-02 15:22:40,16.482s,PASSED
+"click(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon""))",Chrome 77.0.3865.90,,,2019-10-02 15:22:23,2019-10-02 15:22:29,5.315s,PASSED
+"setText(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/Text_SearchText""), search_text)",Chrome 77.0.3865.90,,,2019-10-02 15:22:29,2019-10-02 15:22:32,3.567s,PASSED
+"span_obj = modifyObjectProperty(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/span_asset""), ""text"", ""equals"", search_text, false)",Chrome 77.0.3865.90,,,2019-10-02 15:22:32,2019-10-02 15:22:32,0.061s,PASSED
+click(span_obj),Chrome 77.0.3865.90,,,2019-10-02 15:22:32,2019-10-02 15:22:34,2.093s,PASSED
+"click(findTestObject(""Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/button_Hide""))",Chrome 77.0.3865.90,,,2019-10-02 15:22:34,2019-10-02 15:22:36,2.118s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-02 15:22:36,2019-10-02 15:22:37,1.025s,PASSED
+,,,,,,,
+Test Cases/Assets/Preview Asset,Chrome 77.0.3865.90,,,2019-10-02 15:22:40,2019-10-02 15:22:50,10.643s,ERROR
+delay(1),Chrome 77.0.3865.90,,,2019-10-02 15:22:40,2019-10-02 15:22:41,1.004s,PASSED
+"click(findTestObject(""Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery""))",Chrome 77.0.3865.90,,,2019-10-02 15:22:41,2019-10-02 15:22:43,2.110s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-02 15:22:43,2019-10-02 15:22:44,1.004s,PASSED
+"click(findTestObject(""Assets/Action_Menu/Action_Menu""))",Chrome 77.0.3865.90,,,2019-10-02 15:22:44,2019-10-02 15:22:46,2.120s,PASSED
+"click(findTestObject(""Assets/Preview Asset/Page_Samsung Marketing Cloud/a_Preview""))",Chrome 77.0.3865.90,,,2019-10-02 15:22:46,2019-10-02 15:22:48,2.137s,PASSED
+"kms.turing.katalon.plugins.visualtesting.ScreenCapture.baselineImage(""c:\Adzu\Screenshot\Asset_actual.png"", """")",Chrome 77.0.3865.90,,,2019-10-02 15:22:48,2019-10-02 15:22:48,0.014s,ERROR
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,Chrome 77.0.3865.90,,,2019-10-02 15:22:50,2019-10-02 15:23:01,10.399s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",Chrome 77.0.3865.90,,,2019-10-02 15:22:50,2019-10-02 15:22:53,2.163s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",Chrome 77.0.3865.90,,,2019-10-02 15:22:53,2019-10-02 15:22:55,2.131s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",Chrome 77.0.3865.90,,,2019-10-02 15:22:55,2019-10-02 15:22:57,2.119s,PASSED
+closeBrowser(),Chrome 77.0.3865.90,,,2019-10-02 15:22:57,2019-10-02 15:22:59,1.728s,PASSED

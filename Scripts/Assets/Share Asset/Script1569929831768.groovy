@@ -27,11 +27,12 @@ WebUI.click(findTestObject('Assets/Action_Menu/Action_Menu'))
 
 WebUI.click(findTestObject('Assets/Share Asset/a_Share'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/div_Searching_select2-drop-mask'))
+WebUI.click(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/input_Email Link to a User_s2id_autogen8'))
 
-WebUI.setText(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/div_Searching_select2-drop-mask'), 'kirithan.kandasamy@codeworldwide.com')
+WebUI.setText(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/input_Email Link to a User_s2id_autogen8'), 
+    'kirithan.kandasamy@codeworldwide.com')
 
 WebUI.click(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/div_kirithan kandasamy (kirithankandasamycodeworldwidecom)'))
 

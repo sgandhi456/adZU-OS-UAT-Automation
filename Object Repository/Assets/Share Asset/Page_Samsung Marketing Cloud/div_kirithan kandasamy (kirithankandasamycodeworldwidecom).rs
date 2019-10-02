@@ -4,6 +4,12 @@
    <name>div_kirithan kandasamy (kirithankandasamycodeworldwidecom)</name>
    <tag></tag>
    <elementGuidId>3f81ee6b-36ec-4bda-aff0-c1e4aa70f2cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'select2-result-label') and (text() = 'kirithan kandasamy (kirithan.kandasamy@codeworldwide.com)' or . = 'kirithan kandasamy (kirithan.kandasamy@codeworldwide.com)')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -22,10 +28,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>select2-result-label-68</value>
+      <value>select2-result-label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

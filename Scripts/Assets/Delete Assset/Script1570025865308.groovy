@@ -13,19 +13,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/a_Assets'))
+WebUI.callTestCase(findTestCase('Assets/Open Assets Page'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/button_Add Assets'))
+WebUI.callTestCase(findTestCase('Assets/Search Asset'), [('spn_obj') : '', ('search_text') : 'Auto_ImageAsset6'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.check(findTestObject('Assets/Samsung Marketing Cloud/a_Single'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/div_Image'))
+WebUI.click(findTestObject('Assets/Action_Menu/Action_Menu'))
 
-WebUI.uploadFile(findTestObject('Assets/Upload_Asset_Image'), 'C:\\Adzu\\Asset\\AssetPDF.pdf')
+WebUI.click(findTestObject('Assets/Delete Asset/Page_Samsung Marketing Cloud/a_Edit'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Delete'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Yes'))
 

@@ -4,28 +4,34 @@
    <name>div_Searching_select2-drop-mask</name>
    <tag></tag>
    <elementGuidId>4ccfc8eb-ce59-453f-8c7a-65465f6dad2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'select2-container select2-container-multi form-control']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>select2-drop-mask</value>
+      <value>s2id_autogen</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-drop-mask</value>
+      <value>select2-container select2-container-multi form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +39,20 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select2-drop-mask&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>hidden</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placeholder</name>
+      <type>Main</type>
+      <value>Please Select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
