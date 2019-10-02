@@ -19,13 +19,22 @@ WebUI.callTestCase(findTestCase('Assets/Open Assets Page'), [:], FailureHandling
 
 WebUI.callTestCase(findTestCase('Assets/Search Asset'), [('spn_obj') : '', ('search_text') : 'Test Kiri'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/a_Share'))
+WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery'))
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/ul_selectuseremail'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_SearchingEmail'))
+WebUI.click(findTestObject('Assets/Action_Menu/Action_Menu'))
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Kirithan Kandasamy  (kkirithanhotmailcom)'))
+WebUI.click(findTestObject('Assets/Share Asset/a_Share'))
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/a_Share'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/input_Email Link to a User_s2id_autogen8'))
+
+WebUI.setText(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/input_Email Link to a User_s2id_autogen8'), 
+    'kirithan.kandasamy@codeworldwide.com')
+
+WebUI.click(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/div_kirithan kandasamy (kirithankandasamycodeworldwidecom)'))
+
+WebUI.click(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/button_Send'))
 

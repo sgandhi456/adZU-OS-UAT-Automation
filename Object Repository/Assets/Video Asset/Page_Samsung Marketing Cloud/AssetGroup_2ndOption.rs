@@ -6,12 +6,12 @@
    <elementGuidId>3b06183a-c8cb-4207-9aeb-ebe32486a652</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'select2-result-label' and @role = 'option' and (text() = concat('Katya' , &quot;'&quot; , 's asset group UAT 4.9.1') or . = concat('Katya' , &quot;'&quot; , 's asset group UAT 4.9.1'))]</value>
+         <key>CSS</key>
+         <value>ul.select2-results li:nth-of-type(1)</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>ul.select2-results li:nth-of-type(2)</value>
+         <key>BASIC</key>
+         <value>//div[@class = 'select2-result-label' and @role = 'option' and (text() = concat('Katya' , &quot;'&quot; , 's asset group UAT 4.9.1') or . = concat('Katya' , &quot;'&quot; , 's asset group UAT 4.9.1'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
