@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Asset Tests,IE 11,,,2019-10-02 15:56:22,2019-10-02 15:58:01,1m - 38.472s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-10-02 15:56:23,2019-10-02 15:56:54,31.631s,PASSED
+"openBrowser("""")",IE 11,,,2019-10-02 15:56:24,2019-10-02 15:56:31,7.863s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-02 15:56:31,2019-10-02 15:56:36,4.950s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-10-02 15:56:36,2019-10-02 15:56:42,5.290s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-10-02 15:56:42,2019-10-02 15:56:46,4.032s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-10-02 15:56:46,2019-10-02 15:56:51,5.225s,PASSED
+maximizeWindow(),IE 11,,,2019-10-02 15:56:51,2019-10-02 15:56:52,1.048s,PASSED
+,,,,,,,
+Test Cases/Assets/Open Assets Page,IE 11,,,2019-10-02 15:56:54,2019-10-02 15:57:03,8.613s,PASSED
+"click(findTestObject(""Assets/Samsung Marketing Cloud/a_Assets""))",IE 11,,,2019-10-02 15:56:55,2019-10-02 15:57:01,5.988s,PASSED
+,,,,,,,
+Test Cases/Assets/Search Asset,IE 11,,,2019-10-02 15:57:03,2019-10-02 15:57:25,21.867s,PASSED
+"click(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon""))",IE 11,,,2019-10-02 15:57:04,2019-10-02 15:57:09,5.126s,PASSED
+"setText(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/Text_SearchText""), search_text)",IE 11,,,2019-10-02 15:57:09,2019-10-02 15:57:14,4.924s,PASSED
+"span_obj = modifyObjectProperty(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/span_asset""), ""text"", ""equals"", search_text, false)",IE 11,,,2019-10-02 15:57:14,2019-10-02 15:57:14,0.144s,PASSED
+click(span_obj),IE 11,,,2019-10-02 15:57:14,2019-10-02 15:57:18,3.720s,PASSED
+"click(findTestObject(""Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/button_Hide""))",IE 11,,,2019-10-02 15:57:18,2019-10-02 15:57:22,3.973s,PASSED
+delay(1),IE 11,,,2019-10-02 15:57:22,2019-10-02 15:57:23,1.059s,PASSED
+,,,,,,,
+Test Cases/Assets/Preview Asset,IE 11,,,2019-10-02 15:57:25,2019-10-02 15:57:46,21.167s,FAILED
+delay(1),IE 11,,,2019-10-02 15:57:25,2019-10-02 15:57:26,1.016s,PASSED
+"click(findTestObject(""Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery""))",IE 11,,,2019-10-02 15:57:26,2019-10-02 15:57:29,3.389s,PASSED
+delay(1),IE 11,,,2019-10-02 15:57:29,2019-10-02 15:57:30,1.007s,PASSED
+"click(findTestObject(""Assets/Action_Menu/Action_Menu""))",IE 11,,,2019-10-02 15:57:30,2019-10-02 15:57:34,3.419s,PASSED
+"click(findTestObject(""Assets/Preview Asset/Page_Samsung Marketing Cloud/a_Preview""))",IE 11,,,2019-10-02 15:57:34,2019-10-02 15:57:37,3.320s,PASSED
+delay(1),IE 11,,,2019-10-02 15:57:37,2019-10-02 15:57:38,1.008s,PASSED
+"kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot(""C:\Adzu\Screenshot\Preview Asset\Asset_actual.png"", CONTINUE_ON_FAILURE)",IE 11,,,2019-10-02 15:57:38,2019-10-02 15:57:40,1.838s,PASSED
+"kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched(""C:\Adzu\Screenshot\Preview Asset\Asset_expected.png"", ""C:\Adzu\Screenshot\Preview AssetAsset_actual.png"", CONTINUE_ON_FAILURE)",IE 11,,,2019-10-02 15:57:40,2019-10-02 15:57:40,0.175s,FAILED
+"click(findTestObject(""Assets/Preview Asset/Page_Samsung Marketing Cloud/Exit_Preview""))",IE 11,,,2019-10-02 15:57:40,2019-10-02 15:57:44,3.503s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-10-02 15:57:46,2019-10-02 15:58:01,14.722s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-10-02 15:57:46,2019-10-02 15:57:50,3.387s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-10-02 15:57:50,2019-10-02 15:57:53,3.353s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-10-02 15:57:53,2019-10-02 15:57:57,3.803s,PASSED
+closeBrowser(),IE 11,,,2019-10-02 15:57:57,2019-10-02 15:57:58,1.572s,PASSED

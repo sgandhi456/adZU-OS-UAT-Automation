@@ -23,8 +23,13 @@ WebUI.click(findTestObject('Assets/Action_Menu/Action_Menu'))
 
 WebUI.click(findTestObject('Assets/Preview Asset/Page_Samsung Marketing Cloud/a_Preview'))
 
-CustomKeywords.'kms.turing.katalon.plugins.visualtesting.ScreenCapture.baselineImage'('c:\\Adzu\\Screenshot\\Asset_actual.png', 
-    '')
+WebUI.delay(1)
+
+CustomKeywords.'kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot'('C:\\Adzu\\Screenshot\\Preview Asset\\Asset_actual.png', 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+CustomKeywords.'kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched'('C:\\Adzu\\Screenshot\\Preview Asset\\Asset_expected.png', 
+    'C:\\Adzu\\Screenshot\\Preview Asset\\Asset_actual.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Assets/Preview Asset/Page_Samsung Marketing Cloud/Exit_Preview'))
 
