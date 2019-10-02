@@ -49,7 +49,7 @@
    <testCaseLink>
       <guid>355a1364-9dc0-4cfd-8ac7-b35b7f4dfcee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Preview Asset</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -57,6 +57,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Download Asset</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ee062daf-1ceb-40c7-abff-e9d47c6ab23a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Assets/Delete Assset</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8e34be0f-1b1f-4811-b1e9-4313c5157bd7</guid>
