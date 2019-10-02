@@ -31,7 +31,7 @@ CustomKeywords.'kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScree
 WebUI.delay(1)
 
 CustomKeywords.'kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched'('C:\\Adzu\\Screenshot\\Preview Asset\\Asset_expected.png', 
-    'C:\\Adzu\\Screenshot\\Preview Asset\\Asset_actual.png', FailureHandling.CONTINUE_ON_FAILURE)
+    'C:\\Adzu\\Screenshot\\Preview Asset\\Asset_actual.png')
 
 WebUI.click(findTestObject('Assets/Preview Asset/Page_Samsung Marketing Cloud/Exit_Preview'))
 

@@ -1,0 +1,32 @@
+1
+00:00:00,168 --> 00:00:00,169
+1. delay(1)
+
+2
+00:00:01,173 --> 00:00:01,174
+5. click(findTestObject("Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery"))
+
+3
+00:00:03,287 --> 00:00:03,289
+9. delay(1)
+
+4
+00:00:04,293 --> 00:00:04,294
+13. click(findTestObject("Assets/Action_Menu/Action_Menu"))
+
+5
+00:00:06,412 --> 00:00:06,414
+17. click(findTestObject("Assets/Preview Asset/Page_Samsung Marketing Cloud/a_Preview"))
+
+6
+00:00:08,536 --> 00:00:08,537
+21. delay(1)
+
+7
+00:00:09,542 --> 00:00:09,545
+25. kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot("C:\Adzu\Screenshot\Preview Asset\Asset_actual.png", CONTINUE_ON_FAILURE)
+
+8
+00:00:11,375 --> 00:00:11,375
+29. kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched("C:\Adzu\Screenshot\Preview Asset\Asset_expected.png", "C:\Adzu\Screenshot\Preview Asset\Asset_actual.png")
+
