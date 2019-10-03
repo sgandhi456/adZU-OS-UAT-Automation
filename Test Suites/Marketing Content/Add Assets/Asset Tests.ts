@@ -67,7 +67,7 @@
    <testCaseLink>
       <guid>8e34be0f-1b1f-4811-b1e9-4313c5157bd7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login and Logout - Notifications/Logout - Yes Button</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

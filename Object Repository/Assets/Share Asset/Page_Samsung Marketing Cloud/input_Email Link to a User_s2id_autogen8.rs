@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//input[@type = 'text' and @autocomplete = 'off' and @autocorrect = 'off' and @autocapitalize = 'off' and @class = 'select2-input select2-focused select2-active']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='s2id_autogen7']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

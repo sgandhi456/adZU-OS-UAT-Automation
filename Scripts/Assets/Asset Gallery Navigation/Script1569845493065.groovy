@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/a_Assets'))
+WebUI.click(findTestObject('Assets/Add Asset/a_Assets'))
 
 WebUI.verifyElementPresent(findTestObject('Home Page/HomePageNavigation/Page_Samsung Marketing Cloud/div_Asset page navigation'), 
     0)
