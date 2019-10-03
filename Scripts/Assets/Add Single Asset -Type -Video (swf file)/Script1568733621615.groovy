@@ -13,17 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/a_Assets'))
+WebUI.click(findTestObject('Assets/Add Asset/a_Assets'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/button_Add Assets'))
+WebUI.click(findTestObject('Assets/Add Asset/button_Add Assets'))
 
-WebUI.check(findTestObject('Assets/Samsung Marketing Cloud/a_Single'))
+WebUI.check(findTestObject('Assets/Add Asset/a_Single'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Dropdown arrow'))
+WebUI.click(findTestObject('Assets/Add Asset/Dropdown arrow'))
 
 WebUI.click(findTestObject('Assets/Video Asset/div_Video'))
 
@@ -35,13 +35,13 @@ WebUI.uploadFile(findTestObject('Assets/Video Asset/Upload_Asset_Video'), 'C:\\A
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/AssetGroup_dd'))
+WebUI.click(findTestObject('Assets/Add Asset/AssetGroup_dd'))
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Assets/Video Asset/Page_Samsung Marketing Cloud/AssetGroup_2ndOption'))
 
-WebUI.setText(findTestObject('Assets/Samsung Marketing Cloud/input_Name_Asset_Name (1)'), 'VideoAsset_AutoTest3')
+WebUI.setText(findTestObject('Assets/Add Asset/input_Name_Asset_Name (1)'), 'VideoAsset_AutoTest3')
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/button_Save'))
+WebUI.click(findTestObject('Assets/Add Asset/button_Save'))
 

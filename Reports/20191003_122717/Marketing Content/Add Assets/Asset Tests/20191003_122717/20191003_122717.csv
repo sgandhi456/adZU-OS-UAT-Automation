@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Asset Tests,IE 11,,,2019-10-03 12:27:22,2019-10-03 12:28:00,38.112s,INCOMPLETE
+,,,,,,,
+Test Cases/Assets/Delete Assset,IE 11,,,2019-10-03 12:27:22,2019-10-03 12:27:52,29.220s,FAILED
+"click(findTestObject(""Assets/Add Asset/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery""))",IE 11,,,2019-10-03 12:27:24,2019-10-03 12:27:33,9.255s,PASSED
+delay(1),IE 11,,,2019-10-03 12:27:33,2019-10-03 12:27:34,1.103s,PASSED
+"click(findTestObject(""Assets/Action_Menu/Action_Menu""))",IE 11,,,2019-10-03 12:27:34,2019-10-03 12:27:36,2.239s,PASSED
+"click(findTestObject(""Assets/Delete Asset/Page_Samsung Marketing Cloud/a_Edit""))",IE 11,,,2019-10-03 12:27:36,2019-10-03 12:27:44,7.816s,PASSED
+"click(findTestObject(""Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Delete""))",IE 11,,,2019-10-03 12:27:44,2019-10-03 12:27:46,2.212s,PASSED
+delay(1),IE 11,,,2019-10-03 12:27:46,2019-10-03 12:27:47,1.008s,PASSED
+"click(findTestObject(""Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-10-03 12:27:47,2019-10-03 12:27:48,1.237s,FAILED
+delay(1),IE 11,,,2019-10-03 12:27:48,2019-10-03 12:27:49,1.011s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-10-03 12:27:52,2019-10-03 12:28:00,8.385s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-10-03 12:27:52,2019-10-03 12:27:54,1.682s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-10-03 12:27:54,2019-10-03 12:27:56,1.581s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-10-03 12:27:56,2019-10-03 12:27:57,1.969s,PASSED
+closeBrowser(),IE 11,,,2019-10-03 12:27:57,2019-10-03 12:27:58,0.267s,PASSED
