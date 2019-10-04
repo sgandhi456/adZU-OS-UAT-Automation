@@ -15,23 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Assets/Open Assets Page'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Home Page/Products/Page_Samsung Marketing Cloud/h3_Product Categories'), 0)
 
-WebUI.click(findTestObject('Assets/Add Asset/button_Add Assets'))
+WebUI.click(findTestObject('Home Page/Products/Page_Samsung Marketing Cloud/li_Mobile'))
 
-WebUI.click(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/a_Multiple'))
+WebUI.click(findTestObject('Home Page/Products/Page_Samsung Marketing Cloud/li_MobileMobile'))
 
-WebUI.waitForPageLoad(1)
-
-WebUI.click(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/a_Please Select'))
-
-WebUI.click(findTestObject('Assets/Add Asset/div_Image (1)'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/a_Please Select Asset Group'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/div_Code assets'))
+WebUI.click(findTestObject('Home Page/Products/Page_Samsung Marketing Cloud/a_Tablet'))
 
