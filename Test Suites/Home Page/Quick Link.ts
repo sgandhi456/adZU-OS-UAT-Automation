@@ -53,6 +53,18 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>878d0c2e-42e9-4082-8a97-baaacfd15e17</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Home Page/PVI</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e0e992a-8ed1-46dc-8efd-610feccbff7a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>77c3bf55-dd10-491f-aa82-093d4fe7bde1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
