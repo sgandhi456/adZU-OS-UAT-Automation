@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Asset Tests,IE 11,,,2019-10-02 16:30:17,2019-10-02 16:31:44,1m - 27.073s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-10-02 16:30:17,2019-10-02 16:30:43,25.606s,PASSED
+"openBrowser("""")",IE 11,,,2019-10-02 16:30:18,2019-10-02 16:30:23,5.150s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-02 16:30:23,2019-10-02 16:30:25,2.049s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-10-02 16:30:25,2019-10-02 16:30:31,6.212s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-10-02 16:30:31,2019-10-02 16:30:35,3.831s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-10-02 16:30:35,2019-10-02 16:30:40,4.499s,PASSED
+maximizeWindow(),IE 11,,,2019-10-02 16:30:40,2019-10-02 16:30:41,1.224s,PASSED
+,,,,,,,
+Test Cases/Assets/Open Assets Page,IE 11,,,2019-10-02 16:30:43,2019-10-02 16:30:49,6.463s,PASSED
+"click(findTestObject(""Assets/Samsung Marketing Cloud/a_Assets""))",IE 11,,,2019-10-02 16:30:43,2019-10-02 16:30:47,4.098s,PASSED
+,,,,,,,
+Test Cases/Assets/Search Asset,IE 11,,,2019-10-02 16:30:49,2019-10-02 16:31:10,20.718s,PASSED
+"click(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon""))",IE 11,,,2019-10-02 16:30:50,2019-10-02 16:30:56,5.880s,PASSED
+"setText(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/Text_SearchText""), search_text)",IE 11,,,2019-10-02 16:30:56,2019-10-02 16:31:00,4.414s,PASSED
+"span_obj = modifyObjectProperty(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/span_asset""), ""text"", ""equals"", search_text, false)",IE 11,,,2019-10-02 16:31:00,2019-10-02 16:31:00,0.089s,PASSED
+click(span_obj),IE 11,,,2019-10-02 16:31:00,2019-10-02 16:31:03,3.227s,PASSED
+"click(findTestObject(""Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/button_Hide""))",IE 11,,,2019-10-02 16:31:03,2019-10-02 16:31:07,3.604s,PASSED
+delay(1),IE 11,,,2019-10-02 16:31:07,2019-10-02 16:31:08,1.027s,PASSED
+,,,,,,,
+Test Cases/Assets/Preview Asset,IE 11,,,2019-10-02 16:31:10,2019-10-02 16:31:30,19.491s,FAILED
+delay(1),IE 11,,,2019-10-02 16:31:10,2019-10-02 16:31:11,1.004s,PASSED
+"click(findTestObject(""Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery""))",IE 11,,,2019-10-02 16:31:11,2019-10-02 16:31:15,3.231s,PASSED
+delay(1),IE 11,,,2019-10-02 16:31:15,2019-10-02 16:31:16,1.010s,PASSED
+"click(findTestObject(""Assets/Action_Menu/Action_Menu""))",IE 11,,,2019-10-02 16:31:16,2019-10-02 16:31:19,3.196s,PASSED
+"click(findTestObject(""Assets/Preview Asset/Page_Samsung Marketing Cloud/a_Preview""))",IE 11,,,2019-10-02 16:31:19,2019-10-02 16:31:22,3.174s,PASSED
+delay(1),IE 11,,,2019-10-02 16:31:22,2019-10-02 16:31:23,1.006s,PASSED
+"kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot(""C:\Adzu\Screenshot\Preview Asset\Asset_actual.png"", CONTINUE_ON_FAILURE)",IE 11,,,2019-10-02 16:31:23,2019-10-02 16:31:25,1.675s,PASSED
+"kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched(""C:\Adzu\Screenshot\Preview Asset\Asset_expected.png"", ""C:\Adzu\Screenshot\Preview Asset\Asset_actual.png"")",IE 11,,,2019-10-02 16:31:25,2019-10-02 16:31:28,2.904s,FAILED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-10-02 16:31:30,2019-10-02 16:31:44,14.512s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-10-02 16:31:30,2019-10-02 16:31:33,3.307s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-10-02 16:31:33,2019-10-02 16:31:37,3.281s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-10-02 16:31:37,2019-10-02 16:31:40,3.710s,PASSED
+closeBrowser(),IE 11,,,2019-10-02 16:31:40,2019-10-02 16:31:42,1.887s,PASSED
