@@ -15,10 +15,12 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[14]</value>
+         <value>//*[@id=&quot;body&quot;]/div[4]/div/div/div[16]/div/div/div/div/div[3]/button[2]
+
+</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

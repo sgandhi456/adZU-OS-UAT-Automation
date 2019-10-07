@@ -23,9 +23,7 @@ WebUI.click(findTestObject('Assets/Delete Asset/Page_Samsung Marketing Cloud/a_E
 
 WebUI.click(findTestObject('Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Delete'))
 
-WebUI.delay(1)
-
-WebUI.acceptAlert(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Yes'))
 
 WebUI.delay(1)
 
