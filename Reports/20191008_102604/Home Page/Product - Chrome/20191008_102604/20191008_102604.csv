@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Product - Chrome,Chrome 77.0.3865.90,,,2019-10-08 10:26:08,2019-10-08 10:26:55,47.389s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,Chrome 77.0.3865.90,,,2019-10-08 10:26:08,2019-10-08 10:26:33,25.054s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-08 10:26:09,2019-10-08 10:26:17,7.882s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-08 10:26:17,2019-10-08 10:26:19,2.054s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",Chrome 77.0.3865.90,,,2019-10-08 10:26:19,2019-10-08 10:26:25,5.920s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 77.0.3865.90,,,2019-10-08 10:26:25,2019-10-08 10:26:28,3.504s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",Chrome 77.0.3865.90,,,2019-10-08 10:26:28,2019-10-08 10:26:31,2.692s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-08 10:26:31,2019-10-08 10:26:33,2.437s,PASSED
+,,,,,,,
+Test Cases/Home Page/Products,Chrome 77.0.3865.90,,,2019-10-08 10:26:33,2019-10-08 10:26:46,12.684s,PASSED
+"scrollToElement(findTestObject(""Home Page/Products/Page_Samsung Marketing Cloud/h3_Product Categories""), 0)",Chrome 77.0.3865.90,,,2019-10-08 10:26:34,2019-10-08 10:26:37,2.709s,PASSED
+"click(findTestObject(""Home Page/Products/Page_Samsung Marketing Cloud/li_Mobile""))",Chrome 77.0.3865.90,,,2019-10-08 10:26:37,2019-10-08 10:26:39,2.309s,PASSED
+"mouseOver(findTestObject(""Home Page/Products/Page_Samsung Marketing Cloud/span_Mobile""), CONTINUE_ON_FAILURE)",Chrome 77.0.3865.90,,,2019-10-08 10:26:39,2019-10-08 10:26:42,2.405s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-08 10:26:42,2019-10-08 10:26:43,1.065s,PASSED
+"click(findTestObject(""Home Page/Products/Page_Samsung Marketing Cloud/a_Tablet""), CONTINUE_ON_FAILURE)",Chrome 77.0.3865.90,,,2019-10-08 10:26:43,2019-10-08 10:26:45,2.324s,PASSED
+url = getUrl(STOP_ON_FAILURE),Chrome 77.0.3865.90,,,2019-10-08 10:26:45,2019-10-08 10:26:46,1.036s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?ProductId=3c94d341-7b69-f55b-d7b1-39e99ee8a4a8&ProductText=Tablet"", false)",Chrome 77.0.3865.90,,,2019-10-08 10:26:46,2019-10-08 10:26:46,0.017s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,Chrome 77.0.3865.90,,,2019-10-08 10:26:46,2019-10-08 10:26:55,9.192s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",Chrome 77.0.3865.90,,,2019-10-08 10:26:46,2019-10-08 10:26:49,2.328s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",Chrome 77.0.3865.90,,,2019-10-08 10:26:49,2019-10-08 10:26:51,2.265s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",Chrome 77.0.3865.90,,,2019-10-08 10:26:51,2019-10-08 10:26:53,2.353s,PASSED
+closeBrowser(),Chrome 77.0.3865.90,,,2019-10-08 10:26:53,2019-10-08 10:26:55,1.804s,PASSED

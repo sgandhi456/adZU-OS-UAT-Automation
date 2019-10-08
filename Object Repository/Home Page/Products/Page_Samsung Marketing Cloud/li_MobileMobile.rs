@@ -4,24 +4,30 @@
    <name>li_MobileMobile</name>
    <tag></tag>
    <elementGuidId>21a5b24a-16fe-454d-a607-55063c8a22ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@class = 'k-item k-state-default k-first k-state-border-right' and @role = 'menuitem' and (text() = 'MobileTabletSmartphoneMobile CameraWearableMobile PhoneOthers' or . = 'MobileTabletSmartphoneMobile CameraWearableMobile PhoneOthers')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>k-item k-state-default k-first k-state-border-right</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
