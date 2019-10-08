@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>Campaign</description>
    <name>Campaign</name>
    <tag></tag>
    <isRerun>false</isRerun>
