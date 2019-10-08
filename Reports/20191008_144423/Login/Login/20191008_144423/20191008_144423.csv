@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 77.0.3865.90,,,2019-10-08 14:44:27,2019-10-08 14:45:16,49.263s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/login Error,Chrome 77.0.3865.90,,,2019-10-08 14:44:27,2019-10-08 14:44:52,24.911s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-08 14:44:28,2019-10-08 14:44:35,6.987s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-08 14:44:35,2019-10-08 14:44:37,2.211s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""k.kirithan@hotmail.com"")",Chrome 77.0.3865.90,,,2019-10-08 14:44:37,2019-10-08 14:44:43,5.771s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""hsPFm2cfhkw="")",Chrome 77.0.3865.90,,,2019-10-08 14:44:43,2019-10-08 14:44:46,3.418s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",Chrome 77.0.3865.90,,,2019-10-08 14:44:46,2019-10-08 14:44:49,2.713s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-08 14:44:49,2019-10-08 14:44:50,1.099s,PASSED
+"verifyElementText(findTestObject(""Login/Page_Samsung Marketing Cloud/div_Error                        Invalid username or password""), ""Error: Invalid username or password"")",Chrome 77.0.3865.90,,,2019-10-08 14:44:50,2019-10-08 14:44:52,2.331s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,Chrome 77.0.3865.90,,,2019-10-08 14:44:52,2019-10-08 14:45:16,23.984s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-08 14:44:53,2019-10-08 14:45:00,6.865s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-08 14:45:00,2019-10-08 14:45:02,2.218s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",Chrome 77.0.3865.90,,,2019-10-08 14:45:02,2019-10-08 14:45:07,5.353s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 77.0.3865.90,,,2019-10-08 14:45:07,2019-10-08 14:45:11,3.672s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",Chrome 77.0.3865.90,,,2019-10-08 14:45:11,2019-10-08 14:45:14,2.996s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-08 14:45:14,2019-10-08 14:45:16,2.220s,PASSED

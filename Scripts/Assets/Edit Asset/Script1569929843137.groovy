@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Assets/Edit Asset/Page_Samsung Marketing Cloud/Edit_
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Assets/Edit Asset/Page_Samsung Marketing Cloud/Edit_Asset_Name'), 'Auto_ImageAsset7')
+WebUI.setText(findTestObject('Assets/Edit Asset/Page_Samsung Marketing Cloud/Edit_Asset_Name'), Asset Name )
 
 WebUI.click(findTestObject('Assets/Edit Asset/Page_Samsung Marketing Cloud/button_Save'))
 
