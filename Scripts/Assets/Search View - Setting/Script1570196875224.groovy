@@ -27,3 +27,5 @@ WebUI.click(findTestObject('Assets/Search View Setting/Page_Samsung Marketing Cl
 
 WebUI.click(findTestObject('Assets/Search View Setting/Page_Samsung Marketing Cloud/button_Save'))
 
+WebUI.callTestCase(findTestCase('Assets/Open Assets Page'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+

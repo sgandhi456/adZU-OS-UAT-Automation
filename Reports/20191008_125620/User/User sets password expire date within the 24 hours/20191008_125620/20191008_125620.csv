@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User sets password expire date within the 24 hours,IE 11,,,2019-10-08 12:56:24,2019-10-08 12:59:57,3m - 33.361s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-10-08 12:56:24,2019-10-08 12:56:51,26.476s,PASSED
+"openBrowser("""")",IE 11,,,2019-10-08 12:56:25,2019-10-08 12:56:32,6.748s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-08 12:56:32,2019-10-08 12:56:36,3.941s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-10-08 12:56:36,2019-10-08 12:56:41,4.961s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-10-08 12:56:41,2019-10-08 12:56:45,4.132s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-10-08 12:56:45,2019-10-08 12:56:50,5.065s,PASSED
+maximizeWindow(),IE 11,,,2019-10-08 12:56:50,2019-10-08 12:56:51,1.060s,PASSED
+,,,,,,,
+Test Cases/User/Open User Screen,IE 11,,,2019-10-08 12:56:51,2019-10-08 12:57:01,9.737s,PASSED
+"click(findTestObject(""User/Edit User/Page_Samsung Marketing Cloud/a_Admin""))",IE 11,,,2019-10-08 12:56:51,2019-10-08 12:56:56,5.045s,PASSED
+"click(findTestObject(""User/Edit User/Page_Samsung Marketing Cloud/a_User Manager""))",IE 11,,,2019-10-08 12:56:56,2019-10-08 12:57:01,4.205s,PASSED
+,,,,,,,
+Test Cases/User/Search User,IE 11,test1,,2019-10-08 12:57:01,2019-10-08 12:57:16,15.776s,PASSED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/Filter_Toggle""))",IE 11,,,2019-10-08 12:57:01,2019-10-08 12:57:09,7.653s,PASSED
+"setText(findTestObject(""User/Edit User/Page_Users  Samsung/Text_SearchText""), ""satinder"")",IE 11,,,2019-10-08 12:57:09,2019-10-08 12:57:13,4.008s,PASSED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/button_Hide""))",IE 11,,,2019-10-08 12:57:13,2019-10-08 12:57:16,3.684s,PASSED
+,,,,,,,
+Test Cases/User/Edit User,IE 11,test1,,2019-10-08 12:57:16,2019-10-08 12:58:16,59.635s,FAILED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/Menu_Action""))",IE 11,,,2019-10-08 12:57:17,2019-10-08 12:57:20,3.449s,PASSED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/a_Edit""))",IE 11,,,2019-10-08 12:57:20,2019-10-08 12:57:25,4.781s,PASSED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/Checkbox_PasswordExpires""))",IE 11,,,2019-10-08 12:57:25,2019-10-08 12:57:29,3.668s,PASSED
+"setText(findTestObject(""User/Edit User/Page_Users  Samsung/Text_Password Expires In_""), ""0"")",IE 11,,,2019-10-08 12:57:29,2019-10-08 12:58:08,39.354s,FAILED
+"setText(findTestObject(""User/Edit User/Page_Users  Samsung/Text_Password Expires On_time""), ""21"")",IE 11,,,2019-10-08 12:58:08,2019-10-08 12:58:12,4.107s,PASSED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/button_Save""))",IE 11,,,2019-10-08 12:58:12,2019-10-08 12:58:16,3.731s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-10-08 12:58:16,2019-10-08 12:58:29,12.806s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-10-08 12:58:16,2019-10-08 12:58:20,3.515s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-10-08 12:58:20,2019-10-08 12:58:23,3.444s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-10-08 12:58:23,2019-10-08 12:58:27,3.816s,PASSED
+closeBrowser(),IE 11,,,2019-10-08 12:58:27,2019-10-08 12:58:29,1.640s,PASSED
+,,,,,,,
+Test Cases/User/Password Expiry within 24 hours,IE 11,Alert check when user password expiry is within 24 hrs,,2019-10-08 12:58:29,2019-10-08 12:59:05,35.791s,FAILED
+"callTestCase(findTestCase(""Login and Logout - Notifications/Login""), [:], CONTINUE_ON_FAILURE)",IE 11,,,2019-10-08 12:58:30,2019-10-08 12:58:55,24.972s,PASSED
+"verifyElementText(findTestObject(""User/Edit User/Page_Samsung Marketing Cloud/h4_Password Expiration""), ""Password Expiration"")",IE 11,,,2019-10-08 12:58:55,2019-10-08 12:59:00,5.531s,FAILED
+"click(findTestObject(""User/Edit User/Page_Samsung Marketing Cloud/button_Reset Later""))",IE 11,,,2019-10-08 12:59:00,2019-10-08 12:59:05,4.305s,FAILED
+,,,,,,,
+Test Cases/User/Open User Screen,IE 11,,,2019-10-08 12:59:05,2019-10-08 12:59:13,8.640s,PASSED
+"click(findTestObject(""User/Edit User/Page_Samsung Marketing Cloud/a_Admin""))",IE 11,,,2019-10-08 12:59:05,2019-10-08 12:59:08,3.611s,PASSED
+"click(findTestObject(""User/Edit User/Page_Samsung Marketing Cloud/a_User Manager""))",IE 11,,,2019-10-08 12:59:08,2019-10-08 12:59:13,5.016s,PASSED
+,,,,,,,
+Test Cases/User/Search User,IE 11,test1,,2019-10-08 12:59:13,2019-10-08 12:59:29,15.366s,PASSED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/Filter_Toggle""))",IE 11,,,2019-10-08 12:59:13,2019-10-08 12:59:21,7.563s,PASSED
+"setText(findTestObject(""User/Edit User/Page_Users  Samsung/Text_SearchText""), ""satinder"")",IE 11,,,2019-10-08 12:59:21,2019-10-08 12:59:25,4.028s,PASSED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/button_Hide""))",IE 11,,,2019-10-08 12:59:25,2019-10-08 12:59:29,3.761s,PASSED
+,,,,,,,
+Test Cases/User/Reset User,IE 11,test1,,2019-10-08 12:59:29,2019-10-08 12:59:45,16.048s,PASSED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/Menu_Action""))",IE 11,,,2019-10-08 12:59:29,2019-10-08 12:59:33,3.474s,PASSED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/a_Edit""))",IE 11,,,2019-10-08 12:59:33,2019-10-08 12:59:37,4.771s,PASSED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/Checkbox_PasswordExpires""))",IE 11,,,2019-10-08 12:59:37,2019-10-08 12:59:41,3.711s,PASSED
+"click(findTestObject(""User/Edit User/Page_Users  Samsung/button_Save""))",IE 11,,,2019-10-08 12:59:41,2019-10-08 12:59:45,3.475s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-10-08 12:59:45,2019-10-08 12:59:57,12.552s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-10-08 12:59:45,2019-10-08 12:59:48,3.530s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-10-08 12:59:48,2019-10-08 12:59:52,3.449s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-10-08 12:59:52,2019-10-08 12:59:56,3.926s,PASSED
+closeBrowser(),IE 11,,,2019-10-08 12:59:56,2019-10-08 12:59:57,1.635s,PASSED

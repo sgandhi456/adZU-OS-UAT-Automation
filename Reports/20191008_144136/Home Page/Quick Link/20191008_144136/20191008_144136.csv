@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Quick Link,IE 11,,,2019-10-08 14:41:43,2019-10-08 14:42:53,1m - 9.490s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-10-08 14:41:44,2019-10-08 14:42:20,35.571s,PASSED
+"openBrowser("""")",IE 11,,,2019-10-08 14:41:45,2019-10-08 14:41:55,9.818s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-08 14:41:55,2019-10-08 14:41:58,3.299s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-10-08 14:41:58,2019-10-08 14:42:07,8.704s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-10-08 14:42:07,2019-10-08 14:42:12,4.880s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-10-08 14:42:12,2019-10-08 14:42:18,6.418s,PASSED
+maximizeWindow(),IE 11,,,2019-10-08 14:42:18,2019-10-08 14:42:20,1.474s,PASSED
+,,,,,,,
+Test Cases/Home Page/Europe Office,IE 11,,,2019-10-08 14:42:20,2019-10-08 14:42:37,17.610s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-08 14:42:21,2019-10-08 14:42:23,1.840s,PASSED
+"scrollToElement(findTestObject(""Home Page/Page_Samsung Marketing Cloud/div_Quick Links""), 0)",IE 11,,,2019-10-08 14:42:23,2019-10-08 14:42:28,5.329s,PASSED
+"click(findTestObject(""Home Page/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/div_Europe Office""))",IE 11,,,2019-10-08 14:42:28,2019-10-08 14:42:34,6.010s,PASSED
+url = getUrl(),IE 11,,,2019-10-08 14:42:34,2019-10-08 14:42:37,3.399s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Europe-Office"", false)",IE 11,,,2019-10-08 14:42:37,2019-10-08 14:42:37,0.055s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-10-08 14:42:37,2019-10-08 14:42:53,15.472s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-10-08 14:42:38,2019-10-08 14:42:42,4.455s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-10-08 14:42:42,2019-10-08 14:42:46,3.870s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-10-08 14:42:46,2019-10-08 14:42:51,4.588s,PASSED
+closeBrowser(),IE 11,,,2019-10-08 14:42:51,2019-10-08 14:42:53,1.919s,PASSED
