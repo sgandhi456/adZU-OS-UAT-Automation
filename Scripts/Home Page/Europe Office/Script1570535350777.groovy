@@ -17,9 +17,9 @@ WebUI.navigateToUrl('https://samsung-adzu4-staging.codeworldwide.com/#')
 
 WebUI.scrollToElement(findTestObject('Home Page/Page_Samsung Marketing Cloud/div_Quick Links'), 0)
 
-WebUI.click(findTestObject('Home Page/Page_Samsung Marketing Cloud/div_Help and Support'))
+WebUI.click(findTestObject('Home Page/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/Page_Samsung Marketing Cloud/div_Europe Office'))
 
 url = WebUI.getUrl()
 
-WebUI.verifyMatch(url, 'https://samsung-adzu4-staging.codeworldwide.com/#page/Help-and-Support', false)
+WebUI.verifyMatch(url, 'https://samsung-adzu4-staging.codeworldwide.com/#page/Europe-Office', false)
 

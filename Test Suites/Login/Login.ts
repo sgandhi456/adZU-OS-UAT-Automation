@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>197393a4-617a-49ea-adeb-d7727080c8e4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Logout - Notifications/login Error</testCaseId>
    </testCaseLink>
    <testCaseLink>

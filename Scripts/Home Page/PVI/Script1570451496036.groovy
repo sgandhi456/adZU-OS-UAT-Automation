@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('https://samsung-adzu4-staging.codeworldwide.com/#')
 
@@ -21,5 +22,5 @@ WebUI.click(findTestObject('Home Page/Page_Samsung Marketing Cloud/div_PVI'))
 
 url = WebUI.getUrl()
 
-WebUI.verifyMatch(a, 'https://samsung-adzu4-staging.codeworldwide.com/#page/PVI', false)
+WebUI.verifyMatch(url, 'https://samsung-adzu4-staging.codeworldwide.com/#page/PVI', false)
 

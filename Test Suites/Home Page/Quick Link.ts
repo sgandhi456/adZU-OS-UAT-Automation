@@ -65,6 +65,18 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>8a5c5a5a-e2c6-4a23-ae77-db389f4c0ebf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Home Page/Europe Office</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>24a708c4-e582-4e89-bc69-0051a8a105a7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>77c3bf55-dd10-491f-aa82-093d4fe7bde1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

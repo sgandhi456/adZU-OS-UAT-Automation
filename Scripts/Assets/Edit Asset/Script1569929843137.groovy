@@ -19,9 +19,9 @@ WebUI.callTestCase(findTestCase('Assets/Open Assets Page'), [:], FailureHandling
 
 WebUI.callTestCase(findTestCase('Assets/Search Asset'), [('spn_obj') : '', ('search_text') : 'Auto_test'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Assets/Samsung Marketing Cloud/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery'))
+WebUI.click(findTestObject('Assets/Add Asset/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery'))
 
 WebUI.delay(1)
 
