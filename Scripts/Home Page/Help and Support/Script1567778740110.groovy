@@ -21,5 +21,5 @@ WebUI.click(findTestObject('Home Page/Page_Samsung Marketing Cloud/div_Help and 
 
 url = WebUI.getUrl()
 
-WebUI.verifyMatch(a, 'https://samsung-adzu4-staging.codeworldwide.com/#page/Help-and-Support', false)
+WebUI.verifyMatch(url, 'https://samsung-adzu4-staging.codeworldwide.com/#page/Help-and-Support', false)
 
