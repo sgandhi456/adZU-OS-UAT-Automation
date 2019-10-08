@@ -13,13 +13,13 @@
    <testCaseLink>
       <guid>197393a4-617a-49ea-adeb-d7727080c8e4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login and Logout - Notifications/login Error</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ebac311b-c284-4e87-9d30-50e5e7f3da9c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login and Logout - Notifications/TC Pop-up</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -31,7 +31,7 @@
    <testCaseLink>
       <guid>ec8059f3-e680-4544-957b-79ba1f176f0b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login and Logout - Notifications/Forgot Password</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -43,13 +43,13 @@
    <testCaseLink>
       <guid>ddf267fe-e412-4ba6-ab4b-08e5f5531eba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login and Logout - Notifications/Logout - No Button</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7cbbe42f-be9f-43f8-a94a-3708c5a57690</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login and Logout - Notifications/Logout - Yes Button</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
