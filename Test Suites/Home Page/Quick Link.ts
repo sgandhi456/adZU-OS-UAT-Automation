@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>9be06ecc-bf98-4d9a-b131-daf628c8824a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Home Page/Brand</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -31,7 +31,7 @@
    <testCaseLink>
       <guid>aa93bdbb-9a37-422e-a723-fe3eac586b7f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Home Page/Learning</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -43,7 +43,7 @@
    <testCaseLink>
       <guid>70802ba9-2c06-448c-8eee-4414f1b445f8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Home Page/Help and Support</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
