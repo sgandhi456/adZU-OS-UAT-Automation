@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.click(findTestObject('Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon'))
+WebUI.click(findTestObject('Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon'))
 
 WebUI.setText(findTestObject('Assets/Search Assets/Page_Samsung Marketing Cloud/Text_SearchText'), search_text)
 

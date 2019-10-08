@@ -15,3 +15,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Assets/Add Asset/a_Assets'))
 
+WebUI.delay(1)
+
