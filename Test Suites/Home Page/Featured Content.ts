@@ -20,7 +20,7 @@
       <guid>e74ce656-df7c-4c78-b155-75f9ec76056f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Home Page/Explore</testCaseId>
+      <testCaseId>Test Cases/Home Page/Featured Content Tiles/Explore</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -32,7 +32,7 @@
       <guid>8358ff53-fa34-4c9b-b209-0def17996eec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Home Page/Apps and Services</testCaseId>
+      <testCaseId>Test Cases/Home Page/Featured Content Tiles/Apps and Services</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -44,7 +44,7 @@
       <guid>5de6aa91-f809-4808-b430-0b258aff82e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Home Page/Customer Support</testCaseId>
+      <testCaseId>Test Cases/Home Page/Featured Content Tiles/Customer Support</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -56,7 +56,7 @@
       <guid>20800bb5-40dc-47ee-b935-9e75fe0b29c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Home Page/In Situ</testCaseId>
+      <testCaseId>Test Cases/Home Page/Featured Content Tiles/In Situ</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

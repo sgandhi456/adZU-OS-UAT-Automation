@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Campaign,Chrome 77.0.3865.90,Campaign,,2019-10-09 09:46:12,2019-10-09 09:46:51,38.934s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,Chrome 77.0.3865.90,,,2019-10-09 09:46:12,2019-10-09 09:46:36,24.040s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-09 09:46:12,2019-10-09 09:46:20,7.517s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-09 09:46:20,2019-10-09 09:46:22,1.970s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",Chrome 77.0.3865.90,,,2019-10-09 09:46:22,2019-10-09 09:46:27,5.320s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 77.0.3865.90,,,2019-10-09 09:46:27,2019-10-09 09:46:31,3.545s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",Chrome 77.0.3865.90,,,2019-10-09 09:46:31,2019-10-09 09:46:34,3.016s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-09 09:46:34,2019-10-09 09:46:36,2.232s,PASSED
+,,,,,,,
+Test Cases/Home Page/Campaigns,Chrome 77.0.3865.90,,,2019-10-09 09:46:36,2019-10-09 09:46:41,5.158s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-09 09:46:36,2019-10-09 09:46:38,1.079s,PASSED
+waitForPageLoad(1),Chrome 77.0.3865.90,,,2019-10-09 09:46:38,2019-10-09 09:46:39,1.319s,PASSED
+"click(findTestObject(""Home Page/Page_Samsung Marketing Cloud/a_S10""))",Chrome 77.0.3865.90,,,2019-10-09 09:46:39,2019-10-09 09:46:41,2.293s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,Chrome 77.0.3865.90,,,2019-10-09 09:46:41,2019-10-09 09:46:51,9.328s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",Chrome 77.0.3865.90,,,2019-10-09 09:46:42,2019-10-09 09:46:44,2.359s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",Chrome 77.0.3865.90,,,2019-10-09 09:46:44,2019-10-09 09:46:46,2.315s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",Chrome 77.0.3865.90,,,2019-10-09 09:46:46,2019-10-09 09:46:49,2.372s,PASSED
+closeBrowser(),Chrome 77.0.3865.90,,,2019-10-09 09:46:49,2019-10-09 09:46:51,1.894s,PASSED
