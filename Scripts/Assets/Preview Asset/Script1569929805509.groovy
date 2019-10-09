@@ -15,10 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Assets/Add Asset/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery'))
-
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Assets/Action_Menu/Action_Menu'))
 
 WebUI.click(findTestObject('Assets/Preview Asset/Page_Samsung Marketing Cloud/a_Preview'))

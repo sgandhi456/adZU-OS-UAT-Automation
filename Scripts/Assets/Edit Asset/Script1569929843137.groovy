@@ -15,10 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Assets/Add Asset/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery'))
-
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Assets/Action_Menu/Action_Menu'))
 
 WebUI.click(findTestObject('Assets/Delete Asset/Page_Samsung Marketing Cloud/a_Edit'))
@@ -27,7 +23,7 @@ WebUI.click(findTestObject('Assets/Edit Asset/Page_Samsung Marketing Cloud/Edit_
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Assets/Edit Asset/Page_Samsung Marketing Cloud/Edit_Asset_Name'), Asset Name )
+WebUI.setText(findTestObject('Assets/Edit Asset/Page_Samsung Marketing Cloud/Edit_Asset_Name'), Asset_Name)
 
 WebUI.click(findTestObject('Assets/Edit Asset/Page_Samsung Marketing Cloud/button_Save'))
 

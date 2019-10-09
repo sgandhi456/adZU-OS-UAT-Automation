@@ -20,7 +20,13 @@
       <guid>a7977a30-1cd5-4caf-a5fe-58f562cc91c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+<<<<<<< HEAD
+      <testCaseId>Test Cases/Home Page/Campaign/S10</testCaseId>
+=======
       <testCaseId>Test Cases/Home Page/Campaigns/S10 Campaign</testCaseId>
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/sgandhi456/adZU-OS-UAT-Automation.git
+=======
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -81,6 +87,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Home Page/Campaigns/Galaxy A9 Campaign</testCaseId>
+>>>>>>> branch 'master' of https://github.com/sgandhi456/adZU-OS-UAT-Automation.git
    </testCaseLink>
    <testCaseLink>
       <guid>fae50b0c-a83d-403a-8fb2-2325ecfbc10f</guid>

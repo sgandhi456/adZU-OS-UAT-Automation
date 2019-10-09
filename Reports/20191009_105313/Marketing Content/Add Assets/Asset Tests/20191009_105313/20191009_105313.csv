@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Asset Tests,IE 11,,,2019-10-09 10:53:17,2019-10-09 10:55:08,1m - 50.808s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-10-09 10:53:18,2019-10-09 10:53:52,33.435s,PASSED
+"openBrowser("""")",IE 11,,,2019-10-09 10:53:19,2019-10-09 10:53:28,9.096s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-09 10:53:28,2019-10-09 10:53:35,6.387s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-10-09 10:53:35,2019-10-09 10:53:40,5.525s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-10-09 10:53:40,2019-10-09 10:53:45,4.380s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-10-09 10:53:45,2019-10-09 10:53:50,5.703s,PASSED
+maximizeWindow(),IE 11,,,2019-10-09 10:53:50,2019-10-09 10:53:52,1.132s,PASSED
+,,,,,,,
+Test Cases/Assets/Open Assets Page,IE 11,,,2019-10-09 10:53:52,2019-10-09 10:54:02,9.996s,PASSED
+"click(findTestObject(""Assets/Add Asset/a_Assets""))",IE 11,,,2019-10-09 10:53:52,2019-10-09 10:54:01,8.447s,PASSED
+delay(1),IE 11,,,2019-10-09 10:54:01,2019-10-09 10:54:02,1.039s,PASSED
+,,,,,,,
+Test Cases/Assets/Search Asset,IE 11,,,2019-10-09 10:54:02,2019-10-09 10:54:27,25.325s,PASSED
+"click(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon""))",IE 11,,,2019-10-09 10:54:02,2019-10-09 10:54:09,6.787s,PASSED
+"setText(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/Text_SearchText""), search_text)",IE 11,,,2019-10-09 10:54:09,2019-10-09 10:54:14,5.096s,PASSED
+"span_obj = modifyObjectProperty(findTestObject(""Assets/Search Assets/Page_Samsung Marketing Cloud/span_asset""), ""text"", ""equals"", search_text, false)",IE 11,,,2019-10-09 10:54:14,2019-10-09 10:54:14,0.154s,PASSED
+click(span_obj),IE 11,,,2019-10-09 10:54:14,2019-10-09 10:54:18,3.867s,PASSED
+"click(findTestObject(""Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/button_Hide""))",IE 11,,,2019-10-09 10:54:18,2019-10-09 10:54:22,4.085s,PASSED
+delay(1),IE 11,,,2019-10-09 10:54:22,2019-10-09 10:54:23,1.008s,PASSED
+"click(findTestObject(""Assets/Add Asset/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery""))",IE 11,,,2019-10-09 10:54:23,2019-10-09 10:54:27,3.507s,PASSED
+,,,,,,,
+Test Cases/Assets/Edit Asset,IE 11,Edit,,2019-10-09 10:54:27,2019-10-09 10:54:52,25.307s,PASSED
+delay(1),IE 11,,,2019-10-09 10:54:27,2019-10-09 10:54:28,1.011s,PASSED
+"click(findTestObject(""Assets/Action_Menu/Action_Menu""))",IE 11,,,2019-10-09 10:54:28,2019-10-09 10:54:32,3.444s,PASSED
+"click(findTestObject(""Assets/Delete Asset/Page_Samsung Marketing Cloud/a_Edit""))",IE 11,,,2019-10-09 10:54:32,2019-10-09 10:54:39,7.453s,PASSED
+"click(findTestObject(""Assets/Edit Asset/Page_Samsung Marketing Cloud/Edit_Asset_Name""))",IE 11,,,2019-10-09 10:54:39,2019-10-09 10:54:43,3.951s,PASSED
+delay(1),IE 11,,,2019-10-09 10:54:43,2019-10-09 10:54:44,1.005s,PASSED
+"setText(findTestObject(""Assets/Edit Asset/Page_Samsung Marketing Cloud/Edit_Asset_Name""), name)",IE 11,,,2019-10-09 10:54:44,2019-10-09 10:54:48,4.101s,PASSED
+"click(findTestObject(""Assets/Edit Asset/Page_Samsung Marketing Cloud/button_Save""))",IE 11,,,2019-10-09 10:54:48,2019-10-09 10:54:52,3.812s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-10-09 10:54:52,2019-10-09 10:55:08,16.036s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-10-09 10:54:53,2019-10-09 10:54:57,3.830s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-10-09 10:54:57,2019-10-09 10:55:01,3.640s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-10-09 10:55:01,2019-10-09 10:55:05,4.008s,PASSED
+closeBrowser(),IE 11,,,2019-10-09 10:55:05,2019-10-09 10:55:08,3.704s,PASSED
