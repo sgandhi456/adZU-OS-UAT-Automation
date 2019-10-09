@@ -27,12 +27,15 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Add Single Asset - Image</testCaseId>
+<<<<<<< HEAD
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
          <variableId>f53fa622-c34c-4d43-9b08-abfd08755178</variableId>
       </variableLink>
+=======
+>>>>>>> branch 'master' of https://github.com/sgandhi456/adZU-OS-UAT-Automation.git
    </testCaseLink>
    <testCaseLink>
       <guid>4257e635-4c8e-4fd7-a241-51a27a984401</guid>
@@ -57,6 +60,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Preview Asset</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d00f356-2a3b-4a9f-905f-0ef3822d13f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Assets/Share Asset</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2d00f356-2a3b-4a9f-905f-0ef3822d13f8</guid>
