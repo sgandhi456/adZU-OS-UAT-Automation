@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Logout/Page_Samsung Marketing Cloud/span_gandhi'))
 
-WebUI.click(findTestObject('Home Page/Profile/Page_Samsung Marketing Cloud/a_Profile'))
+WebUI.click(findTestObject('Home Page/Profile/a_Profile'))
 
 WebUI.click(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/button_Edit'))
 

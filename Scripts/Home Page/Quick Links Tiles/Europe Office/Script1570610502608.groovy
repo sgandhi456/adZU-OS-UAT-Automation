@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl('https://samsung-adzu4-staging.codeworldwide.com/#')
 
-WebUI.scrollToElement(findTestObject('Home Page/Page_Samsung Marketing Cloud/Quick Links/div_Quick Links'), 0)
+WebUI.scrollToElement(findTestObject('Home Page/Homa Page Tiles/Quick Links/div_Quick Links'), 0)
 
-WebUI.click(findTestObject('Home Page/Page_Samsung Marketing Cloud/Quick Links/div_Europe Office'))
+WebUI.click(findTestObject('Home Page/Homa Page Tiles/Quick Links/div_Europe Office'))
 
 url = WebUI.getUrl()
 

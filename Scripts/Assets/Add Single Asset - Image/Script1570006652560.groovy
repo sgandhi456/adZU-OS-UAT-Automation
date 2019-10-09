@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Assets/Video Asset/Page_Samsung Marketing Cloud/Asse
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Assets/Add Asset/input_Name_Asset_Name (1)'), 'Auto_ImageAsset6')
+WebUI.setText(findTestObject('Assets/Add Asset/input_Name_Asset_Name (1)'), AssetName)
 
 WebUI.delay(1)
 
