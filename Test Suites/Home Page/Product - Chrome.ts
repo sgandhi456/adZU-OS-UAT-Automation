@@ -20,7 +20,7 @@
       <guid>04d95cd0-ddb8-4cdf-935a-4c28f749a607</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Home Page/Products</testCaseId>
+      <testCaseId>Test Cases/Home Page/Products/Product</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

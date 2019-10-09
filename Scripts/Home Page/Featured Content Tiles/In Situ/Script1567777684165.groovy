@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl('https://samsung-adzu4-staging.codeworldwide.com/#')
 
-WebUI.scrollToElement(findTestObject('Home Page/Page_Samsung Marketing Cloud/Featured Content/h3_Featured Content'), 0)
+WebUI.scrollToElement(findTestObject('Home Page/Homa Page Tiles/Featured Content/h3_Featured Content'), 0)
 
-WebUI.click(findTestObject('Home Page/Page_Samsung Marketing Cloud/Featured Content/div_In Situ'))
+WebUI.click(findTestObject('Home Page/Homa Page Tiles/Featured Content/div_In Situ'))
 
 url = WebUI.getUrl(FailureHandling.STOP_ON_FAILURE)
 
