@@ -20,7 +20,7 @@
       <guid>9be06ecc-bf98-4d9a-b131-daf628c8824a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Home Page/Brand</testCaseId>
+      <testCaseId>Test Cases/Home Page/Quick Links Tiles/Brand</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -32,7 +32,7 @@
       <guid>aa93bdbb-9a37-422e-a723-fe3eac586b7f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Home Page/Learning</testCaseId>
+      <testCaseId>Test Cases/Home Page/Quick Links Tiles/Learning</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -44,7 +44,7 @@
       <guid>70802ba9-2c06-448c-8eee-4414f1b445f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Home Page/Help and Support</testCaseId>
+      <testCaseId>Test Cases/Home Page/Quick Links Tiles/Help and Support</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -56,7 +56,7 @@
       <guid>878d0c2e-42e9-4082-8a97-baaacfd15e17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Home Page/PVI</testCaseId>
+      <testCaseId>Test Cases/Home Page/Quick Links Tiles/PVI</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -68,7 +68,7 @@
       <guid>8a5c5a5a-e2c6-4a23-ae77-db389f4c0ebf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Home Page/Europe Office</testCaseId>
+      <testCaseId>Test Cases/Home Page/Quick Links Tiles/Europe Office</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

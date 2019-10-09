@@ -20,13 +20,13 @@
       <guid>37ff2088-fc5a-408b-a7c8-6521b761896a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Home Page/Edit Profile - Cancel</testCaseId>
+      <testCaseId>Test Cases/Home Page/Profile/Edit Profile - Cancel</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5109e07e-70a3-44e2-a2d7-cf77a8fa99c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Home Page/Edit Profile - Yes</testCaseId>
+      <testCaseId>Test Cases/Home Page/Profile/Edit Profile - Yes</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6371bff7-98f2-4d51-af6e-616da27cbe48</guid>

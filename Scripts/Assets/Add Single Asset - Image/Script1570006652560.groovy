@@ -14,8 +14,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.click(findTestObject('Assets/Add Asset/a_Assets'))
-
 WebUI.waitForPageLoad(1)
 
 WebUI.click(findTestObject('Assets/Add Asset/button_Add Assets'))
