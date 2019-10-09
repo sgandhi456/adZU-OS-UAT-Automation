@@ -20,7 +20,7 @@
       <guid>a7977a30-1cd5-4caf-a5fe-58f562cc91c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Home Page/Campaigns</testCaseId>
+      <testCaseId>Test Cases/Home Page/Campaign/S10</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fae50b0c-a83d-403a-8fb2-2325ecfbc10f</guid>

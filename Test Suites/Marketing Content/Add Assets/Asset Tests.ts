@@ -13,25 +13,25 @@
    <testCaseLink>
       <guid>eec4395b-5280-47bc-9776-7e2cbeb460c5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login and Logout - Notifications/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1eff6b81-a704-459f-8b5b-4cf939d7b060</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Add Single Asset - Image</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cf707eaf-f2ef-4ee1-b83f-16e15c1216e5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Open Assets Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4257e635-4c8e-4fd7-a241-51a27a984401</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Search Asset</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -49,13 +49,13 @@
    <testCaseLink>
       <guid>355a1364-9dc0-4cfd-8ac7-b35b7f4dfcee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Preview Asset</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>607cef47-193c-4bf9-a9e9-642825b6c14c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Download Asset</testCaseId>
    </testCaseLink>
    <testCaseLink>
