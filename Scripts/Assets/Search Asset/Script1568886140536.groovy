@@ -27,3 +27,5 @@ WebUI.click(findTestObject('Object Repository/Assets/Search Assets/Page_Samsung 
 
 WebUI.delay(1)
 
+WebUI.click(findTestObject('Assets/Add Asset/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery'))
+

@@ -14,12 +14,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Assets/Open Assets Page'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Assets/Add Asset/a_Assets'))
-
 WebUI.waitForPageLoad(1)
 
 WebUI.click(findTestObject('Assets/Add Asset/button_Add Assets'))
@@ -34,7 +28,7 @@ WebUI.click(findTestObject('Assets/Add Asset/div_Image (1)'))
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('Assets/Upload_Asset_Image'), 'C:\\Adzu\\Asset\\Ascii.png')
+WebUI.uploadFile(findTestObject('Assets/Upload_Asset_Image'), 'C:\\Adzu\\Asset\\samsung-kitchen-appliances-.jpeg')
 
 WebUI.delay(5)
 
@@ -50,7 +44,7 @@ WebUI.click(findTestObject('Assets/Video Asset/Page_Samsung Marketing Cloud/Asse
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Assets/Add Asset/input_Name_Asset_Name (1)'), 'Auto_ImageAsset6')
+WebUI.setText(findTestObject('Assets/Add Asset/input_Name_Asset_Name (1)'), AssetName)
 
 WebUI.delay(1)
 

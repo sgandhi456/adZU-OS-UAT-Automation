@@ -17,16 +17,25 @@
       <testCaseId>Test Cases/Login and Logout - Notifications/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1eff6b81-a704-459f-8b5b-4cf939d7b060</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Assets/Add Single Asset - Image</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>cf707eaf-f2ef-4ee1-b83f-16e15c1216e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Assets/Open Assets Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1eff6b81-a704-459f-8b5b-4cf939d7b060</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Assets/Add Single Asset - Image</testCaseId>
+<<<<<<< HEAD
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f53fa622-c34c-4d43-9b08-abfd08755178</variableId>
+      </variableLink>
+=======
+>>>>>>> branch 'master' of https://github.com/sgandhi456/adZU-OS-UAT-Automation.git
    </testCaseLink>
    <testCaseLink>
       <guid>4257e635-4c8e-4fd7-a241-51a27a984401</guid>
@@ -41,21 +50,33 @@
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <type>SCRIPT_VARIABLE</type>
+         <value>null</value>
          <variableId>e21b2118-3a04-4aa3-9526-8129dbc6c6e1</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>355a1364-9dc0-4cfd-8ac7-b35b7f4dfcee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Preview Asset</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d00f356-2a3b-4a9f-905f-0ef3822d13f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Assets/Share Asset</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d00f356-2a3b-4a9f-905f-0ef3822d13f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Assets/Share Asset</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>607cef47-193c-4bf9-a9e9-642825b6c14c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Download Asset</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -63,11 +84,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Edit Asset</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>15944027-2aae-4272-a209-6983fbb84ddd</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ee062daf-1ceb-40c7-abff-e9d47c6ab23a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Assets/Delete Assset</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -6,15 +6,15 @@
    <elementGuidId>71b74cc5-b84f-4690-8d1c-546737823962</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @autocomplete = 'off' and @autocorrect = 'off' and @autocapitalize = 'off' and @class = 'select2-input select2-focused select2-active']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='s2id_autogen7']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and starts-with(@id, 's2id_autogen')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,21 +31,21 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocapitalize</name>
       <type>Main</type>
@@ -59,15 +59,15 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>select2-input select2-focused select2-active</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>contains</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>s2id_autogen</value>
