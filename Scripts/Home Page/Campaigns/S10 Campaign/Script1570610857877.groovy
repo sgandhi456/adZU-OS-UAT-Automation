@@ -18,5 +18,14 @@ WebUI.navigateToUrl('https://samsung-adzu4-staging.codeworldwide.com/#')
 
 WebUI.waitForPageLoad(1)
 
-WebUI.click(findTestObject('Home Page/Page_Samsung Marketing Cloud/Campaigns/a_S10'))
+WebUI.click(findTestObject('Home Page/Homa Page Tiles/Campaigns/a_S10'))
+
+WebUI.click(findTestObject('Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Guidelines'))
+
+WebUI.delay(1)
+
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://samsung-adzu4-https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5e861b2e-476e-47a7-8da6-1f8eaac0545d&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign', 
+    false)
 

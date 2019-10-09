@@ -17,9 +17,9 @@ WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], 
 
 WebUI.click(findTestObject('Assets/Add Asset/a_Assets'))
 
-WebUI.verifyElementPresent(findTestObject('Home Page/HomePageNavigation/Page_Samsung Marketing Cloud/div_Asset page navigation'), 
+WebUI.verifyElementPresent(findTestObject('Home Page/HomePageNavigation/div_Asset page navigation'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Home Page/HomePageNavigation/Page_Samsung Marketing Cloud/p_Asset Gallery Banner'), 
+WebUI.verifyElementPresent(findTestObject('Home Page/HomePageNavigation/p_Asset Gallery Banner'), 
     0)
 

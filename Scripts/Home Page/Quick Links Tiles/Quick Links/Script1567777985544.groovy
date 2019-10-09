@@ -15,5 +15,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Home Page/Page_Samsung Marketing Cloud/Quick Links/div_Quick Links'), 0)
+WebUI.scrollToElement(findTestObject('Home Page/Homa Page Tiles/Quick Links/div_Quick Links'), 0)
 

@@ -16,9 +16,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('https://samsung-adzu4-staging.codeworldwide.com/#')
 
-WebUI.scrollToElement(findTestObject('Home Page/Page_Samsung Marketing Cloud/Quick Links/div_Quick Links'), 0)
+WebUI.scrollToElement(findTestObject('Home Page/Homa Page Tiles/Quick Links/div_Quick Links'), 0)
 
-WebUI.click(findTestObject('Home Page/Page_Samsung Marketing Cloud/Quick Links/div_PVI'))
+WebUI.click(findTestObject('Home Page/Homa Page Tiles/Quick Links/div_PVI'))
 
 url = WebUI.getUrl()
 

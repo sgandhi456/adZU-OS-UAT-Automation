@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Campaign,Chrome 77.0.3865.90,Campaign,,2019-10-09 11:03:31,2019-10-09 11:03:57,26.586s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,Chrome 77.0.3865.90,,,2019-10-09 11:03:31,2019-10-09 11:03:50,18.591s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-09 11:03:31,2019-10-09 11:03:36,5.187s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-09 11:03:36,2019-10-09 11:03:38,1.555s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",Chrome 77.0.3865.90,,,2019-10-09 11:03:38,2019-10-09 11:03:41,3.507s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 77.0.3865.90,,,2019-10-09 11:03:41,2019-10-09 11:03:45,3.205s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",Chrome 77.0.3865.90,,,2019-10-09 11:03:45,2019-10-09 11:03:47,2.617s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-09 11:03:47,2019-10-09 11:03:50,2.292s,PASSED
+,,,,,,,
+Test Cases/Home Page/Campaigns/S10 Campaign,Chrome 77.0.3865.90,,,2019-10-09 11:03:50,2019-10-09 11:03:57,7.797s,FAILED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-09 11:03:50,2019-10-09 11:03:51,1.047s,PASSED
+waitForPageLoad(1),Chrome 77.0.3865.90,,,2019-10-09 11:03:51,2019-10-09 11:03:52,1.084s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/a_S10""))",Chrome 77.0.3865.90,,,2019-10-09 11:03:52,2019-10-09 11:03:54,2.171s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Guidelines""))",Chrome 77.0.3865.90,,,2019-10-09 11:03:54,2019-10-09 11:03:56,2.135s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-09 11:03:56,2019-10-09 11:03:57,1.082s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5e861b2e-476e-47a7-8da6-1f8eaac0545d&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-09 11:03:57,2019-10-09 11:03:57,0.034s,FAILED
