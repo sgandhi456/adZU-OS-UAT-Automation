@@ -35,3 +35,7 @@ WebUI.delay(1)
 
 WebUI.scrollToElement(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/div_Code assets'), 0)
 
+WebUI.uploadFile(findTestObject('Assets/Upload_Asset_Image'), 'C:\\Adzu\\Asset\\Multiple Uplaod Automation.xlsx')
+
+WebUI.delay(1)
+

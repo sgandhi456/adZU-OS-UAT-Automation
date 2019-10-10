@@ -18,7 +18,7 @@ WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], 
 
 WebUI.callTestCase(findTestCase('Assets/Open Assets Page'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Assets/Search Asset'), [('spn_obj') : '', ('search_text') : 'Auto_ImageAsset6'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Assets/Search Asset'), [('spn_obj') : '', ('search_text') : 'update asset'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 

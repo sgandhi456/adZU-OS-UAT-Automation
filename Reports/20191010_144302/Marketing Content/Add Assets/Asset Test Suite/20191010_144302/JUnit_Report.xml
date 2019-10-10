@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Asset Test Suite" time="174" tests="6" failures="0" errors="0">
+    <testsuite name="Asset Test Suite" tests="6" failures="0" errors="0" time="174" timestamp="2019-10-10 14:43:07" hostname="gansat - NOTEEG-12802.nexus.local" id="Test Suites/Marketing Content/Add Assets/Asset Test Suite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Adzu UAT\\Adzu\\Adzu\\Reports\\20191010_144302\\Marketing Content\\Add Assets\\Asset Test Suite\\20191010_144302"/>
+            <property name="logFiles" value="C:\\Adzu UAT\\Adzu\\Adzu\\Reports\\20191010_144302\\Marketing Content\\Add Assets\\Asset Test Suite\\20191010_144302\\execution0.log, C:\\Adzu UAT\\Adzu\\Adzu\\Reports\\20191010_144302\\Marketing Content\\Add Assets\\Asset Test Suite\\20191010_144302\\IEDriverServer.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="gansat - NOTEEG-12802.nexus.local"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="IE 11"/>
+            <property name="hostAddress" value="10.142.156.106"/>
+            <property name="sessionId" value="7e7687cd-df3f-48be-9584-2fc6b0101fbd"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Login and Logout - Notifications/Login" classname="Test Cases/Login and Logout - Notifications/Login" status="PASSED">
+            <system-out>2019-10-10 14:43:08 - [TEST_CASE][PASSED] - Test Cases/Login and Logout - Notifications/Login: Test Cases/Login and Logout - Notifications/Login&#xD;
+&#xD;
+2019-10-10 14:43:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-10 14:43:09 - [MESSAGE][INFO] - Starting 'IE' driver&#xD;
+&#xD;
+2019-10-10 14:43:09 - [MESSAGE][INFO] - User set preference: ['ignoreProtectedModeSettings', 'true']&#xD;
+&#xD;
+2019-10-10 14:43:09 - [MESSAGE][INFO] - Action delay is set to 1 seconds&#xD;
+&#xD;
+2019-10-10 14:43:17 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-10 14:43:17 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 14:43:22 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 14:43:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text"), "satinder.gandhi@codeworldwide.com"): Text 'satinder.gandhi@codeworldwide.com' is set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text'&#xD;
+&#xD;
+2019-10-10 14:43:27 - [MESSAGE][PASSED] - Text 'satinder.gandhi@codeworldwide.com' is set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text'&#xD;
+&#xD;
+2019-10-10 14:43:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Password_text"), "yfq/9fVkW5+QvfzWq38qvg=="): Text ****** has been set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Password_text'&#xD;
+&#xD;
+2019-10-10 14:43:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Password_text'&#xD;
+&#xD;
+2019-10-10 14:43:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/button_Login")): Object: 'Object Repository/Login/Page_Samsung Marketing Cloud/button_Login' is clicked on&#xD;
+&#xD;
+2019-10-10 14:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Samsung Marketing Cloud/button_Login' is clicked on&#xD;
+&#xD;
+2019-10-10 14:43:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-10-10 14:43:39 - [MESSAGE][PASSED] - Current window maximized</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Assets/Open Assets Page" classname="Test Cases/Assets/Open Assets Page" status="PASSED">
+            <system-out>2019-10-10 14:43:39 - [TEST_CASE][PASSED] - Test Cases/Assets/Open Assets Page: Test Cases/Assets/Open Assets Page&#xD;
+&#xD;
+2019-10-10 14:43:39 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Add Asset/a_Assets")): Object: 'Object Repository/Assets/Add Asset/a_Assets' is clicked on&#xD;
+&#xD;
+2019-10-10 14:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Add Asset/a_Assets' is clicked on&#xD;
+&#xD;
+2019-10-10 14:43:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:43:48 - [MESSAGE][PASSED] - Delayed 1 second(s)</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Assets/Add Single Asset - Image" classname="Test Cases/Assets/Add Single Asset - Image" status="PASSED">
+            <system-out>2019-10-10 14:43:48 - [TEST_CASE][PASSED] - Test Cases/Assets/Add Single Asset - Image: Test Cases/Assets/Add Single Asset - Image&#xD;
+&#xD;
+2019-10-10 14:43:49 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 14:43:51 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 14:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Add Asset/button_Add Assets")): Object: 'Object Repository/Assets/Add Asset/button_Add Assets' is clicked on&#xD;
+&#xD;
+2019-10-10 14:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Add Asset/button_Add Assets' is clicked on&#xD;
+&#xD;
+2019-10-10 14:43:54 - [TEST_STEP][PASSED] - check(findTestObject("Assets/Add Asset/a_Single")): Object 'Object Repository/Assets/Add Asset/a_Single' is checked&#xD;
+&#xD;
+2019-10-10 14:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/Assets/Add Asset/a_Single' is checked&#xD;
+&#xD;
+2019-10-10 14:44:07 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 14:44:08 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 14:44:08 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Add Asset/Dropdown arrow")): Object: 'Object Repository/Assets/Add Asset/Dropdown arrow' is clicked on&#xD;
+&#xD;
+2019-10-10 14:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Add Asset/Dropdown arrow' is clicked on&#xD;
+&#xD;
+2019-10-10 14:44:12 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Add Asset/div_Image (1)")): Object: 'Object Repository/Assets/Add Asset/div_Image (1)' is clicked on&#xD;
+&#xD;
+2019-10-10 14:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Add Asset/div_Image (1)' is clicked on&#xD;
+&#xD;
+2019-10-10 14:44:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:16 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:16 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Assets/Upload_Asset_Image"), "C:\Adzu\Asset\samsung-kitchen-appliances-.jpeg"): File 'C:\Adzu\Asset\samsung-kitchen-appliances-.jpeg' sent to object: 'Object Repository/Assets/Upload_Asset_Image'&#xD;
+&#xD;
+2019-10-10 14:44:22 - [MESSAGE][PASSED] - File 'C:\Adzu\Asset\samsung-kitchen-appliances-.jpeg' sent to object: 'Object Repository/Assets/Upload_Asset_Image'&#xD;
+&#xD;
+2019-10-10 14:44:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:27 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Add Asset/AssetGroup_dd")): Object: 'Object Repository/Assets/Add Asset/AssetGroup_dd' is clicked on&#xD;
+&#xD;
+2019-10-10 14:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Add Asset/AssetGroup_dd' is clicked on&#xD;
+&#xD;
+2019-10-10 14:44:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:32 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:32 - [TEST_STEP][PASSED] - setText(findTestObject("Assets/Video Asset/Page_Samsung Marketing Cloud/AssetGroup_Text"), "Code Assets"): Text 'Code Assets' is set on object 'Object Repository/Assets/Video Asset/Page_Samsung Marketing Cloud/AssetGroup_Text'&#xD;
+&#xD;
+2019-10-10 14:44:36 - [MESSAGE][PASSED] - Text 'Code Assets' is set on object 'Object Repository/Assets/Video Asset/Page_Samsung Marketing Cloud/AssetGroup_Text'&#xD;
+&#xD;
+2019-10-10 14:44:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:37 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:37 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Video Asset/Page_Samsung Marketing Cloud/AssetGroup_2ndOption")): Object: 'Object Repository/Assets/Video Asset/Page_Samsung Marketing Cloud/AssetGroup_2ndOption' is clicked on&#xD;
+&#xD;
+2019-10-10 14:44:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Video Asset/Page_Samsung Marketing Cloud/AssetGroup_2ndOption' is clicked on&#xD;
+&#xD;
+2019-10-10 14:44:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:42 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:42 - [TEST_STEP][PASSED] - setText(findTestObject("Assets/Add Asset/input_Name_Asset_Name (1)"), AssetName): Text 'AutoAsset_image' is set on object 'Object Repository/Assets/Add Asset/input_Name_Asset_Name (1)'&#xD;
+&#xD;
+2019-10-10 14:44:46 - [MESSAGE][PASSED] - Text 'AutoAsset_image' is set on object 'Object Repository/Assets/Add Asset/input_Name_Asset_Name (1)'&#xD;
+&#xD;
+2019-10-10 14:44:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:47 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Add Asset/button_Save")): Object: 'Object Repository/Assets/Add Asset/button_Save' is clicked on&#xD;
+&#xD;
+2019-10-10 14:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Add Asset/button_Save' is clicked on&#xD;
+&#xD;
+2019-10-10 14:44:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:44:53 - [MESSAGE][PASSED] - Delayed 1 second(s)</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Assets/Search Asset" classname="Test Cases/Assets/Search Asset" status="PASSED">
+            <system-out>2019-10-10 14:44:53 - [TEST_CASE][PASSED] - Test Cases/Assets/Search Asset: Test Cases/Assets/Search Asset&#xD;
+&#xD;
+2019-10-10 14:44:54 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon")): Object: 'Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/filter_icon' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:00 - [TEST_STEP][PASSED] - setText(findTestObject("Assets/Search Assets/Page_Samsung Marketing Cloud/Text_SearchText"), search_text): Text 'AutoAsset_Image' is set on object 'Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/Text_SearchText'&#xD;
+&#xD;
+2019-10-10 14:45:05 - [MESSAGE][PASSED] - Text 'AutoAsset_Image' is set on object 'Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/Text_SearchText'&#xD;
+&#xD;
+2019-10-10 14:45:05 - [TEST_STEP][PASSED] - span_obj = modifyObjectProperty(findTestObject("Assets/Search Assets/Page_Samsung Marketing Cloud/span_asset"), "text", "equals", search_text, false): Modify property of object successfully&#xD;
+&#xD;
+2019-10-10 14:45:06 - [MESSAGE][PASSED] - Modify property of object successfully&#xD;
+&#xD;
+2019-10-10 14:45:06 - [TEST_STEP][PASSED] - click(span_obj): Object: 'Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/span_asset' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/span_asset' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/button_Hide")): Object: 'Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/button_Hide' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Search Assets/Page_Samsung Marketing Cloud/button_Hide' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:45:15 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:45:15 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Add Asset/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery")): Object: 'Object Repository/Assets/Add Asset/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Add Asset/Page-Samsung Marketing Cloud/div_Gallery_switcher-box sw-gallery' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Assets/Delete Assset" classname="Test Cases/Assets/Delete Assset" status="PASSED">
+            <system-out>2019-10-10 14:45:19 - [TEST_CASE][PASSED] - Test Cases/Assets/Delete Assset: Test Cases/Assets/Delete Assset&#xD;
+&#xD;
+2019-10-10 14:45:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:45:20 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:45:20 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Action_Menu/Action_Menu")): Object: 'Object Repository/Assets/Action_Menu/Action_Menu' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Action_Menu/Action_Menu' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:23 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Delete Asset/Page_Samsung Marketing Cloud/a_Edit")): Object: 'Object Repository/Assets/Delete Asset/Page_Samsung Marketing Cloud/a_Edit' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Delete Asset/Page_Samsung Marketing Cloud/a_Edit' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Delete")): Object: 'Object Repository/Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Delete' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Delete' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:45:38 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:45:38 - [TEST_STEP][PASSED] - click(findTestObject("Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Yes")): Object: 'Object Repository/Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Yes' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Assets/Delete Asset/Page_Samsung Marketing Cloud/button_Yes' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 14:45:43 - [MESSAGE][PASSED] - Delayed 1 second(s)</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Login and Logout - Notifications/Logout - Yes Button" classname="Test Cases/Login and Logout - Notifications/Logout - Yes Button" status="PASSED">
+            <system-out>2019-10-10 14:45:43 - [TEST_CASE][PASSED] - Test Cases/Login and Logout - Notifications/Logout - Yes Button: Test Cases/Login and Logout - Notifications/Logout - Yes Button&#xD;
+&#xD;
+2019-10-10 14:45:44 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Samsung Marketing Cloud/span_gandhi")): Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/span_gandhi' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/span_gandhi' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:48 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Samsung Marketing Cloud/Logout")): Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/Logout' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/Logout' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:51 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Samsung Marketing Cloud/button_Yes")): Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/button_Yes' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/button_Yes' is clicked on&#xD;
+&#xD;
+2019-10-10 14:45:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-10-10 14:46:01 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-10 14:43:07 - [TEST_SUITE][INCOMPLETE] - Asset Test Suite: null</system-out>
+        <system-err>2019-10-10 14:43:07 - [TEST_SUITE][INCOMPLETE] - Asset Test Suite: null</system-err>
+    </testsuite>
+</testsuites>
