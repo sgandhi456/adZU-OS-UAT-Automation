@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Campaigns" time="207" tests="12" failures="0" errors="0">
+    <testsuite name="Campaigns" tests="12" failures="0" errors="0" time="207" timestamp="2019-10-10 12:10:43" hostname="KanKir - GB3CODW08386HQS.nexus.local" id="Test Suites/Home Page/Campaigns">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\kankir\\git\\adZU-OS-UAT-Automation\\Reports\\20191010_121041\\Home Page\\Campaigns\\20191010_121041"/>
+            <property name="logFiles" value="C:\\Users\\kankir\\git\\adZU-OS-UAT-Automation\\Reports\\20191010_121041\\Home Page\\Campaigns\\20191010_121041\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="KanKir - GB3CODW08386HQS.nexus.local"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 77.0.3865.90"/>
+            <property name="hostAddress" value="10.141.18.113"/>
+            <property name="sessionId" value="6c8baa73bc01a53cc83ca9d2d33e3b89"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Login and Logout - Notifications/Login" classname="Test Cases/Login and Logout - Notifications/Login" status="PASSED">
+            <system-out>2019-10-10 12:10:43 - [TEST_CASE][PASSED] - Test Cases/Login and Logout - Notifications/Login: Test Cases/Login and Logout - Notifications/Login&#xD;
+&#xD;
+2019-10-10 12:10:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-10 12:10:44 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-10-10 12:10:44 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.default_content_settings.popups=0.0, download.default_directory=C:\Adzu}']&#xD;
+&#xD;
+2019-10-10 12:10:44 - [MESSAGE][INFO] - User set preference: ['args', '[--test-type, --disable-extensions]']&#xD;
+&#xD;
+2019-10-10 12:10:44 - [MESSAGE][INFO] - Action delay is set to 1 seconds&#xD;
+&#xD;
+2019-10-10 12:10:49 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-10 12:10:49 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:10:51 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:10:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text"), "satinder.gandhi@codeworldwide.com"): Text 'satinder.gandhi@codeworldwide.com' is set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text'&#xD;
+&#xD;
+2019-10-10 12:10:54 - [MESSAGE][PASSED] - Text 'satinder.gandhi@codeworldwide.com' is set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text'&#xD;
+&#xD;
+2019-10-10 12:10:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/Password_text"), "yfq/9fVkW5+QvfzWq38qvg=="): Text ****** has been set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Password_text'&#xD;
+&#xD;
+2019-10-10 12:10:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Samsung Marketing Cloud/Password_text'&#xD;
+&#xD;
+2019-10-10 12:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Samsung Marketing Cloud/button_Login")): Object: 'Object Repository/Login/Page_Samsung Marketing Cloud/button_Login' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Samsung Marketing Cloud/button_Login' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-10-10 12:11:03 - [MESSAGE][PASSED] - Current window maximized</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Campaigns/QLED 2019 Campaign" classname="Test Cases/Home Page/Campaigns/QLED 2019 Campaign" status="PASSED">
+            <system-out>2019-10-10 12:11:03 - [TEST_CASE][PASSED] - Test Cases/Home Page/Campaigns/QLED 2019 Campaign: Test Cases/Home Page/Campaigns/QLED 2019 Campaign&#xD;
+&#xD;
+2019-10-10 12:11:03 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:04 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:04 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:05 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/a_QLED 2019")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_QLED 2019' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_QLED 2019' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Campaigns/QuickDrive Campaigns" classname="Test Cases/Home Page/Campaigns/QuickDrive Campaigns" status="PASSED">
+            <system-out>2019-10-10 12:11:07 - [TEST_CASE][PASSED] - Test Cases/Home Page/Campaigns/QuickDrive Campaigns: Test Cases/Home Page/Campaigns/QuickDrive Campaigns&#xD;
+&#xD;
+2019-10-10 12:11:07 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:08 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:08 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:09 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/a_QuickDrive")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_QuickDrive' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_QuickDrive' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Campaigns/Galaxy Note9 Campaign" classname="Test Cases/Home Page/Campaigns/Galaxy Note9 Campaign" status="PASSED">
+            <system-out>2019-10-10 12:11:11 - [TEST_CASE][PASSED] - Test Cases/Home Page/Campaigns/Galaxy Note9 Campaign: Test Cases/Home Page/Campaigns/Galaxy Note9 Campaign&#xD;
+&#xD;
+2019-10-10 12:11:12 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:13 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:13 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:14 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:14 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/a_Galaxy Note9")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_Galaxy Note9' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_Galaxy Note9' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Campaigns/Holidays Campaign" classname="Test Cases/Home Page/Campaigns/Holidays Campaign" status="PASSED">
+            <system-out>2019-10-10 12:11:16 - [TEST_CASE][PASSED] - Test Cases/Home Page/Campaigns/Holidays Campaign: Test Cases/Home Page/Campaigns/Holidays Campaign&#xD;
+&#xD;
+2019-10-10 12:11:16 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:17 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:17 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:18 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:18 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/a_Holidays")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_Holidays' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_Holidays' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Campaigns/Galaxy A7 Campaign" classname="Test Cases/Home Page/Campaigns/Galaxy A7 Campaign" status="PASSED">
+            <system-out>2019-10-10 12:11:20 - [TEST_CASE][PASSED] - Test Cases/Home Page/Campaigns/Galaxy A7 Campaign: Test Cases/Home Page/Campaigns/Galaxy A7 Campaign&#xD;
+&#xD;
+2019-10-10 12:11:20 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:21 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:21 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:23 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/a_Galaxy A7")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_Galaxy A7' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_Galaxy A7' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:25 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:26 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Campaigns/Galaxy S9_S9" classname="Test Cases/Home Page/Campaigns/Galaxy S9_S9" status="PASSED">
+            <system-out>2019-10-10 12:11:26 - [TEST_CASE][PASSED] - Test Cases/Home Page/Campaigns/Galaxy S9_S9: Test Cases/Home Page/Campaigns/Galaxy S9_S9&#xD;
+&#xD;
+2019-10-10 12:11:26 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:27 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:27 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/button_View More")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/button_View More' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/button_View More' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:29 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:30 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:30 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/a_Galaxy S9  S9")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_Galaxy S9  S9' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_Galaxy S9  S9' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Campaigns/The Frame TV Campaign" classname="Test Cases/Home Page/Campaigns/The Frame TV Campaign" status="PASSED">
+            <system-out>2019-10-10 12:11:32 - [TEST_CASE][PASSED] - Test Cases/Home Page/Campaigns/The Frame TV Campaign: Test Cases/Home Page/Campaigns/The Frame TV Campaign&#xD;
+&#xD;
+2019-10-10 12:11:32 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:33 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/button_View More")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/button_View More' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/button_View More' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:36 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:37 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:37 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/a_The Frame TV")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_The Frame TV' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_The Frame TV' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Campaigns/QLED TV Campaign" classname="Test Cases/Home Page/Campaigns/QLED TV Campaign" status="PASSED">
+            <system-out>2019-10-10 12:11:39 - [TEST_CASE][PASSED] - Test Cases/Home Page/Campaigns/QLED TV Campaign: Test Cases/Home Page/Campaigns/QLED TV Campaign&#xD;
+&#xD;
+2019-10-10 12:11:39 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:40 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/button_View More")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/button_View More' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/button_View More' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:42 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:43 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/a_QLED TV")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_QLED TV' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_QLED TV' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Campaigns/Galaxy A9 Campaign" classname="Test Cases/Home Page/Campaigns/Galaxy A9 Campaign" status="PASSED">
+            <system-out>2019-10-10 12:11:45 - [TEST_CASE][PASSED] - Test Cases/Home Page/Campaigns/Galaxy A9 Campaign: Test Cases/Home Page/Campaigns/Galaxy A9 Campaign&#xD;
+&#xD;
+2019-10-10 12:11:45 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:46 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/button_View More")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/button_View More' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/button_View More' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:48 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:50 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/a_Galaxy A9")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_Galaxy A9' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_Galaxy A9' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Home Page/Campaigns/S10 Campaign" classname="Test Cases/Home Page/Campaigns/S10 Campaign" status="PASSED">
+            <system-out>2019-10-10 12:11:52 - [TEST_CASE][PASSED] - Test Cases/Home Page/Campaigns/S10 Campaign: Test Cases/Home Page/Campaigns/S10 Campaign&#xD;
+&#xD;
+2019-10-10 12:11:52 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:53 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#' successfully&#xD;
+&#xD;
+2019-10-10 12:11:53 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:54 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-10-10 12:11:54 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/a_S10")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_S10' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/a_S10' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:56 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Guidelines")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Guidelines' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Guidelines' is clicked on&#xD;
+&#xD;
+2019-10-10 12:11:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:11:59 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:11:59 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5e861b2e-476e-47a7-8da6-1f8eaac0545d&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:00 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5e861b2e-476e-47a7-8da6-1f8eaac0545d&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:00 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5e861b2e-476e-47a7-8da6-1f8eaac0545d&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5e861b2e-476e-47a7-8da6-1f8eaac0545d&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5e861b2e-476e-47a7-8da6-1f8eaac0545d&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:00 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5e861b2e-476e-47a7-8da6-1f8eaac0545d&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5e861b2e-476e-47a7-8da6-1f8eaac0545d&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:00 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:01 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Agency Briefs")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Agency Briefs' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Agency Briefs' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:04 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:04 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=0ad5caeb-cdde-46cb-a9dd-7bb8735ec59c&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:05 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=0ad5caeb-cdde-46cb-a9dd-7bb8735ec59c&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:05 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=0ad5caeb-cdde-46cb-a9dd-7bb8735ec59c&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=0ad5caeb-cdde-46cb-a9dd-7bb8735ec59c&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=0ad5caeb-cdde-46cb-a9dd-7bb8735ec59c&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:05 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=0ad5caeb-cdde-46cb-a9dd-7bb8735ec59c&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=0ad5caeb-cdde-46cb-a9dd-7bb8735ec59c&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:05 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:06 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:12:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:09 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_PVI assets")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_PVI assets' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_PVI assets' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:12 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:12 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=4bafa835-d8d1-4004-8e9e-0ff0b92e7079&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:13 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=4bafa835-d8d1-4004-8e9e-0ff0b92e7079&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:13 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=4bafa835-d8d1-4004-8e9e-0ff0b92e7079&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=4bafa835-d8d1-4004-8e9e-0ff0b92e7079&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=4bafa835-d8d1-4004-8e9e-0ff0b92e7079&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:13 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=4bafa835-d8d1-4004-8e9e-0ff0b92e7079&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=4bafa835-d8d1-4004-8e9e-0ff0b92e7079&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:13 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:14 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:12:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:16 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Product specifications")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Product specifications' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Product specifications' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:19 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:19 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=8c18aa0f-a509-43b8-9830-0e5ff51e26de&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:20 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=8c18aa0f-a509-43b8-9830-0e5ff51e26de&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:20 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=8c18aa0f-a509-43b8-9830-0e5ff51e26de&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=8c18aa0f-a509-43b8-9830-0e5ff51e26de&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=8c18aa0f-a509-43b8-9830-0e5ff51e26de&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:20 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=8c18aa0f-a509-43b8-9830-0e5ff51e26de&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=8c18aa0f-a509-43b8-9830-0e5ff51e26de&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:20 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:21 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:12:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:23 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Dot com")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Dot com' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Dot com' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:26 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:26 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=bc05e939-0b63-6606-a1c7-39e942e52731&amp;MediaChannelText=Samsung.com&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:27 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=bc05e939-0b63-6606-a1c7-39e942e52731&amp;MediaChannelText=Samsung.com&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:27 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=bc05e939-0b63-6606-a1c7-39e942e52731&amp;MediaChannelText=Samsung.com&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=bc05e939-0b63-6606-a1c7-39e942e52731&amp;MediaChannelText=Samsung.com&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=bc05e939-0b63-6606-a1c7-39e942e52731&amp;MediaChannelText=Samsung.com&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:27 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=bc05e939-0b63-6606-a1c7-39e942e52731&amp;MediaChannelText=Samsung.com&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=bc05e939-0b63-6606-a1c7-39e942e52731&amp;MediaChannelText=Samsung.com&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:27 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:28 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:12:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:30 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Members")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Members' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Members' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:34 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:34 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=148bbef1-bee6-3420-4504-39e942e6eacc&amp;MediaChannelText=Members&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:35 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=148bbef1-bee6-3420-4504-39e942e6eacc&amp;MediaChannelText=Members&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:35 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=148bbef1-bee6-3420-4504-39e942e6eacc&amp;MediaChannelText=Members&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=148bbef1-bee6-3420-4504-39e942e6eacc&amp;MediaChannelText=Members&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=148bbef1-bee6-3420-4504-39e942e6eacc&amp;MediaChannelText=Members&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:35 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=148bbef1-bee6-3420-4504-39e942e6eacc&amp;MediaChannelText=Members&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=148bbef1-bee6-3420-4504-39e942e6eacc&amp;MediaChannelText=Members&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:35 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:36 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:12:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:38 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Customer support")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Customer support' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Customer support' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:41 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:41 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fb8329fc-9545-1ceb-e72d-39e942e67719&amp;MediaChannelText=%09Customer%20Care%20Services&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:42 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fb8329fc-9545-1ceb-e72d-39e942e67719&amp;MediaChannelText=%09Customer%20Care%20Services&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:42 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fb8329fc-9545-1ceb-e72d-39e942e67719&amp;MediaChannelText=%09Customer%20Care%20Services&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fb8329fc-9545-1ceb-e72d-39e942e67719&amp;MediaChannelText=%09Customer%20Care%20Services&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fb8329fc-9545-1ceb-e72d-39e942e67719&amp;MediaChannelText=%09Customer%20Care%20Services&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:42 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fb8329fc-9545-1ceb-e72d-39e942e67719&amp;MediaChannelText=%09Customer%20Care%20Services&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fb8329fc-9545-1ceb-e72d-39e942e67719&amp;MediaChannelText=%09Customer%20Care%20Services&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:42 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:43 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:12:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:45 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_eRetail")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_eRetail' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_eRetail' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:48 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:48 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=2e70a285-f254-76e1-b316-39e942e56d30&amp;MediaChannelText=eRetail&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:49 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=2e70a285-f254-76e1-b316-39e942e56d30&amp;MediaChannelText=eRetail&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:49 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=2e70a285-f254-76e1-b316-39e942e56d30&amp;MediaChannelText=eRetail&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=2e70a285-f254-76e1-b316-39e942e56d30&amp;MediaChannelText=eRetail&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=2e70a285-f254-76e1-b316-39e942e56d30&amp;MediaChannelText=eRetail&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:49 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=2e70a285-f254-76e1-b316-39e942e56d30&amp;MediaChannelText=eRetail&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=2e70a285-f254-76e1-b316-39e942e56d30&amp;MediaChannelText=eRetail&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:49 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:50 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:12:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Retail marketing")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Retail marketing' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Retail marketing' is clicked on&#xD;
+&#xD;
+2019-10-10 12:12:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:56 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:12:56 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e98f30f-0197-d02e-ff7c-39e942e93d93&amp;MediaChannelText=Retail%20Marketing&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:57 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e98f30f-0197-d02e-ff7c-39e942e93d93&amp;MediaChannelText=Retail%20Marketing&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:12:57 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e98f30f-0197-d02e-ff7c-39e942e93d93&amp;MediaChannelText=Retail%20Marketing&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e98f30f-0197-d02e-ff7c-39e942e93d93&amp;MediaChannelText=Retail%20Marketing&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e98f30f-0197-d02e-ff7c-39e942e93d93&amp;MediaChannelText=Retail%20Marketing&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:57 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e98f30f-0197-d02e-ff7c-39e942e93d93&amp;MediaChannelText=Retail%20Marketing&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e98f30f-0197-d02e-ff7c-39e942e93d93&amp;MediaChannelText=Retail%20Marketing&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:12:57 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:58 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:12:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:12:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:13:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Digital media")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Digital media' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Digital media' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:03 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:03 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fd3717a5-4374-4940-3df3-39e942e5ea44&amp;MediaChannelText=Digital%20Media&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:04 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fd3717a5-4374-4940-3df3-39e942e5ea44&amp;MediaChannelText=Digital%20Media&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:04 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fd3717a5-4374-4940-3df3-39e942e5ea44&amp;MediaChannelText=Digital%20Media&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fd3717a5-4374-4940-3df3-39e942e5ea44&amp;MediaChannelText=Digital%20Media&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fd3717a5-4374-4940-3df3-39e942e5ea44&amp;MediaChannelText=Digital%20Media&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:04 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fd3717a5-4374-4940-3df3-39e942e5ea44&amp;MediaChannelText=Digital%20Media&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fd3717a5-4374-4940-3df3-39e942e5ea44&amp;MediaChannelText=Digital%20Media&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:04 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:05 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:13:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:07 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_CDM")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_CDM' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_CDM' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:10 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:10 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=e66cdcea-6007-2467-35e9-39e942e6aae3&amp;MediaChannelText=CDM&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:11 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=e66cdcea-6007-2467-35e9-39e942e6aae3&amp;MediaChannelText=CDM&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:11 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=e66cdcea-6007-2467-35e9-39e942e6aae3&amp;MediaChannelText=CDM&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=e66cdcea-6007-2467-35e9-39e942e6aae3&amp;MediaChannelText=CDM&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=e66cdcea-6007-2467-35e9-39e942e6aae3&amp;MediaChannelText=CDM&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:11 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=e66cdcea-6007-2467-35e9-39e942e6aae3&amp;MediaChannelText=CDM&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=e66cdcea-6007-2467-35e9-39e942e6aae3&amp;MediaChannelText=CDM&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:11 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:12 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:13:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:14 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Social")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Social' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Social' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:17 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:17 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=8aa42629-2b35-f82d-6471-39e942e63134&amp;MediaChannelText=Social&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:18 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=8aa42629-2b35-f82d-6471-39e942e63134&amp;MediaChannelText=Social&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:18 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=8aa42629-2b35-f82d-6471-39e942e63134&amp;MediaChannelText=Social&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=8aa42629-2b35-f82d-6471-39e942e63134&amp;MediaChannelText=Social&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=8aa42629-2b35-f82d-6471-39e942e63134&amp;MediaChannelText=Social&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:18 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=8aa42629-2b35-f82d-6471-39e942e63134&amp;MediaChannelText=Social&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=8aa42629-2b35-f82d-6471-39e942e63134&amp;MediaChannelText=Social&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:18 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:19 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:13:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:22 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_TVC")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_TVC' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_TVC' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:25 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:25 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=faad2f4d-3e9b-e423-0e58-39e942e7549f&amp;MediaChannelText=TVC&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:26 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=faad2f4d-3e9b-e423-0e58-39e942e7549f&amp;MediaChannelText=TVC&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:26 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=faad2f4d-3e9b-e423-0e58-39e942e7549f&amp;MediaChannelText=TVC&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=faad2f4d-3e9b-e423-0e58-39e942e7549f&amp;MediaChannelText=TVC&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=faad2f4d-3e9b-e423-0e58-39e942e7549f&amp;MediaChannelText=TVC&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:26 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=faad2f4d-3e9b-e423-0e58-39e942e7549f&amp;MediaChannelText=TVC&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=faad2f4d-3e9b-e423-0e58-39e942e7549f&amp;MediaChannelText=TVC&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:26 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:27 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:13:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_OOH")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_OOH' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_OOH' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:32 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:32 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=9646ec57-a493-cca4-29f4-39e942e908d2&amp;MediaChannelText=Outdoor&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:33 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=9646ec57-a493-cca4-29f4-39e942e908d2&amp;MediaChannelText=Outdoor&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:33 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=9646ec57-a493-cca4-29f4-39e942e908d2&amp;MediaChannelText=Outdoor&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=9646ec57-a493-cca4-29f4-39e942e908d2&amp;MediaChannelText=Outdoor&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=9646ec57-a493-cca4-29f4-39e942e908d2&amp;MediaChannelText=Outdoor&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:33 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=9646ec57-a493-cca4-29f4-39e942e908d2&amp;MediaChannelText=Outdoor&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=9646ec57-a493-cca4-29f4-39e942e908d2&amp;MediaChannelText=Outdoor&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:33 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:34 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:13:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:36 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Print")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Print' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Print' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:39 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:39 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e85e800-fd9e-e834-1d6b-39e942e7fb57&amp;MediaChannelText=Print&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:40 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e85e800-fd9e-e834-1d6b-39e942e7fb57&amp;MediaChannelText=Print&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:40 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e85e800-fd9e-e834-1d6b-39e942e7fb57&amp;MediaChannelText=Print&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e85e800-fd9e-e834-1d6b-39e942e7fb57&amp;MediaChannelText=Print&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e85e800-fd9e-e834-1d6b-39e942e7fb57&amp;MediaChannelText=Print&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:40 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e85e800-fd9e-e834-1d6b-39e942e7fb57&amp;MediaChannelText=Print&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e85e800-fd9e-e834-1d6b-39e942e7fb57&amp;MediaChannelText=Print&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:40 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:41 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:13:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:44 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_PR")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_PR' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_PR' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:47 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:47 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=aee045f8-766b-ac5b-c1e6-39e942e8307b&amp;MediaChannelText=PR&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:48 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=aee045f8-766b-ac5b-c1e6-39e942e8307b&amp;MediaChannelText=PR&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:48 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=aee045f8-766b-ac5b-c1e6-39e942e8307b&amp;MediaChannelText=PR&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=aee045f8-766b-ac5b-c1e6-39e942e8307b&amp;MediaChannelText=PR&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=aee045f8-766b-ac5b-c1e6-39e942e8307b&amp;MediaChannelText=PR&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:48 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=aee045f8-766b-ac5b-c1e6-39e942e8307b&amp;MediaChannelText=PR&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=aee045f8-766b-ac5b-c1e6-39e942e8307b&amp;MediaChannelText=PR&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:48 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:49 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:13:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Events")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Events' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Events' is clicked on&#xD;
+&#xD;
+2019-10-10 12:13:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:54 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:13:54 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=d92b26b7-8819-05b5-3c42-39e942e868a3&amp;MediaChannelText=Events&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:55 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=d92b26b7-8819-05b5-3c42-39e942e868a3&amp;MediaChannelText=Events&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:13:55 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=d92b26b7-8819-05b5-3c42-39e942e868a3&amp;MediaChannelText=Events&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=d92b26b7-8819-05b5-3c42-39e942e868a3&amp;MediaChannelText=Events&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=d92b26b7-8819-05b5-3c42-39e942e868a3&amp;MediaChannelText=Events&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:55 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=d92b26b7-8819-05b5-3c42-39e942e868a3&amp;MediaChannelText=Events&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=d92b26b7-8819-05b5-3c42-39e942e868a3&amp;MediaChannelText=Events&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:13:55 - [TEST_STEP][PASSED] - navigateToUrl("https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"): Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:56 - [MESSAGE][PASSED] - Navigate to 'https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10' successfully&#xD;
+&#xD;
+2019-10-10 12:13:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations"), 0): Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-10 12:13:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations' successfully&#xD;
+&#xD;
+2019-10-10 12:13:58 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Partnerships")): Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Partnerships' is clicked on&#xD;
+&#xD;
+2019-10-10 12:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Partnerships' is clicked on&#xD;
+&#xD;
+2019-10-10 12:14:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:14:01 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-10-10 12:14:01 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=81245dbf-22f9-2849-1b99-39e942e97661&amp;MediaChannelText=Partnerships&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:14:02 - [MESSAGE][PASSED] - Current window's url is: 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=81245dbf-22f9-2849-1b99-39e942e97661&amp;MediaChannelText=Partnerships&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign'&#xD;
+&#xD;
+2019-10-10 12:14:02 - [TEST_STEP][PASSED] - verifyMatch(url, "https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=81245dbf-22f9-2849-1b99-39e942e97661&amp;MediaChannelText=Partnerships&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign", false): Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=81245dbf-22f9-2849-1b99-39e942e97661&amp;MediaChannelText=Partnerships&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=81245dbf-22f9-2849-1b99-39e942e97661&amp;MediaChannelText=Partnerships&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched &#xD;
+&#xD;
+2019-10-10 12:14:02 - [MESSAGE][PASSED] - Actual text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=81245dbf-22f9-2849-1b99-39e942e97661&amp;MediaChannelText=Partnerships&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' and expected text 'https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=81245dbf-22f9-2849-1b99-39e942e97661&amp;MediaChannelText=Partnerships&amp;CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&amp;CampaignText=S10%20Test%20Campaign' are matched</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Login and Logout - Notifications/Logout - Yes Button" classname="Test Cases/Login and Logout - Notifications/Logout - Yes Button" status="PASSED">
+            <system-out>2019-10-10 12:14:02 - [TEST_CASE][PASSED] - Test Cases/Login and Logout - Notifications/Logout - Yes Button: Test Cases/Login and Logout - Notifications/Logout - Yes Button&#xD;
+&#xD;
+2019-10-10 12:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Samsung Marketing Cloud/span_gandhi")): Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/span_gandhi' is clicked on&#xD;
+&#xD;
+2019-10-10 12:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/span_gandhi' is clicked on&#xD;
+&#xD;
+2019-10-10 12:14:05 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Samsung Marketing Cloud/Logout")): Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/Logout' is clicked on&#xD;
+&#xD;
+2019-10-10 12:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/Logout' is clicked on&#xD;
+&#xD;
+2019-10-10 12:14:07 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_Samsung Marketing Cloud/button_Yes")): Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/button_Yes' is clicked on&#xD;
+&#xD;
+2019-10-10 12:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Samsung Marketing Cloud/button_Yes' is clicked on&#xD;
+&#xD;
+2019-10-10 12:14:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-10-10 12:14:11 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-10 12:10:43 - [TEST_SUITE][INCOMPLETE] - Campaigns: null</system-out>
+        <system-err>2019-10-10 12:10:43 - [TEST_SUITE][INCOMPLETE] - Campaigns: null</system-err>
+    </testsuite>
+</testsuites>

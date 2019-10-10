@@ -14,8 +14,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.navigateToUrl('https://samsung-adzu4-staging.codeworldwide.com/#')
 
 WebUI.waitForPageLoad(1)
