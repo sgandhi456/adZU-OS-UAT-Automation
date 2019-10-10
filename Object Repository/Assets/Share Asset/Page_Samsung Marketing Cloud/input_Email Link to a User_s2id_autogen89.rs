@@ -6,16 +6,16 @@
    <elementGuidId>101166dc-0441-470a-b30a-b1db9101b7af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='s2id_autogen89']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 's2id_autogen89']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div[id^='s2id_autogen']/ul/li/input</value>
+         <value>ul[class='select2-choices']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 's2id_autogen89']</value>
+         <key>XPATH</key>
+         <value>//input[@id='s2id_autogen89']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
