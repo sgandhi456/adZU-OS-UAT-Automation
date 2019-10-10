@@ -6,17 +6,19 @@
    <elementGuidId>caca556e-fc62-4941-8b1b-a845ddfa1f46</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;body&quot;]/div[4]/div/div/div[17]/div/div/div/div/div[3]/button[2]
-</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//button[(text() = '
                     Yes
                 ' or . = '
                     Yes
                 ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;body&quot;]/div[4]/div/div/div[16]/div/div/div/div/div[3]/button[2]
+
+
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
