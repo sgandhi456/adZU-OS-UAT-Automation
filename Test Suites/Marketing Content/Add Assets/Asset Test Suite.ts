@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>a91dbd41-3755-42e2-81c0-7a5033e6bee2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Assets/Add Single Asset - Image</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -47,8 +47,8 @@
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;AutoAsset_Image&quot;</value>
          <variableId>e21b2118-3a04-4aa3-9526-8129dbc6c6e1</variableId>
       </variableLink>
    </testCaseLink>
@@ -57,6 +57,24 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Preview Asset</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5aef2d1f-2119-46eb-83c4-84d3f59cc921</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Assets/Download Asset</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee6f0893-8b56-4e6e-b1b1-97db0a09038f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d612930e-f578-474d-9c05-fd944c35b343</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>59c23de0-6f6f-4ac9-b02a-b4a81b6909a6</guid>
