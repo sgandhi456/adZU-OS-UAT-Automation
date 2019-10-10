@@ -33,5 +33,5 @@ WebUI.click(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cl
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/div_Code assets'))
+WebUI.scrollToElement(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/div_Code assets'), 0)
 

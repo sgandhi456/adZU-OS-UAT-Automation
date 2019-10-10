@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>a91dbd41-3755-42e2-81c0-7a5033e6bee2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Assets/Add Single Asset - Image</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
