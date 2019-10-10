@@ -55,8 +55,26 @@
    <testCaseLink>
       <guid>d533ef37-277e-47af-8dfb-7121e84d3cc4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Assets/Preview Asset</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5aef2d1f-2119-46eb-83c4-84d3f59cc921</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Assets/Download Asset</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee6f0893-8b56-4e6e-b1b1-97db0a09038f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d612930e-f578-474d-9c05-fd944c35b343</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>59c23de0-6f6f-4ac9-b02a-b4a81b6909a6</guid>
@@ -73,7 +91,7 @@
    <testCaseLink>
       <guid>6b806763-5d54-4ff1-83bd-e7d7534d1598</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Assets/Delete Assset</testCaseId>
    </testCaseLink>
    <testCaseLink>
