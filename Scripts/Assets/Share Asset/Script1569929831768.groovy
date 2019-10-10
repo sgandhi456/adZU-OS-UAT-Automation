@@ -14,26 +14,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 //WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Assets/Open Assets Page'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Assets/Search Asset'), [('spn_obj') : '', ('search_text') : 'update asset'], FailureHandling.CONTINUE_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Assets/Open Assets Page'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Assets/Search Asset'), [('spn_obj') : '', ('search_text') : 'test'], FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Assets/Action_Menu/Action_Menu'))
 
 WebUI.click(findTestObject('Assets/Share Asset/a_Share'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/input_Email Link to a User_s2id_autogen8'))
-
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/input_Email Link to a User_s2id_autogen8'), 
-    'kirithan.kandasamy@codeworldwide.com')
+WebUI.setText(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/input_Email Link to a User_s2id_autogen89'), 
+    'kirithan.kandasamy@codeworldwide.com', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Assets/Share Asset/Page_Samsung Marketing Cloud/div_kirithan kandasamy (kirithankandasamycodeworldwidecom)'))
 
