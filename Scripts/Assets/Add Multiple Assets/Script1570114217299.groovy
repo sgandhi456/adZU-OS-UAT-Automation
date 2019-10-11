@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Assets/Add Asset/div_Image (1)'))
 WebUI.delay(1)
 
 CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('Assets/Upload Assets/Upload_Asset_Image'), 
-    'C:\\Adzu\\Asset\\samsung-kitchen-appliances-.jpeg')
+    'C:\\Adzu\\Asset\\sam.jpeg')
 
 WebUI.delay(1)
 
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cl
 WebUI.delay(1)
 
 CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('Assets/Upload Assets/Import Spreadsheet'), 
-    'C:\\Adzu\\Asset\\Multiple Uplaod Automation.xlsx')
+    'C:\\Adzu\\Asset\\Kiritest1.xlsx')
 
 WebUI.delay(1)
 

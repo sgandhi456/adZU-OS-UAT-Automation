@@ -1,0 +1,126 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Champaigns - Chrome,Chrome 77.0.3865.90,,,2019-10-11 15:03:57,2019-10-11 15:06:36,2m - 38.365s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,Chrome 77.0.3865.90,,,2019-10-11 15:03:58,2019-10-11 15:04:17,19.185s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-11 15:03:58,2019-10-11 15:04:03,5.414s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-11 15:04:03,2019-10-11 15:04:05,2.179s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",Chrome 77.0.3865.90,,,2019-10-11 15:04:05,2019-10-11 15:04:09,3.299s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 77.0.3865.90,,,2019-10-11 15:04:09,2019-10-11 15:04:12,3.205s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",Chrome 77.0.3865.90,,,2019-10-11 15:04:12,2019-10-11 15:04:14,2.643s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-11 15:04:15,2019-10-11 15:04:17,2.205s,PASSED
+,,,,,,,
+Test Cases/Home Page/Campaigns/S10 Campaign,Chrome 77.0.3865.90,,,2019-10-11 15:04:17,2019-10-11 15:06:27,2m - 10.745s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-11 15:04:17,2019-10-11 15:04:18,1.027s,PASSED
+waitForPageLoad(1),Chrome 77.0.3865.90,,,2019-10-11 15:04:18,2019-10-11 15:04:19,1.104s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/a_S10""))",Chrome 77.0.3865.90,,,2019-10-11 15:04:19,2019-10-11 15:04:21,2.154s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Guidelines""))",Chrome 77.0.3865.90,,,2019-10-11 15:04:21,2019-10-11 15:04:23,2.119s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:04:23,2019-10-11 15:04:25,1.035s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:04:25,2019-10-11 15:04:26,1.038s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=5e861b2e-476e-47a7-8da6-1f8eaac0545d&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:04:26,2019-10-11 15:04:26,0.019s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:04:26,2019-10-11 15:04:27,1.027s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Agency Briefs""))",Chrome 77.0.3865.90,,,2019-10-11 15:04:27,2019-10-11 15:04:29,2.133s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:04:29,2019-10-11 15:04:30,1.005s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:04:30,2019-10-11 15:04:31,1.019s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=0ad5caeb-cdde-46cb-a9dd-7bb8735ec59c&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:04:31,2019-10-11 15:04:31,0.007s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:04:31,2019-10-11 15:04:32,1.032s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:04:32,2019-10-11 15:04:34,2.116s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_PVI assets""))",Chrome 77.0.3865.90,,,2019-10-11 15:04:34,2019-10-11 15:04:36,2.123s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:04:36,2019-10-11 15:04:37,1.003s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:04:37,2019-10-11 15:04:38,1.010s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=4bafa835-d8d1-4004-8e9e-0ff0b92e7079&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:04:38,2019-10-11 15:04:38,0.002s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:04:38,2019-10-11 15:04:39,1.022s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:04:39,2019-10-11 15:04:41,2.099s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Product specifications""))",Chrome 77.0.3865.90,,,2019-10-11 15:04:41,2019-10-11 15:04:43,2.119s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:04:43,2019-10-11 15:04:44,1.003s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:04:44,2019-10-11 15:04:45,1.019s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=8c18aa0f-a509-43b8-9830-0e5ff51e26de&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:04:45,2019-10-11 15:04:45,0.003s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:04:45,2019-10-11 15:04:46,1.028s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:04:46,2019-10-11 15:04:48,2.085s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Dot com""))",Chrome 77.0.3865.90,,,2019-10-11 15:04:48,2019-10-11 15:04:51,2.162s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:04:51,2019-10-11 15:04:52,1.003s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:04:52,2019-10-11 15:04:53,1.010s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=bc05e939-0b63-6606-a1c7-39e942e52731&MediaChannelText=Samsung.com&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:04:53,2019-10-11 15:04:53,0.002s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:04:53,2019-10-11 15:04:54,1.022s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:04:54,2019-10-11 15:04:56,2.104s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Members""))",Chrome 77.0.3865.90,,,2019-10-11 15:04:56,2019-10-11 15:04:58,2.140s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:04:58,2019-10-11 15:04:59,1.003s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:04:59,2019-10-11 15:05:00,1.016s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=148bbef1-bee6-3420-4504-39e942e6eacc&MediaChannelText=Members&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:05:00,2019-10-11 15:05:00,0.002s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:05:00,2019-10-11 15:05:01,1.040s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:05:01,2019-10-11 15:05:03,2.076s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Customer support""))",Chrome 77.0.3865.90,,,2019-10-11 15:05:03,2019-10-11 15:05:05,2.159s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:05:05,2019-10-11 15:05:06,1.003s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:05:06,2019-10-11 15:05:07,1.019s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fb8329fc-9545-1ceb-e72d-39e942e67719&MediaChannelText=%09Customer%20Care%20Services&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:05:07,2019-10-11 15:05:07,0.009s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:05:07,2019-10-11 15:05:08,1.045s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:05:08,2019-10-11 15:05:10,2.063s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_eRetail""))",Chrome 77.0.3865.90,,,2019-10-11 15:05:10,2019-10-11 15:05:12,2.150s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:05:12,2019-10-11 15:05:13,1.003s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:05:13,2019-10-11 15:05:14,1.018s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=2e70a285-f254-76e1-b316-39e942e56d30&MediaChannelText=eRetail&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:05:14,2019-10-11 15:05:14,0.006s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:05:14,2019-10-11 15:05:16,1.035s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:05:16,2019-10-11 15:05:18,2.084s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Retail marketing""))",Chrome 77.0.3865.90,,,2019-10-11 15:05:18,2019-10-11 15:05:20,2.121s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:05:20,2019-10-11 15:05:21,1.003s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:05:21,2019-10-11 15:05:22,1.011s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e98f30f-0197-d02e-ff7c-39e942e93d93&MediaChannelText=Retail%20Marketing&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:05:22,2019-10-11 15:05:22,0.003s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:05:22,2019-10-11 15:05:23,1.047s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:05:23,2019-10-11 15:05:25,2.104s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Digital media""))",Chrome 77.0.3865.90,,,2019-10-11 15:05:25,2019-10-11 15:05:27,2.125s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:05:27,2019-10-11 15:05:28,1.002s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:05:28,2019-10-11 15:05:29,1.006s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=fd3717a5-4374-4940-3df3-39e942e5ea44&MediaChannelText=Digital%20Media&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:05:29,2019-10-11 15:05:29,0.001s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:05:29,2019-10-11 15:05:30,1.025s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:05:30,2019-10-11 15:05:32,2.097s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_CDM""))",Chrome 77.0.3865.90,,,2019-10-11 15:05:32,2019-10-11 15:05:34,2.138s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:05:34,2019-10-11 15:05:35,1.004s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:05:35,2019-10-11 15:05:36,1.025s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=e66cdcea-6007-2467-35e9-39e942e6aae3&MediaChannelText=CDM&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:05:36,2019-10-11 15:05:36,0.007s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:05:36,2019-10-11 15:05:37,1.042s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:05:37,2019-10-11 15:05:39,2.105s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Social""))",Chrome 77.0.3865.90,,,2019-10-11 15:05:39,2019-10-11 15:05:42,2.111s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:05:42,2019-10-11 15:05:43,1.002s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:05:43,2019-10-11 15:05:44,1.011s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=8aa42629-2b35-f82d-6471-39e942e63134&MediaChannelText=Social&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:05:44,2019-10-11 15:05:44,0.002s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:05:44,2019-10-11 15:05:45,1.027s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:05:45,2019-10-11 15:05:47,2.077s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_TVC""))",Chrome 77.0.3865.90,,,2019-10-11 15:05:47,2019-10-11 15:05:49,2.172s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:05:49,2019-10-11 15:05:50,1.005s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:05:50,2019-10-11 15:05:51,1.016s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=faad2f4d-3e9b-e423-0e58-39e942e7549f&MediaChannelText=TVC&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:05:51,2019-10-11 15:05:51,0.003s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:05:51,2019-10-11 15:05:52,1.027s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:05:52,2019-10-11 15:05:54,2.091s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_OOH""))",Chrome 77.0.3865.90,,,2019-10-11 15:05:54,2019-10-11 15:05:56,2.149s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:05:56,2019-10-11 15:05:57,1.002s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:05:57,2019-10-11 15:05:58,1.012s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=9646ec57-a493-cca4-29f4-39e942e908d2&MediaChannelText=Outdoor&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:05:58,2019-10-11 15:05:58,0.002s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:05:58,2019-10-11 15:05:59,1.042s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:05:59,2019-10-11 15:06:01,2.082s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Print""))",Chrome 77.0.3865.90,,,2019-10-11 15:06:01,2019-10-11 15:06:03,2.147s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:06:03,2019-10-11 15:06:04,1.003s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:06:04,2019-10-11 15:06:05,1.013s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=5e85e800-fd9e-e834-1d6b-39e942e7fb57&MediaChannelText=Print&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:06:05,2019-10-11 15:06:05,0.005s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:06:05,2019-10-11 15:06:07,1.033s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:06:07,2019-10-11 15:06:09,2.072s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_PR""))",Chrome 77.0.3865.90,,,2019-10-11 15:06:09,2019-10-11 15:06:11,2.172s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:06:11,2019-10-11 15:06:12,1.004s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:06:12,2019-10-11 15:06:13,1.015s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=aee045f8-766b-ac5b-c1e6-39e942e8307b&MediaChannelText=PR&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:06:13,2019-10-11 15:06:13,0.006s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:06:13,2019-10-11 15:06:14,1.037s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:06:14,2019-10-11 15:06:16,2.082s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Events""))",Chrome 77.0.3865.90,,,2019-10-11 15:06:16,2019-10-11 15:06:18,2.175s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:06:18,2019-10-11 15:06:19,1.002s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:06:19,2019-10-11 15:06:20,1.017s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=d92b26b7-8819-05b5-3c42-39e942e868a3&MediaChannelText=Events&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:06:20,2019-10-11 15:06:20,0.005s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#page/GB/en-GB/AllDevices/S10"")",Chrome 77.0.3865.90,,,2019-10-11 15:06:20,2019-10-11 15:06:21,1.033s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/h1_Available Adaptations""), 0)",Chrome 77.0.3865.90,,,2019-10-11 15:06:21,2019-10-11 15:06:23,2.120s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Campaigns/Page_Samsung Marketing Cloud/a_Partnerships""))",Chrome 77.0.3865.90,,,2019-10-11 15:06:23,2019-10-11 15:06:25,2.162s,PASSED
+delay(1),Chrome 77.0.3865.90,,,2019-10-11 15:06:25,2019-10-11 15:06:26,1.003s,PASSED
+url = getUrl(),Chrome 77.0.3865.90,,,2019-10-11 15:06:26,2019-10-11 15:06:27,1.017s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?MediaChannelId=81245dbf-22f9-2849-1b99-39e942e97661&MediaChannelText=Partnerships&CampaignID=51a8da8e-2afa-4c47-ae26-e14f01ff5e7c&CampaignText=S10%20Test%20Campaign"", false)",Chrome 77.0.3865.90,,,2019-10-11 15:06:27,2019-10-11 15:06:27,0.006s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,Chrome 77.0.3865.90,,,2019-10-11 15:06:27,2019-10-11 15:06:36,8.242s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",Chrome 77.0.3865.90,,,2019-10-11 15:06:28,2019-10-11 15:06:30,2.129s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",Chrome 77.0.3865.90,,,2019-10-11 15:06:30,2019-10-11 15:06:32,2.125s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",Chrome 77.0.3865.90,,,2019-10-11 15:06:32,2019-10-11 15:06:34,2.130s,PASSED
+closeBrowser(),Chrome 77.0.3865.90,,,2019-10-11 15:06:34,2019-10-11 15:06:36,1.698s,PASSED
