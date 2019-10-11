@@ -28,7 +28,8 @@ WebUI.click(findTestObject('Assets/Add Asset/div_Image (1)'))
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('Assets/Upload_Asset_Image'), 'C:\\Adzu\\Asset\\samsung-kitchen-appliances-.jpeg')
+CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('Assets/Upload Assets/Upload_Asset_Image'), 
+    'C:\\Adzu\\Asset\\samsung-kitchen-appliances-.jpeg')
 
 WebUI.delay(5)
 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Your bulk upload has been successful If you have uploaded a large volume of assets please note this may take some time to appear</name>
+   <tag></tag>
+   <elementGuidId>435fe713-3a07-489e-b625-527c5b268abd</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>html:text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your bulk upload has been successful. If you have uploaded a large volume of assets, please note this may take some time to appear.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;body&quot;)/div[@class=&quot;window-host inject-widget-container&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;window-host&quot;]/div[@class=&quot;inject-widget-container&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;modal fade adzu-plugins-common-dialog scroll-hidden standard-modal in&quot;]/div[@class=&quot;modal-dialog modal-dft&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/table[1]/tbody[1]/tr[1]/td[2]/p[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='body']/div[4]/div/div/div[14]/div/div/div/div/div[2]/table/tbody/tr/td[2]/p</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/div/div/div/div/div[2]/table/tbody/tr/td[2]/p</value>
+   </webElementXpaths>
+</WebElementEntity>

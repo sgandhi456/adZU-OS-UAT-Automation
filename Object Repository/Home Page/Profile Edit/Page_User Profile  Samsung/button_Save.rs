@@ -4,10 +4,20 @@
    <name>button_Save</name>
    <tag></tag>
    <elementGuidId>b603c46e-f3c4-44ce-a4b0-b9ac0f10239a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = '
+                            Save
+                        ' or . = '
+                            Save
+                        ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Quick Link,IE 11,,,2019-10-11 09:33:38,2019-10-11 09:35:58,2m - 20.167s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-10-11 09:33:38,2019-10-11 09:34:15,36.778s,PASSED
+"openBrowser("""")",IE 11,,,2019-10-11 09:33:39,2019-10-11 09:33:49,9.695s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-11 09:33:49,2019-10-11 09:33:52,3.304s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-10-11 09:33:52,2019-10-11 09:34:02,9.803s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-10-11 09:34:02,2019-10-11 09:34:07,4.931s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-10-11 09:34:07,2019-10-11 09:34:14,6.538s,PASSED
+maximizeWindow(),IE 11,,,2019-10-11 09:34:14,2019-10-11 09:34:15,1.566s,PASSED
+,,,,,,,
+Test Cases/Home Page/Quick Links Tiles/Brand,IE 11,,,2019-10-11 09:34:15,2019-10-11 09:34:37,21.843s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-11 09:34:16,2019-10-11 09:34:18,2.009s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Quick Links/div_Quick Links""), 0)",IE 11,,,2019-10-11 09:34:18,2019-10-11 09:34:23,5.192s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Quick Links/div_Brand""))",IE 11,,,2019-10-11 09:34:23,2019-10-11 09:34:33,10.100s,PASSED
+url = getUrl(),IE 11,,,2019-10-11 09:34:33,2019-10-11 09:34:37,3.498s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=c3478931-e7bb-4f43-84a7-561e1f41688e"", false)",IE 11,,,2019-10-11 09:34:37,2019-10-11 09:34:37,0.056s,PASSED
+,,,,,,,
+Test Cases/Home Page/Quick Links Tiles/Learning,IE 11,,,2019-10-11 09:34:37,2019-10-11 09:34:52,15.355s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-11 09:34:38,2019-10-11 09:34:41,2.844s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Quick Links/div_Quick Links""), 0)",IE 11,,,2019-10-11 09:34:41,2019-10-11 09:34:44,3.501s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Quick Links/div_Learning""))",IE 11,,,2019-10-11 09:34:44,2019-10-11 09:34:49,5.254s,PASSED
+url = getUrl(),IE 11,,,2019-10-11 09:34:49,2019-10-11 09:34:52,2.950s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Assets?TagsID=1a290171-39cc-4418-a06c-24d802e4c8df"", false)",IE 11,,,2019-10-11 09:34:52,2019-10-11 09:34:52,0.020s,PASSED
+,,,,,,,
+Test Cases/Home Page/Quick Links Tiles/Help and Support,IE 11,,,2019-10-11 09:34:52,2019-10-11 09:35:07,14.248s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-11 09:34:53,2019-10-11 09:34:56,2.817s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Quick Links/div_Quick Links""), 0)",IE 11,,,2019-10-11 09:34:56,2019-10-11 09:34:59,3.367s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Quick Links/div_Help and Support""))",IE 11,,,2019-10-11 09:34:59,2019-10-11 09:35:04,5.203s,PASSED
+url = getUrl(),IE 11,,,2019-10-11 09:35:04,2019-10-11 09:35:07,2.187s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Help-and-Support"", false)",IE 11,,,2019-10-11 09:35:07,2019-10-11 09:35:07,0.005s,PASSED
+,,,,,,,
+Test Cases/Home Page/Quick Links Tiles/PVI,IE 11,PVI updated1,,2019-10-11 09:35:07,2019-10-11 09:35:22,14.990s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-11 09:35:07,2019-10-11 09:35:09,1.814s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Quick Links/div_Quick Links""), 0)",IE 11,,,2019-10-11 09:35:09,2019-10-11 09:35:12,3.197s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Quick Links/div_PVI""))",IE 11,,,2019-10-11 09:35:12,2019-10-11 09:35:18,5.740s,PASSED
+url = getUrl(),IE 11,,,2019-10-11 09:35:18,2019-10-11 09:35:22,3.526s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/PVI"", false)",IE 11,,,2019-10-11 09:35:22,2019-10-11 09:35:22,0.003s,PASSED
+,,,,,,,
+Test Cases/Home Page/Quick Links Tiles/Europe Office,IE 11,,,2019-10-11 09:35:22,2019-10-11 09:35:41,19.576s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-11 09:35:22,2019-10-11 09:35:25,2.823s,PASSED
+"scrollToElement(findTestObject(""Home Page/Homa Page Tiles/Quick Links/div_Quick Links""), 0)",IE 11,,,2019-10-11 09:35:25,2019-10-11 09:35:28,2.778s,PASSED
+"click(findTestObject(""Home Page/Homa Page Tiles/Quick Links/div_Europe Office""))",IE 11,,,2019-10-11 09:35:28,2019-10-11 09:35:38,9.733s,PASSED
+url = getUrl(),IE 11,,,2019-10-11 09:35:38,2019-10-11 09:35:41,3.610s,PASSED
+"verifyMatch(url, ""https://samsung-adzu4-staging.codeworldwide.com/#page/Europe-Office"", false)",IE 11,,,2019-10-11 09:35:41,2019-10-11 09:35:41,0.010s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-10-11 09:35:41,2019-10-11 09:35:58,16.511s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-10-11 09:35:42,2019-10-11 09:35:46,4.252s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-10-11 09:35:46,2019-10-11 09:35:51,4.405s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-10-11 09:35:51,2019-10-11 09:35:55,4.863s,PASSED
+closeBrowser(),IE 11,,,2019-10-11 09:35:55,2019-10-11 09:35:58,2.273s,PASSED

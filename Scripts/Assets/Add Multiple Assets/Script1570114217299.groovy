@@ -13,10 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login and Logout - Notifications/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Assets/Open Assets Page'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.click(findTestObject('Assets/Add Asset/button_Add Assets'))
 
 WebUI.click(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/a_Multiple'))
@@ -29,17 +25,25 @@ WebUI.click(findTestObject('Assets/Add Asset/div_Image (1)'))
 
 WebUI.delay(1)
 
+CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('Assets/Upload Assets/Upload_Asset_Image'), 
+    'C:\\Adzu\\Asset\\samsung-kitchen-appliances-.jpeg')
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/a_Please Select Asset Group'))
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/div_Code assets'))
 
-WebUI.uploadFile(findTestObject('Assets/Upload Assets/Upload_Asset_Image'), 'C:\\Adzu\\Asset\\samsung-kitchen-appliances-.jpeg')
+WebUI.delay(1)
+
+CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(findTestObject('Assets/Upload Assets/Import Spreadsheet'), 
+    'C:\\Adzu\\Asset\\Multiple Uplaod Automation.xlsx')
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('Assets/Upload Assets/Import Spreadsheet'), 'C:\\Adzu\\Asset\\Multiple Uplaod Automation.xlsx')
+WebUI.verifyElementText(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/h4_Success'), 'Success!')
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Assets/Add Multiple Assets/Page_Samsung Marketing Cloud/button_Ok'))
 

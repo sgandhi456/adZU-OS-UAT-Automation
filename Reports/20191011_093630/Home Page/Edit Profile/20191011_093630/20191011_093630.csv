@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Edit Profile,IE 11,,,2019-10-11 09:36:36,2019-10-11 09:39:05,2m - 28.734s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,IE 11,,,2019-10-11 09:36:37,2019-10-11 09:37:18,41.636s,PASSED
+"openBrowser("""")",IE 11,,,2019-10-11 09:36:38,2019-10-11 09:36:48,10.228s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-11 09:36:48,2019-10-11 09:36:52,4.296s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",IE 11,,,2019-10-11 09:36:52,2019-10-11 09:37:05,13.318s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",IE 11,,,2019-10-11 09:37:05,2019-10-11 09:37:10,5.055s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",IE 11,,,2019-10-11 09:37:10,2019-10-11 09:37:17,6.327s,PASSED
+maximizeWindow(),IE 11,,,2019-10-11 09:37:17,2019-10-11 09:37:18,1.584s,PASSED
+,,,,,,,
+Test Cases/Home Page/Profile/Edit Profile - Cancel,IE 11,,,2019-10-11 09:37:18,2019-10-11 09:37:44,25.780s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-10-11 09:37:19,2019-10-11 09:37:27,7.782s,PASSED
+"click(findTestObject(""Home Page/Profile/a_Profile""))",IE 11,,,2019-10-11 09:37:27,2019-10-11 09:37:32,5.024s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/button_Edit""))",IE 11,,,2019-10-11 09:37:32,2019-10-11 09:37:36,4.145s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/span_Gandhi""))",IE 11,,,2019-10-11 09:37:36,2019-10-11 09:37:40,3.969s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/button_Cancel""))",IE 11,,,2019-10-11 09:37:40,2019-10-11 09:37:44,4.042s,PASSED
+,,,,,,,
+Test Cases/Home Page/Profile/Edit Profile - Yes,IE 11,,,2019-10-11 09:37:44,2019-10-11 09:38:48,1m - 4.305s,FAILED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",IE 11,,,2019-10-11 09:37:45,2019-10-11 09:37:46,1.485s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-10-11 09:37:46,2019-10-11 09:37:52,6.334s,PASSED
+"click(findTestObject(""Home Page/Profile/a_Profile""))",IE 11,,,2019-10-11 09:37:52,2019-10-11 09:37:58,5.051s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/button_Edit""))",IE 11,,,2019-10-11 09:37:58,2019-10-11 09:38:02,4.518s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/span_Gandhi""))",IE 11,,,2019-10-11 09:38:02,2019-10-11 09:38:06,3.707s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/button_Save""))",IE 11,,,2019-10-11 09:38:06,2019-10-11 09:38:48,42.640s,FAILED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,IE 11,,,2019-10-11 09:38:48,2019-10-11 09:39:05,16.249s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",IE 11,,,2019-10-11 09:38:50,2019-10-11 09:38:54,4.191s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",IE 11,,,2019-10-11 09:38:54,2019-10-11 09:38:58,4.165s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",IE 11,,,2019-10-11 09:38:58,2019-10-11 09:39:03,4.808s,PASSED
+closeBrowser(),IE 11,,,2019-10-11 09:39:03,2019-10-11 09:39:05,1.960s,PASSED
