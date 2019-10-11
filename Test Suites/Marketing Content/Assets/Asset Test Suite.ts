@@ -59,22 +59,10 @@
       <testCaseId>Test Cases/Assets/Preview Asset</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5aef2d1f-2119-46eb-83c4-84d3f59cc921</guid>
+      <guid>4d5d1e40-2c81-4876-8fb6-f8fafa921f5a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Assets/Download Asset</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ee6f0893-8b56-4e6e-b1b1-97db0a09038f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d612930e-f578-474d-9c05-fd944c35b343</variableId>
-      </variableLink>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Assets/Share Asset</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>59c23de0-6f6f-4ac9-b02a-b4a81b6909a6</guid>
