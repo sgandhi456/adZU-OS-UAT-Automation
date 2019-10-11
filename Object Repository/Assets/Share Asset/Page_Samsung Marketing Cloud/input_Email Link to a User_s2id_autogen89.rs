@@ -6,22 +6,22 @@
    <elementGuidId>101166dc-0441-470a-b30a-b1db9101b7af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 's2id_autogen89']</value>
+         <key>XPATH</key>
+         <value>//form/div/div/div/div/div/ul/li/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>ul[class='select2-choices']</value>
+         <value>ul[class='select2-choices'] li:nth-of-type(2)</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='s2id_autogen89']</value>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @class = 'select2-input' and starts-with(@id, 's2id_autogen')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -63,18 +63,18 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-input select2-default</value>
+      <value>select2-input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>s2id_autogen89</value>
+      <value>s2id_autogen</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

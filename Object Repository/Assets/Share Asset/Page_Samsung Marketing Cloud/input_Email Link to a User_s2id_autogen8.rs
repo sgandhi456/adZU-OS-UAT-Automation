@@ -10,11 +10,15 @@
          <value>//div[@id='s2id_autogen7']</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>div[class='select2-container select2-container-multi form-control']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and starts-with(@id, 's2id_autogen')]</value>
+         <value>//input[@type = 'text']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +70,7 @@
       <value>select2-input select2-focused select2-active</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>id</name>
       <type>Main</type>
