@@ -55,7 +55,7 @@
    <testCaseLink>
       <guid>d533ef37-277e-47af-8dfb-7121e84d3cc4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Assets/Preview Asset</testCaseId>
    </testCaseLink>
    <testCaseLink>
