@@ -4,6 +4,16 @@
    <name>button_View More</name>
    <tag></tag>
    <elementGuidId>edd94ac5-cc9f-4239-a8b0-be91ffb855dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @data-bind = 'click: loadNext' and (text() = '
+                View More
+            ' or . = '
+                View More
+            ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +38,7 @@
       <value>btn btn-default</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-bind</name>
       <type>Main</type>

@@ -19,25 +19,25 @@
    <testCaseLink>
       <guid>b0636419-581e-4114-a487-b8211d8acb45</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Home Page/Campaigns/QLED 2019 Campaign</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1df78356-8456-4abd-af59-eecb32086d4e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Home Page/Campaigns/QuickDrive Campaigns</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>45b72ab2-2940-4b0d-abe9-6d785d9edcae</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Home Page/Campaigns/Galaxy Note9 Campaign</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>493a9ab7-8308-4a63-b3ac-a3c3f587c44f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Home Page/Campaigns/Holidays Campaign</testCaseId>
    </testCaseLink>
    <testCaseLink>
