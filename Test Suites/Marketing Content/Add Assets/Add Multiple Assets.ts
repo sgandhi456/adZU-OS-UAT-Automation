@@ -34,4 +34,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login and Logout - Notifications/Logout - Yes Button</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e51f1ef4-6ff6-4e1a-952e-bffc2bc4e28a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Assets/Search Asset</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce864eba-666f-41a7-a180-dfe3fd8b3192</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e21b2118-3a04-4aa3-9526-8129dbc6c6e1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c80f2c3b-fff7-4275-9a30-7a8fd2c351cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Assets/Delete Assset</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Edit Profile,Chrome 77.0.3865.90,,,2019-10-11 13:06:47,2019-10-11 13:07:57,1m - 9.804s,INCOMPLETE
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Login,Chrome 77.0.3865.90,,,2019-10-11 13:06:48,2019-10-11 13:07:15,27.259s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-10-11 13:06:49,2019-10-11 13:06:58,8.501s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-11 13:06:58,2019-10-11 13:07:00,2.087s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text""), ""satinder.gandhi@codeworldwide.com"")",Chrome 77.0.3865.90,,,2019-10-11 13:07:00,2019-10-11 13:07:06,6.041s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/Password_text""), ""yfq/9fVkW5+QvfzWq38qvg=="")",Chrome 77.0.3865.90,,,2019-10-11 13:07:06,2019-10-11 13:07:10,3.861s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Samsung Marketing Cloud/button_Login""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:10,2019-10-11 13:07:13,2.911s,PASSED
+maximizeWindow(),Chrome 77.0.3865.90,,,2019-10-11 13:07:13,2019-10-11 13:07:15,2.279s,PASSED
+,,,,,,,
+Test Cases/Home Page/Profile/Edit Profile - Cancel,Chrome 77.0.3865.90,,,2019-10-11 13:07:15,2019-10-11 13:07:30,15.129s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:16,2019-10-11 13:07:20,3.603s,PASSED
+"click(findTestObject(""Home Page/Profile/a_Profile""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:20,2019-10-11 13:07:22,2.478s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/button_Edit""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:22,2019-10-11 13:07:25,3.299s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/span_Gandhi""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:25,2019-10-11 13:07:28,2.398s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/button_Cancel""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:28,2019-10-11 13:07:30,2.362s,PASSED
+,,,,,,,
+Test Cases/Home Page/Profile/Edit Profile - Yes,Chrome 77.0.3865.90,,,2019-10-11 13:07:30,2019-10-11 13:07:47,16.999s,PASSED
+"navigateToUrl(""https://samsung-adzu4-staging.codeworldwide.com/#"")",Chrome 77.0.3865.90,,,2019-10-11 13:07:31,2019-10-11 13:07:32,1.075s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:32,2019-10-11 13:07:34,2.579s,PASSED
+"click(findTestObject(""Home Page/Profile/a_Profile""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:34,2019-10-11 13:07:36,2.234s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/button_Edit""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:36,2019-10-11 13:07:39,2.537s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/span_Gandhi""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:39,2019-10-11 13:07:41,2.347s,PASSED
+"setText(findTestObject(""Home Page/Profile/Page_User Profile  Samsung/input_Update your First Name_form-control""), ""Simmi"")",Chrome 77.0.3865.90,,,2019-10-11 13:07:41,2019-10-11 13:07:45,3.399s,PASSED
+"click(findTestObject(""Home Page/Profile Edit/Page_User Profile  Samsung/button_Save""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:45,2019-10-11 13:07:47,2.331s,PASSED
+,,,,,,,
+Test Cases/Login and Logout - Notifications/Logout - Yes Button,Chrome 77.0.3865.90,,,2019-10-11 13:07:47,2019-10-11 13:07:57,9.615s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/span_gandhi""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:48,2019-10-11 13:07:50,2.295s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/Logout""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:50,2019-10-11 13:07:52,2.353s,PASSED
+"click(findTestObject(""Logout/Page_Samsung Marketing Cloud/button_Yes""))",Chrome 77.0.3865.90,,,2019-10-11 13:07:52,2019-10-11 13:07:55,2.367s,PASSED
+closeBrowser(),Chrome 77.0.3865.90,,,2019-10-11 13:07:55,2019-10-11 13:07:57,1.950s,PASSED

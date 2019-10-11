@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>37ff2088-fc5a-408b-a7c8-6521b761896a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Home Page/Profile/Edit Profile - Cancel</testCaseId>
    </testCaseLink>
    <testCaseLink>
