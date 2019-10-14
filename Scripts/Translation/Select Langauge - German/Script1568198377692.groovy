@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Logout/Page_Samsung Marketing Cloud/span_gandhi'))
+WebUI.click(findTestObject('Logout/Page_Samsung Marketing Cloud/span_Ktest'))
 
 WebUI.click(findTestObject('Globalization/Page_Samsung Marketing Cloud/a_Globalisation Info'))
 

@@ -15,18 +15,18 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl('https://samsung-adzu4-staging.codeworldwide.com/#')
 
-WebUI.click(findTestObject('Logout/Page_Samsung Marketing Cloud/span_gandhi'))
+WebUI.click(findTestObject('Logout/Page_Samsung Marketing Cloud/span_Ktest'))
 
 WebUI.click(findTestObject('Home Page/Profile/a_Profile'))
 
 WebUI.click(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/button_Edit'))
 
-WebUI.click(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/span_Gandhi'))
+WebUI.click(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/span_Auto'))
 
 WebUI.setText(findTestObject('Home Page/Profile/Page_User Profile  Samsung/input_Update your First Name_form-control'), 
-    'Gandhi')
+    'Auto')
 
 WebUI.click(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/button_Save'))
 
-WebUI.verifyElementText(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/span_Gandhi'), 'Gandhi')
+WebUI.verifyElementText(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/span_Auto'), 'Auto')
 

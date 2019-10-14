@@ -17,6 +17,12 @@
       <testCaseId>Test Cases/Login and Logout - Notifications/login Error</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>ec8059f3-e680-4544-957b-79ba1f176f0b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login and Logout - Notifications/Forgot Password</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>ebac311b-c284-4e87-9d30-50e5e7f3da9c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -27,12 +33,6 @@
          <value></value>
          <variableId>8430baac-ee54-4dfe-b61b-fbe8aee9fa6e</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ec8059f3-e680-4544-957b-79ba1f176f0b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login and Logout - Notifications/Forgot Password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ab358efa-703c-47f5-9efe-da5c873cbc48</guid>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_gandhi</name>
+   <name>span_Ktest</name>
    <tag></tag>
    <elementGuidId>9d1b5300-0567-4dcd-bc09-9285083b81cc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='body']/header/div/div/div/div/nav/div[3]/div/div/span</value>
+         <key>BASIC</key>
+         <value>//span[@class = 'user-name' and (text() = 'Ktest' or . = 'Ktest')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'user-name' and (text() = 'Satinder' or . = 'Satinder')]</value>
+         <key>XPATH</key>
+         <value>//body[@id='body']/header/div/div/div/div/nav/div[3]/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Satinder</value>
+      <value>Ktest</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -21,7 +21,7 @@ WebUI.navigateToUrl('https://samsung-adzu4-staging.codeworldwide.com/#')
 WebUI.click(findTestObject('Object Repository/Login/Page_Samsung Marketing Cloud/Forgot password'))
 
 WebUI.setText(findTestObject('Object Repository/Login/Page_Samsung Marketing Cloud/input_Enter your email address to receive a link to reset your password_email'), 
-    'k.kirithan@hotmail.com')
+    'kirithan.kandasamy@codeworldwide.com')
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Samsung Marketing Cloud/button_Reset'))
 
