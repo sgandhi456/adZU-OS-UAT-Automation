@@ -18,9 +18,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://samsung-adzu4-staging.codeworldwide.com/#')
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text'), 'satinder.gandhi@codeworldwide.com')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Samsung Marketing Cloud/Username_Text'), 'kirithan.kandasamy@codeworldwide.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Samsung Marketing Cloud/Password_text'), 'yfq/9fVkW5+QvfzWq38qvg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Samsung Marketing Cloud/Password_text'), 'a/oAT6NJt8YMGiwHSirWNw==')
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Samsung Marketing Cloud/button_Login'))
 

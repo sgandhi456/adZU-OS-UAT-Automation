@@ -24,9 +24,9 @@ WebUI.click(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/bu
 WebUI.click(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/span_Gandhi'))
 
 WebUI.setText(findTestObject('Home Page/Profile/Page_User Profile  Samsung/input_Update your First Name_form-control'), 
-    'Gandhi')
+    'Gandhi1')
 
 WebUI.click(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/button_Save'))
 
-WebUI.verifyElementText(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/span_Gandhi'), 'Gandhi')
+WebUI.verifyElementText(findTestObject('Home Page/Profile Edit/Page_User Profile  Samsung/span_Gandhi'), 'Gandi1')
 

@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Logout/Page_Samsung Marketing Cloud/span_gandhi'))
+WebUI.click(findTestObject('Logout/Page_Samsung Marketing Cloud/span_Kirithan'))
 
 WebUI.click(findTestObject('Logout/Page_Samsung Marketing Cloud/Logout'))
 
