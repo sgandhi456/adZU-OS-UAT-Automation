@@ -2113,3 +2113,11 @@ T 2019-10-11 14:45:25:544 Browser.cpp(50) Entering Browser::BeforeNavigate2
 T 2019-10-11 14:45:25:633 Browser.cpp(96) Entering Browser::DocumentComplete
 T 2019-10-11 14:45:25:697 Browser.cpp(96) Entering Browser::DocumentComplete
 T 2019-10-11 14:45:25:709 Browser.cpp(96) Entering Browser::DocumentComplete
+T 2019-10-11 17:07:49:986 Browser.cpp(54) Entering Browser::OnQuit
+T 2019-10-11 17:07:49:987 DocumentHost.cpp(252) Entering DocumentHost::PostQuitMessage
+T 2019-10-11 17:07:49:987 IECommandExecutor.cpp(250) Entering IECommandExecutor::OnBrowserQuit
+T 2019-10-11 17:07:49:987 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2019-10-11 17:07:49:987 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2019-10-11 17:07:49:987 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2019-10-11 17:07:49:989 IECommandExecutor.cpp(543) No alert handle is found
+T 2019-10-11 17:07:49:989 Browser.cpp(300) Entering Browser::DetachEvents
